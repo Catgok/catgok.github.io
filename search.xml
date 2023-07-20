@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>刷题记录</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html</url>
+    <content><![CDATA[<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16.最接近的三数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911.最大子序列交替和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544.交替数字和</a></p>
+<span id="more"></span>
+<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931.下降路径最小和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979.在二叉树中分配硬币</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18.四数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834.树中距离之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415.字符串相加</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">leetcode874.模拟行走机器人</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">leetcode918.环形子数组的最大和</a></p>
+]]></content>
+      <categories>
+        <category>刷题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一级目录</title>
     <url>/%E4%B8%80%E7%BA%A7%E7%9B%AE%E5%BD%95.html</url>
     <content><![CDATA[<h2 id="1-语言"><a href="#1-语言" class="headerlink" title="1. 语言"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80.html">语言</a></strong></h2><h2 id="2-计算机基础"><a href="#2-计算机基础" class="headerlink" title="2. 计算机基础"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html">计算机基础</a></strong></h2><h2 id="3-刷题记录"><a href="#3-刷题记录" class="headerlink" title="3. 刷题记录"></a>3. <strong><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html">刷题记录</a></strong></h2><span id="more"></span>
@@ -10,30 +24,152 @@
       </categories>
   </entry>
   <entry>
-    <title>go</title>
-    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
-    <content><![CDATA[]]></content>
+    <title>语言</title>
+    <url>/%E8%AF%AD%E8%A8%80.html</url>
+    <content><![CDATA[<h2 id="1-shell"><a href="#1-shell" class="headerlink" title="1. shell"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell.html">shell</a></strong></h2><h2 id="2-go"><a href="#2-go" class="headerlink" title="2. go"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2><h2 id="3-go"><a href="#3-go" class="headerlink" title="3. go"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2><span id="more"></span>
+<h2 id="4-go"><a href="#4-go" class="headerlink" title="4. go"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2>]]></content>
       <categories>
         <category>语言</category>
-        <category>go</category>
-        <category>目录</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>其他</title>
+    <url>/%E5%85%B6%E4%BB%96.html</url>
+    <content><![CDATA[<p><a href="/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF.html">模板</a></p>
+]]></content>
+      <categories>
+        <category>其他</category>
       </categories>
       <tags>
-        <tag>go</tag>
+        <tag>其他</tag>
       </tags>
   </entry>
   <entry>
-    <title>shell</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell.html</url>
-    <content><![CDATA[<h2 id="1-概论"><a href="#1-概论" class="headerlink" title="1. 概论"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html">概论</a></strong></h2><h2 id="2-注释"><a href="#2-注释" class="headerlink" title="2. 注释"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html">注释</a></strong></h2><h2 id="3-变量"><a href="#3-变量" class="headerlink" title="3. 变量"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html">变量</a></strong></h2><span id="more"></span>
-<h2 id="4-默认变量"><a href="#4-默认变量" class="headerlink" title="4. 默认变量"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html">默认变量</a></strong></h2><h2 id="5-数组"><a href="#5-数组" class="headerlink" title="5. 数组"></a>5. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html">数组</a></strong></h2><h2 id="6-expr命令"><a href="#6-expr命令" class="headerlink" title="6. expr命令"></a>6. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html">expr命令</a></strong></h2><h2 id="7-read命令"><a href="#7-read命令" class="headerlink" title="7. read命令"></a>7. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html">read命令</a></strong></h2><h2 id="8-echo命令"><a href="#8-echo命令" class="headerlink" title="8. echo命令"></a>8. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html">echo命令</a></strong></h2><h2 id="9-printf命令"><a href="#9-printf命令" class="headerlink" title="9. printf命令"></a>9. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html">printf命令</a></strong></h2><h2 id="10-test命令与判断符号"><a href="#10-test命令与判断符号" class="headerlink" title="10. test命令与判断符号"></a>10. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html">test命令与判断符号</a></strong></h2><h2 id="11-判断语句"><a href="#11-判断语句" class="headerlink" title="11. 判断语句"></a>11. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5.html">判断语句</a></strong></h2><h2 id="12-循环语句"><a href="#12-循环语句" class="headerlink" title="12. 循环语句"></a>12. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html">循环语句</a></strong></h2><h2 id="13-函数"><a href="#13-函数" class="headerlink" title="13. 函数"></a>13. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html">函数</a></strong></h2><h2 id="14-exit命令"><a href="#14-exit命令" class="headerlink" title="14. exit命令"></a>14. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/exit%E5%91%BD%E4%BB%A4.html">exit命令</a></strong></h2><h2 id="15-文件重定向"><a href="#15-文件重定向" class="headerlink" title="15. 文件重定向"></a>15. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html">文件重定向</a></strong></h2><h2 id="16-引入外部脚本"><a href="#16-引入外部脚本" class="headerlink" title="16. 引入外部脚本"></a>16. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html">引入外部脚本</a></strong></h2>]]></content>
+    <title>计算机基础</title>
+    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html</url>
+    <content><![CDATA[<h2 id="1-计算机网络"><a href="#1-计算机网络" class="headerlink" title="1. 计算机网络"></a>1. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="2-计算机网络"><a href="#2-计算机网络" class="headerlink" title="2. 计算机网络"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="3-计算机网络"><a href="#3-计算机网络" class="headerlink" title="3. 计算机网络"></a>3. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><span id="more"></span>
+<h2 id="4-计算机网络"><a href="#4-计算机网络" class="headerlink" title="4. 计算机网络"></a>4. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2>]]></content>
       <categories>
-        <category>语言</category>
-        <category>shell</category>
+        <category>计算机基础</category>
+      </categories>
+      <tags>
+        <tag>计算机基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>24秋招</title>
+    <url>/%E5%85%B6%E4%BB%96/24%E7%A7%8B%E6%8B%9B.html</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="65bcfdac999f4a034eb2df9833c2fd42ed44aaa65a12944267ee85ad34cb8e3f">482688a588304194b26af758bd66ccfd8ea557e13a623f0ed31cb7025b41ae80102597ffa7d016ee51ce584bf44bdfc9b31ed659c213bc6247eba9e5a051c13dec395a13e20df1d0a387100de84d0daf0518768714707c2574ec1c1695ae5f698532ad6137fc619b7059b4072e7630784a2ccfa7786af5f0fbb8646150485f48570133954b7a5b94f7f5997d40d3b1e91f9abae0e5e13503bb578559b11c5a9900c6333b36d64ee215dac3b1769d03cdbb8bd3621277dbb04b7c98bc8c561c2297e72835deb455c1f6170644dd27cdf3338bbbca3455bdeba04c4c1161725d6a82c30800d60c41cb7f723098dc4b05e00919c74c6ebda546fad69d8f7e1cb0b8b14160ac5935e49fad41afc177e3466b5fe34e7a7848e92d41ee8cd567ae26b173145e9817ace0847100e89aad0a9d3cdd1623615b8493571903fabfa8e8db56c8948221dc474a9d76fd31097f309a66c4c5aec11c81ed39db24770f16800d60ca33d931537cd236a9795b758b3c96d1921992beff6668cf22e8fd1200b003533c74e2b24c1cd542edd10beb64fc42eb2059a3bd8fbba868b1e9758ac69718a3a88b50e07be440e7208495662c64933657e186e58e627674c80c79ffdeb0c9c638733b5575a137c0c5821ceba06520400213cdb1c81c9fe420275902b0c9aa5d1836d66ec81f2fbd37821dbcb5910c0d33a7b6469d2f8803616ce936ed72cb2b3aea5df8cd72b219981b8be0a2d4736066fa748fd406e3586984181c95f8fc70bb15064db70780715cc0c87c786a02bc3efa2952f63a75e7a82ed25f455c2d53b7bebb9edca06486fc2a6484e4b13b0d7fa47d0ddf0e48562526bf721c43eb07a3b713f11c03f30f5a63fdb66219fe0f325b0da4acb74220fb57f5c119de4e2182246fc498ece529bb703f3ac87d1acae9387f66971f8a31cde70a8339af1f7dbe048793fa78742f40163e8895a793f748610ccc1a2215bd624608ceea357020756a7a765d5ea1a71711f3dcba6709f27d88494c94b17eb054f4f57ab02ba1bd4ce194029d0af6b6abed4b89b79e4339cd7b7efe00d7f5076cff464ee4089533929dce640d5f17f81d23e433d9b656942acea0a9e77da448b78e27ff5fab30c87288c97310e81f4ad1a2fcf4dc035caaa813d83c9618c2ba9d71dadb7e01c113ba7f9e8be5eedc40996e46833a06e8dc73bf5b0d72b939220ab7c37d837df2ceb621bd0e2be7151c6aa559995044207d26e0ce7f62d809a8c75a541e38d663aa9a09c409215a100b181b483dbe5f6469270d6cea70b9698c3edeea9ad409370b27ef70c369f9f6e0715f1f9bab2903a7282afb8fb73b71c9c777bfcec74e633fc47b984738c5dbdcb402c652665be46fe9798b37d9be1aeaa7391d3a663d3ef497cca2e84ffc2527754604e8b0eba43c3c57818c659c9d6700857610ce929a26d9cd3c68ae5ac1f2d0dee3b8901d210ecc45085cddf24923ab45126f7472969c98941e70ae3bb6b6a3702aeec565462141c037916c62e0ce13975a318fad5327e43793ff5432d5953e39e74017ef90092d5dc8297f666e0d2e023fb6452a1163daaef7566c1c8d32784e0fc457e8c34292868d7e0c9defcd30347a7ae4795abc04f6a0888f96c63cf4b2519a6e9da2721d61c9655b973207f6bb2176ee6279eb121a2066c7f25549c7787558222e07fd5eeec7c053ef80c131c4bf43b81d73c2053887bf28b1d301074451b016b13f5caaafdbb9169ad8a50dd268d44f599588c1818d45829d675b5739d752955ba8151a4a1bcfe90167ac37d020ea85d3eae57c0e6df3b113ad638eaa9c8c0f45067a8f820d085514393b9b8ef8066ecda04eb78b39a1f42bb71b1e3cc766345028ebb13909e049ca5c2b48df3116bf6a19633331f53b76007aa424b1463410b7ed0128b15d2745a3b645b6b4cd2c024c37ab8772dc41bc174c015f9006e074299631fb1ba1b989a366df25e354daf0630ad786c944f0f16b8cca6e83ce207d5694a220f9ff6df78aaaf54ea7aa979d2f94b3203ea76ec6afd4e963c7abb75a19c5a2b41352dcc98839cec9e9664c826309b8be43757ea48520dbeef562c1cb1e68eb9a81d4eb485bc60279ef116c01aefaa2f9e43e4136bff1494f8a9f352943d62953a24c1e372a1704ddd4f21ed195b6ff89340f168d6037e0712656d9541ea536e404b30c4121562f769d3c2938a2e4a76c382c2305ace7f889d7f4e81e50f72a40822f33f2c3bca1cbacaeec0dddc8225223648451b83fa237187297131eb0f57b3c780b72fa63cd554cd767121c04cad0f7e642bd947cfccbc9903eb04a173ed3930cd3b2aeb61a3f26d8444d1e58e74d6d5280eb23759fe0e9ba24e6895fc0ed58fc573041a933e4fad637e3d83a6033cf273032057747355fec64af77661b8f1235abe66aabffc91d199adf624b2bbb307210ef229d67bd1ba0a22915f3341b9f8ae10cb9c7e180057cfea8b973de09bbab7f9afd7c59b32a67f9b04f1a99420a3321f01959520c108589b3a05d86d664feaacfcfe362e26eb15bacb1a481d6c16bc76ec9a36de1577278a47abf171b44c2759cb804ff86c706193fe8e2ca75ac8c889437676d47d968a71e22668678e86ca1b8e916b1a5894cee058045c41102d2d8fd8e8dc453040574f9658f70eebcfe05e09b104258522e2f7fbc7bd3869075b6377fbfed0cf10fa8b1e21815df665d28a6f62e3d1daa8f68982ae3f583a28675f176723a6c67df08cf753dc9ad4a7500c8f6b8976bf1e9d5aedce9870e4ec407d6491e91428654525ad8c9a642dbcc04c06ce45eda4afd19824159eb3d0e4e275ac59e8c162e924dad40e7f8f41eeeb5a18396e0bb1b5a692fd91b7dc915598f915064bb4fadbe2c6c6a4df3861a61643736c2322b06f65fa66d881bbc9695d6fac8de1273d7bd2ab1ca175dd44bfe4f6e0cfad2480c59a0c27db2b96f774d80fd9091ce335e560fc2f4c44097c03d7f4388d744ae2a1cbd8fab39f6f3613e00735332a99cb77a23d11b0ebe4fa3572e12add9b02f286c033df7d27d9b4832d947e894a27118e6727efd1491629264f351a42a70d410e98543553e357c0575f05c4fdd94814d7f54167b3a30ecbcb5585b2ae2801994dbdd4a8ef5f0975a6ead0784fb1d69c292c865bb27e69ec46c5a3ef1f8e58cc4c258cb69d568c85c85b6cd91e6957b350628eb7e9f480abddb25b90d2b3d21387bbbdeaa32de18c871b6f2b8dec5fe8d54e6e7cd756381cc82453b3d66a59618a397bfb21c716dff8af8d24b55d3a465ab56481a47fd3706cfe3a1a48bdd8be646d94ca1cbbdda29e02e0fab8d8109792aff05193855f257586be2c121b7052712b2ec8d73a748c084b42f1f1d80fe5842c8dde6e23550062d3cf8067de3979bdbdc9cdb3c209ffb87763f7570027a40e332d0559389ad794a483029aeb61db5e2acb652f836992441484bff887c07e413ce7d3e66f98d8608430dccf8688532758a5d79c09da7d7ebc2dd2df0e3ad034b833708fbe87ca2422189515333c8fd1af14adb443c0f32698897da6109a05176ef191fee92153cb08ba0ee1160917805c524b0f31e3f4be3f6410d6ea95629b520dd717128812980bafc75adc9e2d97451fe8277daedf865c2f39c3eb15366f602a656370e85e161d439c12ff9a4c15acd6a245e0f79ebdb23e24750aecb4dc8d74fc54d425c3fa450c4e34e6fbfea575675c28e2eedc7961fbb047ed3ad558b9bfc57b74bc388e2bd4b511ae58bd53427875774be3d52abf9d46c8c27ea61b1dc47c493457e73fb8275adcc940d0682d7957c7073fe32a67f01b0cebc47f91ebce3d60c77</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>其他</category>
+      </categories>
+      <tags>
+        <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>模板</title>
+    <url>/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF.html</url>
+    <content><![CDATA[<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><h2 id="本地图片"><a href="#本地图片" class="headerlink" title="本地图片"></a>本地图片</h2><span id="more"></span>
+
+<img data-src="/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF/img.png" class="" title="本地图片">
+
+<h2 id="网络图片"><a href="#网络图片" class="headerlink" title="网络图片"></a>网络图片</h2><p><img data-src="https://th.bing.com/th/id/OIP.cwIF_kizVZuERn_K9z4lgAHaHa?pid=ImgDet&rs=1" alt="网络图片"></p>
+<h1 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><h3 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h3><p>1.1</p>
+<h3 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h3><p>1.2</p>
+<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>2</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    fmt.Println()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><p><a href="https://zhuanlan.zhihu.com/p/441454622">MarkDown数学公式</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/450465546">Markdown&#x2F;LaTeX 数学公式和符号表</a></p>
+<p>$e&#x3D;mc^2$</p>
+<p>$a\le sl$</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><a href="https://markdown.com.cn/editor">模板链接</a></p>
+]]></content>
+      <categories>
+        <category>其他</category>
+        <category>模板</category>
+      </categories>
+      <tags>
+        <tag>其他,模板</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>计算机网络</title>
+    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机基础</category>
+        <category>计算机网络</category>
         <category>目录</category>
       </categories>
       <tags>
-        <tag>shell</tag>
+        <tag>计算机网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode16.最接近的三数之和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">threeSumClosest</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">var</span> ans, minn <span class="type">int</span> = <span class="number">1e9</span>, <span class="number">1e9</span></span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">2</span>; j &lt; n; j++ &#123;</span><br><span class="line">			l, r := i+<span class="number">1</span>, j<span class="number">-1</span></span><br><span class="line">			<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">				m1 := (<span class="number">2</span>*l + r) / <span class="number">3</span></span><br><span class="line">				m2 := (l + <span class="number">2</span>*r + <span class="number">2</span>) / <span class="number">3</span> <span class="comment">// 上取整</span></span><br><span class="line">				res1 := abs(target - nums[i] - nums[j] - nums[m1])</span><br><span class="line">				res2 := abs(target - nums[i] - nums[j] - nums[m2])</span><br><span class="line">				<span class="keyword">if</span> res1 &lt; res2 &#123;</span><br><span class="line">					r = m2 - <span class="number">1</span></span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					l = m1 + <span class="number">1</span></span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			res := abs(target - nums[i] - nums[j] - nums[r])</span><br><span class="line">			<span class="keyword">if</span> res &lt; minn &#123;</span><br><span class="line">				minn = res</span><br><span class="line">				ans = nums[i] + nums[j] + nums[r]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> -x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode18.四数之和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/4sum/">原题链接 18. 四数之和</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">fourSum</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> (ans [][]<span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line"></span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cnt[nums[i]]++</span><br><span class="line">	&#125;</span><br><span class="line">	used := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">4</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">for</span> k := j + <span class="number">1</span>; k &lt; n; k++ &#123;</span><br><span class="line">				a, b, c := nums[i], nums[j], nums[k]</span><br><span class="line">				cnt[a]--</span><br><span class="line">				cnt[b]--</span><br><span class="line">				cnt[c]--</span><br><span class="line">				<span class="keyword">if</span> cnt[target-a-b-c] != <span class="number">0</span> &amp;&amp; target-a-b-c &gt;= c &#123;</span><br><span class="line">					tmp := [<span class="number">4</span>]<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;</span><br><span class="line">					<span class="keyword">if</span> used[tmp] == <span class="number">0</span> &#123;</span><br><span class="line">						ans = <span class="built_in">append</span>(ans, []<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;)</span><br><span class="line">						used[tmp] = <span class="number">1</span></span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">				cnt[a]++</span><br><span class="line">				cnt[b]++</span><br><span class="line">				cnt[c]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode1911.最大子序列交替和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-alternating-subsequence-sum/">原题链接 1911. 最大子序列交替和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxAlternatingSum</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	maxx := <span class="type">int</span>(<span class="number">1e9</span> + <span class="number">7</span>)</span><br><span class="line">	ans = <span class="number">0</span></span><br><span class="line">	cur, nex := nums[<span class="number">0</span>], maxx</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(nums); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> nex == maxx &amp;&amp; cur &lt; nums[i] &#123;</span><br><span class="line">			cur = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> nex &gt; nums[i] &#123;</span><br><span class="line">			nex = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			ans += <span class="type">int64</span>(cur - nex)</span><br><span class="line">			<span class="comment">// fmt.Println(cur,nex)</span></span><br><span class="line">			cur, nex = nums[i], maxx</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans + <span class="type">int64</span>(cur)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
       </tags>
   </entry>
   <entry>
@@ -45,6 +181,24 @@
     <summary>展开答案</summary>
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">addStrings</span><span class="params">(num1 <span class="type">string</span>, num2 <span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	x := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num1))</span><br><span class="line">	y := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num2))</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num1) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		x[<span class="built_in">len</span>(num1)<span class="number">-1</span>-i] = <span class="type">int</span>(num1[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num2) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		y[<span class="built_in">len</span>(num2)<span class="number">-1</span>-i] = <span class="type">int</span>(num2[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> <span class="built_in">len</span>(x) &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">		x, y = y, x</span><br><span class="line">	&#125;</span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="built_in">len</span>(x))</span><br><span class="line">	t := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(x); i++ &#123;</span><br><span class="line">		t += x[i]</span><br><span class="line">		<span class="keyword">if</span> i &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">			t += y[i]</span><br><span class="line">		&#125;</span><br><span class="line">		res[i] = <span class="type">byte</span>(t%<span class="number">10</span> + <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">		t /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> t != <span class="number">0</span> &#123;</span><br><span class="line">		res = <span class="built_in">append</span>(res, <span class="type">byte</span>(t+<span class="string">&#x27;0&#x27;</span>))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(res)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		res[i], res[j] = res[j], res[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode2544.交替数字和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/alternating-digit-sum">原题链接 2544. 交替数字和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">alternateDigitSum</span><span class="params">(n <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	ans, f := <span class="number">0</span>, <span class="number">1</span></span><br><span class="line">	<span class="keyword">for</span> n != <span class="number">0</span> &#123;</span><br><span class="line">		ans += f * (n % <span class="number">10</span>)</span><br><span class="line">		f *= <span class="number">-1</span></span><br><span class="line">		n /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -f * ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -74,36 +228,14 @@
       </tags>
   </entry>
   <entry>
-    <title>24秋招</title>
-    <url>/%E5%85%B6%E4%BB%96/24%E7%A7%8B%E6%8B%9B.html</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="65bcfdac999f4a034eb2df9833c2fd42ed44aaa65a12944267ee85ad34cb8e3f">482688a588304194b26af758bd66ccfd8ea557e13a623f0ed31cb7025b41ae80102597ffa7d016ee51ce584bf44bdfc9b31ed659c213bc6247eba9e5a051c13dec395a13e20df1d0a387100de84d0daf0518768714707c2574ec1c1695ae5f698532ad6137fc619b7059b4072e7630784a2ccfa7786af5f0fbb8646150485f48570133954b7a5b94f7f5997d40d3b1e91f9abae0e5e13503bb578559b11c5a9900c6333b36d64ee215dac3b1769d03cdbb8bd3621277dbb04b7c98bc8c561c2297e72835deb455c1f6170644dd27cdf3338bbbca3455bdeba04c4c1161725d6a82c30800d60c41cb7f723098dc4b05e00919c74c6ebda546fad69d8f7e1cb0b8b14160ac5935e49fad41afc177e3466b5fe34e7a7848e92d41ee8cd567ae26b173145e9817ace0847100e89aad0a9d3cdd1623615b8493571903fabfa8e8db56c8948221dc474a9d76fd31097f309a66c4c5aec11c81ed39db24770f16800d60ca33d931537cd236a9795b758b3c96d1921992beff6668cf22e8fd1200b003533c74e2b24c1cd542edd10beb64fc42eb2059a3bd8fbba868b1e9758ac69718a3a88b50e07be440e7208495662c64933657e186e58e627674c80c79ffdeb0c9c638733b5575a137c0c5821ceba06520400213cdb1c81c9fe420275902b0c9aa5d1836d66ec81f2fbd37821dbcb5910c0d33a7b6469d2f8803616ce936ed72cb2b3aea5df8cd72b219981b8be0a2d4736066fa748fd406e3586984181c95f8fc70bb15064db70780715cc0c87c786a02bc3efa2952f63a75e7a82ed25f455c2d53b7bebb9edca06486fc2a6484e4b13b0d7fa47d0ddf0e48562526bf721c43eb07a3b713f11c03f30f5a63fdb66219fe0f325b0da4acb74220fb57f5c119de4e2182246fc498ece529bb703f3ac87d1acae9387f66971f8a31cde70a8339af1f7dbe048793fa78742f40163e8895a793f748610ccc1a2215bd624608ceea357020756a7a765d5ea1a71711f3dcba6709f27d88494c94b17eb054f4f57ab02ba1bd4ce194029d0af6b6abed4b89b79e4339cd7b7efe00d7f5076cff464ee4089533929dce640d5f17f81d23e433d9b656942acea0a9e77da448b78e27ff5fab30c87288c97310e81f4ad1a2fcf4dc035caaa813d83c9618c2ba9d71dadb7e01c113ba7f9e8be5eedc40996e46833a06e8dc73bf5b0d72b939220ab7c37d837df2ceb621bd0e2be7151c6aa559995044207d26e0ce7f62d809a8c75a541e38d663aa9a09c409215a100b181b483dbe5f6469270d6cea70b9698c3edeea9ad409370b27ef70c369f9f6e0715f1f9bab2903a7282afb8fb73b71c9c777bfcec74e633fc47b984738c5dbdcb402c652665be46fe9798b37d9be1aeaa7391d3a663d3ef497cca2e84ffc2527754604e8b0eba43c3c57818c659c9d6700857610ce929a26d9cd3c68ae5ac1f2d0dee3b8901d210ecc45085cddf24923ab45126f7472969c98941e70ae3bb6b6a3702aeec565462141c037916c62e0ce13975a318fad5327e43793ff5432d5953e39e74017ef90092d5dc8297f666e0d2e023fb6452a1163daaef7566c1c8d32784e0fc457e8c34292868d7e0c9defcd30347a7ae4795abc04f6a0888f96c63cf4b2519a6e9da2721d61c9655b973207f6bb2176ee6279eb121a2066c7f25549c7787558222e07fd5eeec7c053ef80c131c4bf43b81d73c2053887bf28b1d301074451b016b13f5caaafdbb9169ad8a50dd268d44f599588c1818d45829d675b5739d752955ba8151a4a1bcfe90167ac37d020ea85d3eae57c0e6df3b113ad638eaa9c8c0f45067a8f820d085514393b9b8ef8066ecda04eb78b39a1f42bb71b1e3cc766345028ebb13909e049ca5c2b48df3116bf6a19633331f53b76007aa424b1463410b7ed0128b15d2745a3b645b6b4cd2c024c37ab8772dc41bc174c015f9006e074299631fb1ba1b989a366df25e354daf0630ad786c944f0f16b8cca6e83ce207d5694a220f9ff6df78aaaf54ea7aa979d2f94b3203ea76ec6afd4e963c7abb75a19c5a2b41352dcc98839cec9e9664c826309b8be43757ea48520dbeef562c1cb1e68eb9a81d4eb485bc60279ef116c01aefaa2f9e43e4136bff1494f8a9f352943d62953a24c1e372a1704ddd4f21ed195b6ff89340f168d6037e0712656d9541ea536e404b30c4121562f769d3c2938a2e4a76c382c2305ace7f889d7f4e81e50f72a40822f33f2c3bca1cbacaeec0dddc8225223648451b83fa237187297131eb0f57b3c780b72fa63cd554cd767121c04cad0f7e642bd947cfccbc9903eb04a173ed3930cd3b2aeb61a3f26d8444d1e58e74d6d5280eb23759fe0e9ba24e6895fc0ed58fc573041a933e4fad637e3d83a6033cf273032057747355fec64af77661b8f1235abe66aabffc91d199adf624b2bbb307210ef229d67bd1ba0a22915f3341b9f8ae10cb9c7e180057cfea8b973de09bbab7f9afd7c59b32a67f9b04f1a99420a3321f01959520c108589b3a05d86d664feaacfcfe362e26eb15bacb1a481d6c16bc76ec9a36de1577278a47abf171b44c2759cb804ff86c706193fe8e2ca75ac8c889437676d47d968a71e22668678e86ca1b8e916b1a5894cee058045c41102d2d8fd8e8dc453040574f9658f70eebcfe05e09b104258522e2f7fbc7bd3869075b6377fbfed0cf10fa8b1e21815df665d28a6f62e3d1daa8f68982ae3f583a28675f176723a6c67df08cf753dc9ad4a7500c8f6b8976bf1e9d5aedce9870e4ec407d6491e91428654525ad8c9a642dbcc04c06ce45eda4afd19824159eb3d0e4e275ac59e8c162e924dad40e7f8f41eeeb5a18396e0bb1b5a692fd91b7dc915598f915064bb4fadbe2c6c6a4df3861a61643736c2322b06f65fa66d881bbc9695d6fac8de1273d7bd2ab1ca175dd44bfe4f6e0cfad2480c59a0c27db2b96f774d80fd9091ce335e560fc2f4c44097c03d7f4388d744ae2a1cbd8fab39f6f3613e00735332a99cb77a23d11b0ebe4fa3572e12add9b02f286c033df7d27d9b4832d947e894a27118e6727efd1491629264f351a42a70d410e98543553e357c0575f05c4fdd94814d7f54167b3a30ecbcb5585b2ae2801994dbdd4a8ef5f0975a6ead0784fb1d69c292c865bb27e69ec46c5a3ef1f8e58cc4c258cb69d568c85c85b6cd91e6957b350628eb7e9f480abddb25b90d2b3d21387bbbdeaa32de18c871b6f2b8dec5fe8d54e6e7cd756381cc82453b3d66a59618a397bfb21c716dff8af8d24b55d3a465ab56481a47fd3706cfe3a1a48bdd8be646d94ca1cbbdda29e02e0fab8d8109792aff05193855f257586be2c121b7052712b2ec8d73a748c084b42f1f1d80fe5842c8dde6e23550062d3cf8067de3979bdbdc9cdb3c209ffb87763f7570027a40e332d0559389ad794a483029aeb61db5e2acb652f836992441484bff887c07e413ce7d3e66f98d8608430dccf8688532758a5d79c09da7d7ebc2dd2df0e3ad034b833708fbe87ca2422189515333c8fd1af14adb443c0f32698897da6109a05176ef191fee92153cb08ba0ee1160917805c524b0f31e3f4be3f6410d6ea95629b520dd717128812980bafc75adc9e2d97451fe8277daedf865c2f39c3eb15366f602a656370e85e161d439c12ff9a4c15acd6a245e0f79ebdb23e24750aecb4dc8d74fc54d425c3fa450c4e34e6fbfea575675c28e2eedc7961fbb047ed3ad558b9bfc57b74bc388e2bd4b511ae58bd53427875774be3d52abf9d46c8c27ea61b1dc47c493457e73fb8275adcc940d0682d7957c7073fe32a67f01b0cebc47f91ebce3d60c77</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode18.四数之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/4sum/">原题链接 18. 四数之和</a></p>
+    <title>leetcode874.模拟行走机器人</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/walking-robot-simulation/">原题链接 874. 模拟行走机器人</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">fourSum</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> (ans [][]<span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line"></span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cnt[nums[i]]++</span><br><span class="line">	&#125;</span><br><span class="line">	used := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">4</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">for</span> k := j + <span class="number">1</span>; k &lt; n; k++ &#123;</span><br><span class="line">				a, b, c := nums[i], nums[j], nums[k]</span><br><span class="line">				cnt[a]--</span><br><span class="line">				cnt[b]--</span><br><span class="line">				cnt[c]--</span><br><span class="line">				<span class="keyword">if</span> cnt[target-a-b-c] != <span class="number">0</span> &amp;&amp; target-a-b-c &gt;= c &#123;</span><br><span class="line">					tmp := [<span class="number">4</span>]<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;</span><br><span class="line">					<span class="keyword">if</span> used[tmp] == <span class="number">0</span> &#123;</span><br><span class="line">						ans = <span class="built_in">append</span>(ans, []<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;)</span><br><span class="line">						used[tmp] = <span class="number">1</span></span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">				cnt[a]++</span><br><span class="line">				cnt[b]++</span><br><span class="line">				cnt[c]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">robotSim</span><span class="params">(commands []<span class="type">int</span>, obstacles [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	dx := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line">	dy := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(obstacles))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> obstacles &#123;</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;v[<span class="number">0</span>], v[<span class="number">1</span>]&#125;] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	cx, cy, d := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> commands &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-2</span> &#123;</span><br><span class="line">			d = (d + <span class="number">3</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">-1</span> &#123;</span><br><span class="line">			d = (d + <span class="number">1</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; v; i++ &#123;</span><br><span class="line">				nx, ny := cx+dx[d], cy+dy[d]</span><br><span class="line">				<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;nx, ny&#125;] == <span class="number">0</span> &#123;</span><br><span class="line">					cx, cy = nx, ny</span><br><span class="line">					ans = max(ans, nx*nx+ny*ny)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -114,15 +246,16 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode979.在二叉树中分配硬币</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
+    <title>leetcode918.环形子数组的最大和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">distributeCoins</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	resl := distributeCoins(l)</span><br><span class="line">	resr := distributeCoins(r)</span><br><span class="line">	sum, cnt := get(root)</span><br><span class="line">	<span class="keyword">return</span> resl + resr + abs(sum-cnt)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">get</span><span class="params">(root *TreeNode)</span></span> (sum, cnt <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	suml, cntl := get(l)</span><br><span class="line">	sumr, cntr := get(r)</span><br><span class="line">	sum = root.Val + suml + sumr</span><br><span class="line">	cnt = <span class="number">1</span> + cntl + cntr</span><br><span class="line">	<span class="keyword">return</span> sum, cnt</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</detail>]]></content>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxSubarraySumCircular</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, sum := <span class="built_in">len</span>(nums), <span class="number">0</span></span><br><span class="line">	dp1 := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	dp2 := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	ans = <span class="number">-0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		sum += nums[i]</span><br><span class="line">		ans = max(ans, nums[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> ans &lt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> ans</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp1[i] = max(dp1[i<span class="number">-1</span>]+nums[i<span class="number">-1</span>], nums[i<span class="number">-1</span>])</span><br><span class="line">		dp2[i] = min(dp2[i<span class="number">-1</span>]+nums[i<span class="number">-1</span>], nums[i<span class="number">-1</span>])</span><br><span class="line">		res := max(dp1[i], sum-dp2[i])</span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -max(-x, -y)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -151,237 +284,81 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2544.交替数字和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/alternating-digit-sum">原题链接 2544. 交替数字和</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">alternateDigitSum</span><span class="params">(n <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	ans, f := <span class="number">0</span>, <span class="number">1</span></span><br><span class="line">	<span class="keyword">for</span> n != <span class="number">0</span> &#123;</span><br><span class="line">		ans += f * (n % <span class="number">10</span>)</span><br><span class="line">		f *= <span class="number">-1</span></span><br><span class="line">		n /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -f * ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode1911.最大子序列交替和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-alternating-subsequence-sum/">原题链接 1911. 最大子序列交替和</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxAlternatingSum</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	maxx := <span class="type">int</span>(<span class="number">1e9</span> + <span class="number">7</span>)</span><br><span class="line">	ans = <span class="number">0</span></span><br><span class="line">	cur, nex := nums[<span class="number">0</span>], maxx</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(nums); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> nex == maxx &amp;&amp; cur &lt; nums[i] &#123;</span><br><span class="line">			cur = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> nex &gt; nums[i] &#123;</span><br><span class="line">			nex = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			ans += <span class="type">int64</span>(cur - nex)</span><br><span class="line">			<span class="comment">// fmt.Println(cur,nex)</span></span><br><span class="line">			cur, nex = nums[i], maxx</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans + <span class="type">int64</span>(cur)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode16.最接近的三数之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
-<hr>
-<details> 
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">threeSumClosest</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">var</span> ans, minn <span class="type">int</span> = <span class="number">1e9</span>, <span class="number">1e9</span></span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">2</span>; j &lt; n; j++ &#123;</span><br><span class="line">			l, r := i+<span class="number">1</span>, j<span class="number">-1</span></span><br><span class="line">			<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">				m1 := (<span class="number">2</span>*l + r) / <span class="number">3</span></span><br><span class="line">				m2 := (l + <span class="number">2</span>*r + <span class="number">2</span>) / <span class="number">3</span> <span class="comment">// 上取整</span></span><br><span class="line">				res1 := abs(target - nums[i] - nums[j] - nums[m1])</span><br><span class="line">				res2 := abs(target - nums[i] - nums[j] - nums[m2])</span><br><span class="line">				<span class="keyword">if</span> res1 &lt; res2 &#123;</span><br><span class="line">					r = m2 - <span class="number">1</span></span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					l = m1 + <span class="number">1</span></span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			res := abs(target - nums[i] - nums[j] - nums[r])</span><br><span class="line">			<span class="keyword">if</span> res &lt; minn &#123;</span><br><span class="line">				minn = res</span><br><span class="line">				ans = nums[i] + nums[j] + nums[r]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> -x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>计算机网络</title>
-    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html</url>
+    <title>go</title>
+    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>计算机基础</category>
-        <category>计算机网络</category>
+        <category>语言</category>
+        <category>go</category>
         <category>目录</category>
       </categories>
       <tags>
-        <tag>计算机网络</tag>
+        <tag>go</tag>
       </tags>
   </entry>
   <entry>
-    <title>计算机基础</title>
-    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html</url>
-    <content><![CDATA[<h2 id="1-计算机网络"><a href="#1-计算机网络" class="headerlink" title="1. 计算机网络"></a>1. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="2-计算机网络"><a href="#2-计算机网络" class="headerlink" title="2. 计算机网络"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="3-计算机网络"><a href="#3-计算机网络" class="headerlink" title="3. 计算机网络"></a>3. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><span id="more"></span>
-<h2 id="4-计算机网络"><a href="#4-计算机网络" class="headerlink" title="4. 计算机网络"></a>4. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2>]]></content>
+    <title>shell</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell.html</url>
+    <content><![CDATA[<h2 id="1-概论"><a href="#1-概论" class="headerlink" title="1. 概论"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html">概论</a></strong></h2><h2 id="2-注释"><a href="#2-注释" class="headerlink" title="2. 注释"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html">注释</a></strong></h2><h2 id="3-变量"><a href="#3-变量" class="headerlink" title="3. 变量"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html">变量</a></strong></h2><span id="more"></span>
+<h2 id="4-默认变量"><a href="#4-默认变量" class="headerlink" title="4. 默认变量"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html">默认变量</a></strong></h2><h2 id="5-数组"><a href="#5-数组" class="headerlink" title="5. 数组"></a>5. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html">数组</a></strong></h2><h2 id="6-expr命令"><a href="#6-expr命令" class="headerlink" title="6. expr命令"></a>6. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html">expr命令</a></strong></h2><h2 id="7-read命令"><a href="#7-read命令" class="headerlink" title="7. read命令"></a>7. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html">read命令</a></strong></h2><h2 id="8-echo命令"><a href="#8-echo命令" class="headerlink" title="8. echo命令"></a>8. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html">echo命令</a></strong></h2><h2 id="9-printf命令"><a href="#9-printf命令" class="headerlink" title="9. printf命令"></a>9. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html">printf命令</a></strong></h2><h2 id="10-test命令与判断符号"><a href="#10-test命令与判断符号" class="headerlink" title="10. test命令与判断符号"></a>10. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html">test命令与判断符号</a></strong></h2><h2 id="11-判断语句"><a href="#11-判断语句" class="headerlink" title="11. 判断语句"></a>11. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5.html">判断语句</a></strong></h2><h2 id="12-循环语句"><a href="#12-循环语句" class="headerlink" title="12. 循环语句"></a>12. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html">循环语句</a></strong></h2><h2 id="13-函数"><a href="#13-函数" class="headerlink" title="13. 函数"></a>13. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html">函数</a></strong></h2><h2 id="14-exit命令"><a href="#14-exit命令" class="headerlink" title="14. exit命令"></a>14. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/exit%E5%91%BD%E4%BB%A4.html">exit命令</a></strong></h2><h2 id="15-文件重定向"><a href="#15-文件重定向" class="headerlink" title="15. 文件重定向"></a>15. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html">文件重定向</a></strong></h2><h2 id="16-引入外部脚本"><a href="#16-引入外部脚本" class="headerlink" title="16. 引入外部脚本"></a>16. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html">引入外部脚本</a></strong></h2>]]></content>
       <categories>
-        <category>计算机基础</category>
+        <category>语言</category>
+        <category>shell</category>
+        <category>目录</category>
       </categories>
       <tags>
-        <tag>计算机基础</tag>
+        <tag>shell</tag>
       </tags>
   </entry>
   <entry>
-    <title>刷题记录</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html</url>
-    <content><![CDATA[<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16.最接近的三数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911.最大子序列交替和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544.交替数字和</a></p>
-<span id="more"></span>
-<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931.下降路径最小和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979.在二叉树中分配硬币</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18.四数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834.树中距离之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415.字符串相加</a></p>
-]]></content>
+    <title>leetcode979.在二叉树中分配硬币</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">distributeCoins</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	resl := distributeCoins(l)</span><br><span class="line">	resr := distributeCoins(r)</span><br><span class="line">	sum, cnt := get(root)</span><br><span class="line">	<span class="keyword">return</span> resl + resr + abs(sum-cnt)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">get</span><span class="params">(root *TreeNode)</span></span> (sum, cnt <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	suml, cntl := get(l)</span><br><span class="line">	sumr, cntr := get(r)</span><br><span class="line">	sum = root.Val + suml + sumr</span><br><span class="line">	cnt = <span class="number">1</span> + cntl + cntr</span><br><span class="line">	<span class="keyword">return</span> sum, cnt</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</detail>]]></content>
       <categories>
         <category>刷题</category>
+        <category>刷题记录</category>
       </categories>
       <tags>
         <tag>刷题</tag>
       </tags>
   </entry>
   <entry>
-    <title>其他</title>
-    <url>/%E5%85%B6%E4%BB%96.html</url>
-    <content><![CDATA[<p><a href="/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF.html">模板</a></p>
-]]></content>
-      <categories>
-        <category>其他</category>
-      </categories>
-      <tags>
-        <tag>其他</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>变量</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html</url>
-    <content><![CDATA[<h2 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量"></a><strong>定义变量</strong></h2><p>定义变量，不需要加<code>$</code>符号，例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name1=<span class="string">&#x27;catgok&#x27;</span>  <span class="comment"># 单引号定义字符串</span></span><br><span class="line">name2=<span class="string">&quot;catgok&quot;</span>  <span class="comment"># 双引号定义字符串</span></span><br><span class="line">name3=catgok    <span class="comment"># 也可以不加引号，同样表示字符串</span></span><br></pre></td></tr></table></figure>
+    <title>echo命令</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html</url>
+    <content><![CDATA[<p><code>echo</code>用于输出字符串。</p>
 <span id="more"></span>
+<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a><strong>命令格式</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> STRING</span><br></pre></td></tr></table></figure>
 
-<h2 id="使用变量"><a href="#使用变量" class="headerlink" title="使用变量"></a><strong>使用变量</strong></h2><p>使用变量，需要加上<code>$</code>符号，或者<code>$&#123;&#125;</code>符号。花括号是可选的，主要为了帮助解释器识别变量边界。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span>  <span class="comment"># 输出catgok</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name&#125;</span>  <span class="comment"># 输出catgok</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name&#125;</span>123  <span class="comment"># 输出catgok123</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示普通字符串"><a href="#显示普通字符串" class="headerlink" title="显示普通字符串"></a><strong>显示普通字符串</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Hello Terminal&quot;</span></span><br><span class="line"><span class="built_in">echo</span> Hello Terminal <span class="comment"># 引号可以省略</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="只读变量"><a href="#只读变量" class="headerlink" title="只读变量"></a><strong>只读变量</strong></h2><p>使用<code>readonly</code>或者<code>declare</code>可以将变量变为只读。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">readonly</span> name</span><br><span class="line"><span class="built_in">declare</span> -r name  <span class="comment"># 两种写法均可</span></span><br><span class="line">name=abc  <span class="comment"># 会报错，因为此时name只读</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示转义字符"><a href="#显示转义字符" class="headerlink" title="显示转义字符"></a><strong>显示转义字符</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;\&quot;Hello Terminal\&quot;&quot;</span>  <span class="comment"># 注意只能使用双引号，如果使用单引号，则不转义</span></span><br><span class="line"><span class="built_in">echo</span> \&quot;Hello Terminal\&quot;  <span class="comment"># 也可以省略双引号</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="删除变量"><a href="#删除变量" class="headerlink" title="删除变量"></a><strong>删除变量</strong></h2><p><code>unset</code>可以删除变量。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">unset</span> name</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span>  <span class="comment"># 输出空行</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示变量"><a href="#显示变量" class="headerlink" title="显示变量"></a><strong>显示变量</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;My name is <span class="variable">$name</span>&quot;</span>  <span class="comment"># 输出 My name is catgok</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a><strong>变量类型</strong></h2><ol>
-<li>自定义变量（局部变量）<blockquote>
-<p>子进程不能访问的变量</p>
-</blockquote>
-</li>
-<li>环境变量（全局变量）<blockquote>
-<p>子进程可以访问的变量</p>
-</blockquote>
-</li>
-</ol>
-<p>自定义变量改成环境变量：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ name=catgok  <span class="comment"># 定义变量</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">export</span> name  <span class="comment"># 第一种方法</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">declare</span> -x name  <span class="comment"># 第二种方法</span></span><br></pre></td></tr></table></figure>
-<p>环境变量改为自定义变量：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">export</span> name=catgok  <span class="comment"># 定义环境变量</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">declare</span> +x name  <span class="comment"># 改为自定义变量</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示换行"><a href="#显示换行" class="headerlink" title="显示换行"></a><strong>显示换行</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hi\n&quot;</span>  <span class="comment"># -e 开启转义</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;catgok&quot;</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi</span><br><span class="line"></span><br><span class="line">catgok</span><br></pre></td></tr></table></figure>
 
-<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a><strong>字符串</strong></h2><p>字符串可以用单引号，也可以用双引号，也可以不用引号。</p>
-<h3 id="单引号与双引号的区别："><a href="#单引号与双引号的区别：" class="headerlink" title="单引号与双引号的区别："></a><strong>单引号与双引号的区别：</strong></h3><ul>
-<li>单引号中的内容会<strong>原样输出</strong>，不会执行、不会取变量</li>
-<li>双引号中的内容可以<strong>执行</strong>、可以<strong>取变量</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok  <span class="comment"># 不用引号</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;hello, $name \&quot;hh\&quot;&#x27;</span>  <span class="comment"># 单引号字符串，输出 hello, $name \&quot;hh\&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;hello, <span class="variable">$name</span> \&quot;hh\&quot;&quot;</span>  <span class="comment"># 双引号字符串，输出 hello, catgok &quot;hh&quot;</span></span><br></pre></td></tr></table></figure></li>
-</ul>
-<h3 id="获取字符串长度"><a href="#获取字符串长度" class="headerlink" title="获取字符串长度"></a><strong>获取字符串长度</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=<span class="string">&quot;catgok&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#name&#125;</span>  <span class="comment"># 输出3</span></span><br></pre></td></tr></table></figure>
-<h3 id="提取子串"><a href="#提取子串" class="headerlink" title="提取子串"></a><strong>提取子串</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=<span class="string">&quot;hello, catgok&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name:0:5&#125;</span>  <span class="comment"># 提取从0开始的5个字符</span></span><br></pre></td></tr></table></figure>
+<h2 id="显示不换行"><a href="#显示不换行" class="headerlink" title="显示不换行"></a><strong>显示不换行</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hi \c&quot;</span> <span class="comment"># -e 开启转义 \c 不换行</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;catgok&quot;</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi catgok</span><br></pre></td></tr></table></figure>
 
-<hr>
-<center>
+<h2 id="显示结果定向至文件"><a href="#显示结果定向至文件" class="headerlink" title="显示结果定向至文件"></a><strong>显示结果定向至文件</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Hello World&quot;</span> &gt; output.txt  <span class="comment"># 将内容以覆盖的方式输出到output.txt中</span></span><br></pre></td></tr></table></figure>
 
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>引入外部脚本</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
-    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
-<span id="more"></span>
-<p>语法格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
-<p>或</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
+<h2 id="原样输出字符串，不进行转义或取变量-用单引号"><a href="#原样输出字符串，不进行转义或取变量-用单引号" class="headerlink" title="原样输出字符串，不进行转义或取变量(用单引号)"></a><strong>原样输出字符串，不进行转义或取变量(用单引号)</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;$name\&quot;&#x27;</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$name</span>\&quot;</span><br></pre></td></tr></table></figure>
 
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
-<p>然后创建test2.sh，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
-<p>执行命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
+<h2 id="显示命令的执行结果"><a href="#显示命令的执行结果" class="headerlink" title="显示命令的执行结果"></a><strong>显示命令的执行结果</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> `<span class="built_in">date</span>`</span><br></pre></td></tr></table></figure>
 
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文件重定向</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html</url>
-    <content><![CDATA[<p>每个进程默认打开3个文件描述符：</p>
-<blockquote>
-<p><code>stdin</code>标准输入，从命令行读取数据，文件描述符为<code>0</code><br><code>stdout</code>标准输出，向命令行输出数据，文件描述符为<code>1</code><br><code>stderr</code>标准错误输出，向命令行输出数据，文件描述符为<code>2</code></p>
-</blockquote>
-<span id="more"></span>
-<p>可以用文件重定向将这三个文件重定向到其他文件中。</p>
-<h2 id="重定向命令列表"><a href="#重定向命令列表" class="headerlink" title="重定向命令列表"></a><strong>重定向命令列表</strong></h2><table>
-<thead>
-<tr>
-<th>命令</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>command &gt; file</code></td>
-<td>将<code>stdout</code>重定向到file中</td>
-</tr>
-<tr>
-<td><code>command &lt; file</code></td>
-<td>将<code>stdin</code>重定向到file中</td>
-</tr>
-<tr>
-<td><code>command &gt;&gt; file</code></td>
-<td>将<code>stdout</code>以<strong>追加</strong>方式重定向到<code>file</code>中</td>
-</tr>
-<tr>
-<td><code>command n&gt; file</code></td>
-<td>将文件描述符<code>n</code>重定向到<code>file</code>中</td>
-</tr>
-<tr>
-<td><code>command n&gt;&gt; file</code></td>
-<td>将文件描述符<code>n</code>以<strong>追加</strong>方式重定向到<code>file</code>中</td>
-</tr>
-</tbody></table>
-<h2 id="输入和输出重定向"><a href="#输入和输出重定向" class="headerlink" title="输入和输出重定向"></a><strong>输入和输出重定向</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hello \c&quot;</span> &gt; output.txt     <span class="comment"># 将stdout重定向到output.txt中</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;World&quot;</span> &gt;&gt; output.txt          <span class="comment"># 将字符串追加到output.txt中</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">read</span> str &lt; output.txt               <span class="comment"># 从output.txt中读取字符串</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$str</span>                           <span class="comment"># 输出结果：Hello World</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="同时重定向stdin和stdout"><a href="#同时重定向stdin和stdout" class="headerlink" title="同时重定向stdin和stdout"></a><strong>同时重定向stdin和stdout</strong></h2><p>创建bash脚本</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">read</span> a</span><br><span class="line"><span class="built_in">read</span> b</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> $(<span class="built_in">expr</span> <span class="string">&quot;<span class="variable">$a</span>&quot;</span> + <span class="string">&quot;<span class="variable">$b</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
-<p>创建input.txt，里面的内容为</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">4</span><br></pre></td></tr></table></figure>
-<p>执行命令</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh     <span class="comment"># 添加可执行权限</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh &lt; input.txt &gt; output.txt  <span class="comment"># 从input.txt中读取内容，将输出写入output.txt中</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">cat</span> output.txt       <span class="comment"># 查看output.txt中的内容</span></span><br><span class="line">7</span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Wed Sep 1 11:45:33 CST 2021</span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
@@ -406,156 +383,6 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ <span class="variable">$#</span> -ne 1 ]  <span class="comment"># 如果传入参数个数等于1，则正常退出；否则非正常退出。</span></span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;arguments not valid&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 1</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;arguments valid&quot;</span></span><br><span class="line">    <span class="built_in">exit</span> 0</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
 <p>执行该脚本：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh 123</span><br><span class="line">arguments valid</span><br><span class="line">catgok@9e0ebfcd82d7:~$ echo $?  # 传入一个参数，则正常退出，exit code为0</span><br><span class="line">0</span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh </span><br><span class="line">arguments not valid</span><br><span class="line">catgok@9e0ebfcd82d7:~$ echo $?  # 传入参数个数不是1，则非正常退出，exit code为1</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概论</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html</url>
-    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a><strong>简介</strong></h2><p>shell是我们通过命令行与操作系统沟通的语言。<br>shell脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用。 </p>
-<span id="more"></span>
-<p>Linux中常见的shell脚本有很多种，常见的有：</p>
-<ul>
-<li>Bourne Shell(<code>/usr/bin/sh</code>或<code>/bin/sh</code>)</li>
-<li>Bourne Again Shell(<code>/bin/bash</code>)</li>
-<li>C Shell(<code>/usr/bin/csh</code>)</li>
-<li>K Shell(<code>/usr/bin/ksh</code>)</li>
-<li><a href="https://ohmyz.sh/">zsh</a></li>
-</ul>
-<p>Linux系统中一般默认使用bash，所以接下来讲解bash中的语法。<br>文件开头需要写<code>#! /bin/bash</code>，指明bash为脚本解释器。  </p>
-<h2 id="运行方式"><a href="#运行方式" class="headerlink" title="运行方式"></a><strong>运行方式</strong></h2><h3 id="作为可执行文件"><a href="#作为可执行文件" class="headerlink" title="作为可执行文件"></a><strong>作为可执行文件</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh  <span class="comment"># 使脚本具有可执行权限</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh  <span class="comment"># 当前路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ /home/catgok/test.sh  <span class="comment"># 绝对路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ~/test.sh  <span class="comment"># 家目录路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
-<h3 id="用解释器执行"><a href="#用解释器执行" class="headerlink" title="用解释器执行"></a><strong>用解释器执行</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ bash test.sh</span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>注释</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html</url>
-    <content><![CDATA[<h2 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a><strong>单行注释</strong></h2><p>每行中<code>#</code>之后的内容均是注释。 </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Hello World&#x27;</span>  <span class="comment">#`  这也是注释</span></span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-
-<h2 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a><strong>多行注释</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">EOF</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
-<p>其中<code>EOF</code>可以换成其它任意字符串。例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">abc</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">abc</span></span><br><span class="line"></span><br><span class="line">:&lt;&lt;<span class="string">x</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">x</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>默认变量</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html</url>
-    <content><![CDATA[<h2 id="文件参数变量"><a href="#文件参数变量" class="headerlink" title="文件参数变量"></a><strong>文件参数变量</strong></h2><p>在执行shell脚本时，可以向脚本传递参数。<code>$1</code>是第一个参数，<code>$2</code>是第二个参数，以此类推。特殊的，<code>$0</code>是文件名（包含路径）。例如(文件名为<code>test.sh</code>):</p>
-<span id="more"></span>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;文件名：&quot;</span><span class="variable">$0</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第一个参数：&quot;</span><span class="variable">$1</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第二个参数：&quot;</span><span class="variable">$2</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第三个参数：&quot;</span><span class="variable">$3</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第四个参数：&quot;</span><span class="variable">$4</span></span><br></pre></td></tr></table></figure>
-<p>执行该脚本：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh 1 2 3 4</span><br><span class="line">文件名：./test.sh</span><br><span class="line">第一个参数：1</span><br><span class="line">第二个参数：2</span><br><span class="line">第三个参数：3</span><br><span class="line">第四个参数：4</span><br></pre></td></tr></table></figure>
-
-<h2 id="其它参数相关变量"><a href="#其它参数相关变量" class="headerlink" title="其它参数相关变量"></a><strong>其它参数相关变量</strong></h2><table>
-<thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><code>$#</code></td>
-<td>代表文件传入的<strong>参数个数</strong>，如上例中值为4</td>
-</tr>
-<tr>
-<td><code>$*</code></td>
-<td>由<strong>所有参数</strong>构成的用空格隔开的字符串，如上例中值为<code>&quot;$1 $2 $3 $4&quot;</code></td>
-</tr>
-<tr>
-<td><code>$@</code></td>
-<td><strong>每个参数</strong>分别用双引号括起来的字符串，如上例中值为<code>&quot;$1&quot; &quot;$2&quot; &quot;$3&quot; &quot;$4&quot;</code></td>
-</tr>
-<tr>
-<td><code>$$</code></td>
-<td>脚本当前运行的<strong>进程ID</strong></td>
-</tr>
-<tr>
-<td><code>$?</code></td>
-<td>上一条命令的退出状态(注意不是stdout，而是<strong>exit code</strong>)。0表示正常退出，其他值表示错误</td>
-</tr>
-<tr>
-<td><code>$(command)</code></td>
-<td>返回<code>command</code>这条命令的stdout(<strong>可嵌套</strong>)</td>
-</tr>
-<tr>
-<td>`command`</td>
-<td>返回<code>command</code>这条命令的stdout(<strong>不可嵌套</strong>)</td>
-</tr>
-</tbody></table>
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数组</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html</url>
-    <content><![CDATA[<p>数组中可以存放多个不同类型的值，只支持一维数组，初始化时不需要指明数组大小。数组<strong>下标从0开始</strong>。</p>
-<span id="more"></span>
-<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a><strong>定义</strong></h2><p>数组用小括号表示，元素之间用空格隔开。例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br></pre></td></tr></table></figure>
-<p>也可以直接定义数组中某个元素的值：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array[0]=1</span><br><span class="line">array[1]=abc</span><br><span class="line">array[2]=<span class="string">&quot;def&quot;</span></span><br><span class="line">array[3]=catgok</span><br></pre></td></tr></table></figure>
-
-<h2 id="读取数组中某个元素的值"><a href="#读取数组中某个元素的值" class="headerlink" title="读取数组中某个元素的值"></a><strong>读取数组中某个元素的值</strong></h2><p>格式：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[index]&#125;</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[0]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[1]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[2]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[3]&#125;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="读取整个数组"><a href="#读取整个数组" class="headerlink" title="读取整个数组"></a><strong>读取整个数组</strong></h2><p>格式：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="数组长度"><a href="#数组长度" class="headerlink" title="数组长度"></a><strong>数组长度</strong></h2><p>类似于字符串</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
@@ -643,6 +470,31 @@
       </tags>
   </entry>
   <entry>
+    <title>printf命令</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html</url>
+    <content><![CDATA[<p><code>printf</code>命令用于格式化输出，类似于<code>C/C++</code>中的<code>printf</code>函数。</p>
+<span id="more"></span>
+<p>默认不会在字符串末尾添加换行符。</p>
+<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a><strong>命令格式</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span> format-string [arguments...]</span><br></pre></td></tr></table></figure>
+
+<h2 id="用法示例"><a href="#用法示例" class="headerlink" title="用法示例"></a><strong>用法示例</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%10d.\n&quot;</span> 123                <span class="comment"># 占10位，右对齐</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%-10.2f.\n&quot;</span> 123.123321      <span class="comment"># 占10位，保留2位小数，左对齐</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;My name is %s\n&quot;</span> <span class="string">&quot;catgok&quot;</span>   <span class="comment"># 格式化输出字符串</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%d * %d = %d\n&quot;</span>  2 3 `<span class="built_in">expr</span> 2 \* 3`  <span class="comment"># 表达式的值作为参数</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">       123.</span><br><span class="line">123.12    .</span><br><span class="line">My name is catgok</span><br><span class="line">2 * 3 = 6</span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>read命令</title>
     <url>/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html</url>
     <content><![CDATA[<p><code>read</code>命令用于从标准输入中读取单行数据。当读到文件结束符时，<code>exit code</code>为1，否则为0。</p>
@@ -654,76 +506,6 @@
 </ul>
 <p>示例:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">read</span> name    <span class="comment"># 读入name的值</span></span><br><span class="line">catgok  <span class="comment"># 标准输入</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">echo</span> <span class="variable">$name</span>   <span class="comment"># 输出name的值</span></span><br><span class="line">catgok  <span class="comment"># 标准输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">read</span> -p <span class="string">&quot;Please input your name: &quot;</span> -t 30 name    <span class="comment"># 读入name的值，等待时间30秒</span></span><br><span class="line">Please input your name:  catgok     <span class="comment"># 标准输入</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">echo</span> <span class="variable">$name</span>   <span class="comment"># 输出name的值</span></span><br><span class="line">catgok  <span class="comment"># 标准输出</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>echo命令</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html</url>
-    <content><![CDATA[<p><code>echo</code>用于输出字符串。</p>
-<span id="more"></span>
-<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a><strong>命令格式</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> STRING</span><br></pre></td></tr></table></figure>
-
-<h2 id="显示普通字符串"><a href="#显示普通字符串" class="headerlink" title="显示普通字符串"></a><strong>显示普通字符串</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Hello Terminal&quot;</span></span><br><span class="line"><span class="built_in">echo</span> Hello Terminal <span class="comment"># 引号可以省略</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="显示转义字符"><a href="#显示转义字符" class="headerlink" title="显示转义字符"></a><strong>显示转义字符</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;\&quot;Hello Terminal\&quot;&quot;</span>  <span class="comment"># 注意只能使用双引号，如果使用单引号，则不转义</span></span><br><span class="line"><span class="built_in">echo</span> \&quot;Hello Terminal\&quot;  <span class="comment"># 也可以省略双引号</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="显示变量"><a href="#显示变量" class="headerlink" title="显示变量"></a><strong>显示变量</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;My name is <span class="variable">$name</span>&quot;</span>  <span class="comment"># 输出 My name is catgok</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="显示换行"><a href="#显示换行" class="headerlink" title="显示换行"></a><strong>显示换行</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hi\n&quot;</span>  <span class="comment"># -e 开启转义</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;catgok&quot;</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi</span><br><span class="line"></span><br><span class="line">catgok</span><br></pre></td></tr></table></figure>
-
-<h2 id="显示不换行"><a href="#显示不换行" class="headerlink" title="显示不换行"></a><strong>显示不换行</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hi \c&quot;</span> <span class="comment"># -e 开启转义 \c 不换行</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;catgok&quot;</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi catgok</span><br></pre></td></tr></table></figure>
-
-<h2 id="显示结果定向至文件"><a href="#显示结果定向至文件" class="headerlink" title="显示结果定向至文件"></a><strong>显示结果定向至文件</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">&quot;Hello World&quot;</span> &gt; output.txt  <span class="comment"># 将内容以覆盖的方式输出到output.txt中</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="原样输出字符串，不进行转义或取变量-用单引号"><a href="#原样输出字符串，不进行转义或取变量-用单引号" class="headerlink" title="原样输出字符串，不进行转义或取变量(用单引号)"></a><strong>原样输出字符串，不进行转义或取变量(用单引号)</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;$name\&quot;&#x27;</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$name</span>\&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="显示命令的执行结果"><a href="#显示命令的执行结果" class="headerlink" title="显示命令的执行结果"></a><strong>显示命令的执行结果</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> `<span class="built_in">date</span>`</span><br></pre></td></tr></table></figure>
-
-<p>输出结果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Wed Sep 1 11:45:33 CST 2021</span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>printf命令</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html</url>
-    <content><![CDATA[<p><code>printf</code>命令用于格式化输出，类似于<code>C/C++</code>中的<code>printf</code>函数。</p>
-<span id="more"></span>
-<p>默认不会在字符串末尾添加换行符。</p>
-<h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a><strong>命令格式</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span> format-string [arguments...]</span><br></pre></td></tr></table></figure>
-
-<h2 id="用法示例"><a href="#用法示例" class="headerlink" title="用法示例"></a><strong>用法示例</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%10d.\n&quot;</span> 123                <span class="comment"># 占10位，右对齐</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%-10.2f.\n&quot;</span> 123.123321      <span class="comment"># 占10位，保留2位小数，左对齐</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;My name is %s\n&quot;</span> <span class="string">&quot;catgok&quot;</span>   <span class="comment"># 格式化输出字符串</span></span><br><span class="line"><span class="built_in">printf</span> <span class="string">&quot;%d * %d = %d\n&quot;</span>  2 3 `<span class="built_in">expr</span> 2 \* 3`  <span class="comment"># 表达式的值作为参数</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">       123.</span><br><span class="line">123.12    .</span><br><span class="line">My name is catgok</span><br><span class="line">2 * 3 = 6</span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
@@ -909,6 +691,59 @@
       </tags>
   </entry>
   <entry>
+    <title>函数</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html</url>
+    <content><![CDATA[<p><code>bash</code>中的函数类似于<code>C/C++</code>中的函数，但<code>return</code>的返回值与<code>C/C++</code>不同，返回的是<code>exit code</code>，取值为<code>0-255</code>，<code>0</code>表示正常结束。</p>
+<blockquote>
+<p>如果想获取函数的输出结果，可以通过<code>echo</code>输出到<code>stdout</code>中，然后通过<code>$(function_name)</code>来获取<code>stdout</code>中的结果。</p>
+</blockquote>
+<p>函数的<code>return</code>值可以通过<code>$?</code>来获取。</p>
+<span id="more"></span>
+<p>命令格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[<span class="keyword">function</span>] <span class="function"><span class="title">func_name</span></span>() &#123;  <span class="comment"># function关键字可以省略</span></span><br><span class="line">    语句1</span><br><span class="line">    语句2</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="不获取-return值和stdout值"><a href="#不获取-return值和stdout值" class="headerlink" title="不获取 return值和stdout值"></a><strong>不获取 return值和stdout值</strong></h2><p>示例</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello <span class="variable">$name</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">func</span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello catgok</span><br></pre></td></tr></table></figure>
+
+<h2 id="获取-return值和stdout值"><a href="#获取-return值和stdout值" class="headerlink" title="获取 return值和stdout值"></a><strong>获取 return值和stdout值</strong></h2><p>不写<code>return</code>时，默认<code>return 0</code>。</p>
+<p>示例</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello <span class="variable">$name</span>&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">return</span> 123</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">output=$(func)</span><br><span class="line">ret=$?</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;output = <span class="variable">$output</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;return = <span class="variable">$ret</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">output = Hello catgok</span><br><span class="line">return = 123</span><br></pre></td></tr></table></figure>
+
+<h2 id="函数的输入参数"><a href="#函数的输入参数" class="headerlink" title="函数的输入参数"></a><strong>函数的输入参数</strong></h2><p>在函数内，<code>$1</code>表示第一个输入参数，<code>$2</code>表示第二个输入参数，依此类推。    </p>
+<blockquote>
+<p><strong>注意：函数内的<code>$0</code>仍然是文件名，而不是函数名。</strong></p>
+</blockquote>
+<p>示例</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;  <span class="comment"># 递归计算 $1 + ($1 - 1) + ($1 - 2) + ... + 0</span></span><br><span class="line">    word=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">while</span> [ <span class="string">&quot;<span class="variable">$&#123;word&#125;</span>&quot;</span> != <span class="string">&#x27;y&#x27;</span> ] &amp;&amp; [ <span class="string">&quot;<span class="variable">$&#123;word&#125;</span>&quot;</span> != <span class="string">&#x27;n&#x27;</span> ]</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">read</span> -p <span class="string">&quot;要进入func(<span class="variable">$1</span>)函数吗？请输入y/n：&quot;</span> word</span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$word</span>&quot;</span> == <span class="string">&#x27;n&#x27;</span> ]</span><br><span class="line">    <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> 0</span><br><span class="line">        <span class="built_in">return</span> 0</span><br><span class="line">    <span class="keyword">fi</span>  </span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$1</span> -le 0 ] </span><br><span class="line">    <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> 0</span><br><span class="line">        <span class="built_in">return</span> 0</span><br><span class="line">    <span class="keyword">fi</span>  </span><br><span class="line"></span><br><span class="line">    <span class="built_in">sum</span>=$(func $(<span class="built_in">expr</span> <span class="variable">$1</span> - 1))</span><br><span class="line">    <span class="built_in">echo</span> $(<span class="built_in">expr</span> <span class="variable">$sum</span> + <span class="variable">$1</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> $(func 10)</span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">55</span><br></pre></td></tr></table></figure>
+
+<h2 id="函数内的局部变量"><a href="#函数内的局部变量" class="headerlink" title="函数内的局部变量"></a><strong>函数内的局部变量</strong></h2><p>可以在函数内定义局部变量，作用范围仅在当前函数内。<br>可以在递归函数中定义局部变量。</p>
+<p>命令格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">local</span> 变量名=变量值</span><br></pre></td></tr></table></figure>
+<p>例如</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    <span class="built_in">local</span> name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$name</span></span><br><span class="line">&#125;</span><br><span class="line">func</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span></span><br></pre></td></tr></table></figure>
+<p>输出结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>第一行为函数内的name变量，第二行为函数外调用name变量，会发现此时该变量不存在。</p>
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>判断语句</title>
     <url>/%E8%AF%AD%E8%A8%80/shell/%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5.html</url>
     <content><![CDATA[<h2 id="if…then形式"><a href="#if…then形式" class="headerlink" title="if…then形式"></a><strong>if…then形式</strong></h2><p>类似于<code>C/C++</code>中的<code>if-else</code>语句。</p>
@@ -941,6 +776,88 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">a=4</span><br><span class="line"></span><br><span class="line"><span class="keyword">case</span> <span class="variable">$a</span> <span class="keyword">in</span></span><br><span class="line">    1)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$&#123;a&#125;</span>等于1</span><br><span class="line">        ;;  </span><br><span class="line">    2)</span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$&#123;a&#125;</span>等于2</span><br><span class="line">        ;;  </span><br><span class="line">    3)                                                </span><br><span class="line">        <span class="built_in">echo</span> <span class="variable">$&#123;a&#125;</span>等于3</span><br><span class="line">        ;;  </span><br><span class="line">    *)</span><br><span class="line">        <span class="built_in">echo</span> 其他</span><br><span class="line">        ;;  </span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure>
 <p>输出结果</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">其他</span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>变量</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html</url>
+    <content><![CDATA[<h2 id="定义变量"><a href="#定义变量" class="headerlink" title="定义变量"></a><strong>定义变量</strong></h2><p>定义变量，不需要加<code>$</code>符号，例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name1=<span class="string">&#x27;catgok&#x27;</span>  <span class="comment"># 单引号定义字符串</span></span><br><span class="line">name2=<span class="string">&quot;catgok&quot;</span>  <span class="comment"># 双引号定义字符串</span></span><br><span class="line">name3=catgok    <span class="comment"># 也可以不加引号，同样表示字符串</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<h2 id="使用变量"><a href="#使用变量" class="headerlink" title="使用变量"></a><strong>使用变量</strong></h2><p>使用变量，需要加上<code>$</code>符号，或者<code>$&#123;&#125;</code>符号。花括号是可选的，主要为了帮助解释器识别变量边界。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span>  <span class="comment"># 输出catgok</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name&#125;</span>  <span class="comment"># 输出catgok</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name&#125;</span>123  <span class="comment"># 输出catgok123</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="只读变量"><a href="#只读变量" class="headerlink" title="只读变量"></a><strong>只读变量</strong></h2><p>使用<code>readonly</code>或者<code>declare</code>可以将变量变为只读。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">readonly</span> name</span><br><span class="line"><span class="built_in">declare</span> -r name  <span class="comment"># 两种写法均可</span></span><br><span class="line">name=abc  <span class="comment"># 会报错，因为此时name只读</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="删除变量"><a href="#删除变量" class="headerlink" title="删除变量"></a><strong>删除变量</strong></h2><p><code>unset</code>可以删除变量。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok</span><br><span class="line"><span class="built_in">unset</span> name</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span>  <span class="comment"># 输出空行</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="变量类型"><a href="#变量类型" class="headerlink" title="变量类型"></a><strong>变量类型</strong></h2><ol>
+<li>自定义变量（局部变量）<blockquote>
+<p>子进程不能访问的变量</p>
+</blockquote>
+</li>
+<li>环境变量（全局变量）<blockquote>
+<p>子进程可以访问的变量</p>
+</blockquote>
+</li>
+</ol>
+<p>自定义变量改成环境变量：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ name=catgok  <span class="comment"># 定义变量</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">export</span> name  <span class="comment"># 第一种方法</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">declare</span> -x name  <span class="comment"># 第二种方法</span></span><br></pre></td></tr></table></figure>
+<p>环境变量改为自定义变量：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">export</span> name=catgok  <span class="comment"># 定义环境变量</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">declare</span> +x name  <span class="comment"># 改为自定义变量</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a><strong>字符串</strong></h2><p>字符串可以用单引号，也可以用双引号，也可以不用引号。</p>
+<h3 id="单引号与双引号的区别："><a href="#单引号与双引号的区别：" class="headerlink" title="单引号与双引号的区别："></a><strong>单引号与双引号的区别：</strong></h3><ul>
+<li>单引号中的内容会<strong>原样输出</strong>，不会执行、不会取变量</li>
+<li>双引号中的内容可以<strong>执行</strong>、可以<strong>取变量</strong><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=catgok  <span class="comment"># 不用引号</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;hello, $name \&quot;hh\&quot;&#x27;</span>  <span class="comment"># 单引号字符串，输出 hello, $name \&quot;hh\&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;hello, <span class="variable">$name</span> \&quot;hh\&quot;&quot;</span>  <span class="comment"># 双引号字符串，输出 hello, catgok &quot;hh&quot;</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+<h3 id="获取字符串长度"><a href="#获取字符串长度" class="headerlink" title="获取字符串长度"></a><strong>获取字符串长度</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=<span class="string">&quot;catgok&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#name&#125;</span>  <span class="comment"># 输出3</span></span><br></pre></td></tr></table></figure>
+<h3 id="提取子串"><a href="#提取子串" class="headerlink" title="提取子串"></a><strong>提取子串</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">name=<span class="string">&quot;hello, catgok&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;name:0:5&#125;</span>  <span class="comment"># 提取从0开始的5个字符</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>引入外部脚本</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
+    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
+<span id="more"></span>
+<p>语法格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
+
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
+<p>然后创建test2.sh，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
+<p>执行命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
@@ -1013,45 +930,30 @@
       </tags>
   </entry>
   <entry>
-    <title>函数</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html</url>
-    <content><![CDATA[<p><code>bash</code>中的函数类似于<code>C/C++</code>中的函数，但<code>return</code>的返回值与<code>C/C++</code>不同，返回的是<code>exit code</code>，取值为<code>0-255</code>，<code>0</code>表示正常结束。</p>
-<blockquote>
-<p>如果想获取函数的输出结果，可以通过<code>echo</code>输出到<code>stdout</code>中，然后通过<code>$(function_name)</code>来获取<code>stdout</code>中的结果。</p>
-</blockquote>
-<p>函数的<code>return</code>值可以通过<code>$?</code>来获取。</p>
+    <title>数组</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html</url>
+    <content><![CDATA[<p>数组中可以存放多个不同类型的值，只支持一维数组，初始化时不需要指明数组大小。数组<strong>下标从0开始</strong>。</p>
 <span id="more"></span>
-<p>命令格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[<span class="keyword">function</span>] <span class="function"><span class="title">func_name</span></span>() &#123;  <span class="comment"># function关键字可以省略</span></span><br><span class="line">    语句1</span><br><span class="line">    语句2</span><br><span class="line">    ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a><strong>定义</strong></h2><p>数组用小括号表示，元素之间用空格隔开。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br></pre></td></tr></table></figure>
+<p>也可以直接定义数组中某个元素的值：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array[0]=1</span><br><span class="line">array[1]=abc</span><br><span class="line">array[2]=<span class="string">&quot;def&quot;</span></span><br><span class="line">array[3]=catgok</span><br></pre></td></tr></table></figure>
 
-<h2 id="不获取-return值和stdout值"><a href="#不获取-return值和stdout值" class="headerlink" title="不获取 return值和stdout值"></a><strong>不获取 return值和stdout值</strong></h2><p>示例</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello <span class="variable">$name</span>&quot;</span></span><br><span class="line">&#125;</span><br><span class="line">func</span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Hello catgok</span><br></pre></td></tr></table></figure>
+<h2 id="读取数组中某个元素的值"><a href="#读取数组中某个元素的值" class="headerlink" title="读取数组中某个元素的值"></a><strong>读取数组中某个元素的值</strong></h2><p>格式：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[index]&#125;</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[0]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[1]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[2]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[3]&#125;</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="获取-return值和stdout值"><a href="#获取-return值和stdout值" class="headerlink" title="获取 return值和stdout值"></a><strong>获取 return值和stdout值</strong></h2><p>不写<code>return</code>时，默认<code>return 0</code>。</p>
-<p>示例</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="string">&quot;Hello <span class="variable">$name</span>&quot;</span></span><br><span class="line"></span><br><span class="line">    <span class="built_in">return</span> 123</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">output=$(func)</span><br><span class="line">ret=$?</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;output = <span class="variable">$output</span>&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;return = <span class="variable">$ret</span>&quot;</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">output = Hello catgok</span><br><span class="line">return = 123</span><br></pre></td></tr></table></figure>
+<h2 id="读取整个数组"><a href="#读取整个数组" class="headerlink" title="读取整个数组"></a><strong>读取整个数组</strong></h2><p>格式：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="函数的输入参数"><a href="#函数的输入参数" class="headerlink" title="函数的输入参数"></a><strong>函数的输入参数</strong></h2><p>在函数内，<code>$1</code>表示第一个输入参数，<code>$2</code>表示第二个输入参数，依此类推。    </p>
-<blockquote>
-<p><strong>注意：函数内的<code>$0</code>仍然是文件名，而不是函数名。</strong></p>
-</blockquote>
-<p>示例</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">func</span></span>() &#123;  <span class="comment"># 递归计算 $1 + ($1 - 1) + ($1 - 2) + ... + 0</span></span><br><span class="line">    word=<span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">while</span> [ <span class="string">&quot;<span class="variable">$&#123;word&#125;</span>&quot;</span> != <span class="string">&#x27;y&#x27;</span> ] &amp;&amp; [ <span class="string">&quot;<span class="variable">$&#123;word&#125;</span>&quot;</span> != <span class="string">&#x27;n&#x27;</span> ]</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">read</span> -p <span class="string">&quot;要进入func(<span class="variable">$1</span>)函数吗？请输入y/n：&quot;</span> word</span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> [ <span class="string">&quot;<span class="variable">$word</span>&quot;</span> == <span class="string">&#x27;n&#x27;</span> ]</span><br><span class="line">    <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> 0</span><br><span class="line">        <span class="built_in">return</span> 0</span><br><span class="line">    <span class="keyword">fi</span>  </span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> [ <span class="variable">$1</span> -le 0 ] </span><br><span class="line">    <span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> 0</span><br><span class="line">        <span class="built_in">return</span> 0</span><br><span class="line">    <span class="keyword">fi</span>  </span><br><span class="line"></span><br><span class="line">    <span class="built_in">sum</span>=$(func $(<span class="built_in">expr</span> <span class="variable">$1</span> - 1))</span><br><span class="line">    <span class="built_in">echo</span> $(<span class="built_in">expr</span> <span class="variable">$sum</span> + <span class="variable">$1</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> $(func 10)</span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">55</span><br></pre></td></tr></table></figure>
+<h2 id="数组长度"><a href="#数组长度" class="headerlink" title="数组长度"></a><strong>数组长度</strong></h2><p>类似于字符串</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
 
-<h2 id="函数内的局部变量"><a href="#函数内的局部变量" class="headerlink" title="函数内的局部变量"></a><strong>函数内的局部变量</strong></h2><p>可以在函数内定义局部变量，作用范围仅在当前函数内。<br>可以在递归函数中定义局部变量。</p>
-<p>命令格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">local</span> 变量名=变量值</span><br></pre></td></tr></table></figure>
-<p>例如</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">func</span></span>() &#123;</span><br><span class="line">    <span class="built_in">local</span> name=catgok</span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$name</span></span><br><span class="line">&#125;</span><br><span class="line">func</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$name</span></span><br></pre></td></tr></table></figure>
-<p>输出结果</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>第一行为函数内的name变量，第二行为函数外调用name变量，会发现此时该变量不存在。</p>
 <hr>
 <center>
 
@@ -1066,39 +968,174 @@
       </tags>
   </entry>
   <entry>
-    <title>语言</title>
-    <url>/%E8%AF%AD%E8%A8%80.html</url>
-    <content><![CDATA[<h2 id="1-shell"><a href="#1-shell" class="headerlink" title="1. shell"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell.html">shell</a></strong></h2><h2 id="2-go"><a href="#2-go" class="headerlink" title="2. go"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2><h2 id="3-go"><a href="#3-go" class="headerlink" title="3. go"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2><span id="more"></span>
-<h2 id="4-go"><a href="#4-go" class="headerlink" title="4. go"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2>]]></content>
+    <title>文件重定向</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html</url>
+    <content><![CDATA[<p>每个进程默认打开3个文件描述符：</p>
+<blockquote>
+<p><code>stdin</code>标准输入，从命令行读取数据，文件描述符为<code>0</code><br><code>stdout</code>标准输出，向命令行输出数据，文件描述符为<code>1</code><br><code>stderr</code>标准错误输出，向命令行输出数据，文件描述符为<code>2</code></p>
+</blockquote>
+<span id="more"></span>
+<p>可以用文件重定向将这三个文件重定向到其他文件中。</p>
+<h2 id="重定向命令列表"><a href="#重定向命令列表" class="headerlink" title="重定向命令列表"></a><strong>重定向命令列表</strong></h2><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>command &gt; file</code></td>
+<td>将<code>stdout</code>重定向到file中</td>
+</tr>
+<tr>
+<td><code>command &lt; file</code></td>
+<td>将<code>stdin</code>重定向到file中</td>
+</tr>
+<tr>
+<td><code>command &gt;&gt; file</code></td>
+<td>将<code>stdout</code>以<strong>追加</strong>方式重定向到<code>file</code>中</td>
+</tr>
+<tr>
+<td><code>command n&gt; file</code></td>
+<td>将文件描述符<code>n</code>重定向到<code>file</code>中</td>
+</tr>
+<tr>
+<td><code>command n&gt;&gt; file</code></td>
+<td>将文件描述符<code>n</code>以<strong>追加</strong>方式重定向到<code>file</code>中</td>
+</tr>
+</tbody></table>
+<h2 id="输入和输出重定向"><a href="#输入和输出重定向" class="headerlink" title="输入和输出重定向"></a><strong>输入和输出重定向</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">echo</span> -e <span class="string">&quot;Hello \c&quot;</span> &gt; output.txt     <span class="comment"># 将stdout重定向到output.txt中</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;World&quot;</span> &gt;&gt; output.txt          <span class="comment"># 将字符串追加到output.txt中</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">read</span> str &lt; output.txt               <span class="comment"># 从output.txt中读取字符串</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$str</span>                           <span class="comment"># 输出结果：Hello World</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="同时重定向stdin和stdout"><a href="#同时重定向stdin和stdout" class="headerlink" title="同时重定向stdin和stdout"></a><strong>同时重定向stdin和stdout</strong></h2><p>创建bash脚本</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">read</span> a</span><br><span class="line"><span class="built_in">read</span> b</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> $(<span class="built_in">expr</span> <span class="string">&quot;<span class="variable">$a</span>&quot;</span> + <span class="string">&quot;<span class="variable">$b</span>&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p>创建input.txt，里面的内容为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">3</span><br><span class="line">4</span><br></pre></td></tr></table></figure>
+<p>执行命令</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh     <span class="comment"># 添加可执行权限</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh &lt; input.txt &gt; output.txt  <span class="comment"># 从input.txt中读取内容，将输出写入output.txt中</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">cat</span> output.txt       <span class="comment"># 查看output.txt中的内容</span></span><br><span class="line">7</span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
       <categories>
         <category>语言</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>模板</title>
-    <url>/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF.html</url>
-    <content><![CDATA[<h1 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h1><h2 id="本地图片"><a href="#本地图片" class="headerlink" title="本地图片"></a>本地图片</h2><span id="more"></span>
-
-<img data-src="/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF/img.png" class="" title="本地图片">
-
-<h2 id="网络图片"><a href="#网络图片" class="headerlink" title="网络图片"></a>网络图片</h2><p><img data-src="https://th.bing.com/th/id/OIP.cwIF_kizVZuERn_K9z4lgAHaHa?pid=ImgDet&rs=1" alt="网络图片"></p>
-<h1 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><h3 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h3><p>1.1</p>
-<h3 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h3><p>1.2</p>
-<h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>2</p>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    fmt.Println()</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h1><p><a href="https://zhuanlan.zhihu.com/p/441454622">MarkDown数学公式</a></p>
-<p><a href="https://zhuanlan.zhihu.com/p/450465546">Markdown&#x2F;LaTeX 数学公式和符号表</a></p>
-<p>$e&#x3D;mc^2$</p>
-<p>$a\le sl$</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><a href="https://markdown.com.cn/editor">模板链接</a></p>
-]]></content>
-      <categories>
-        <category>其他</category>
-        <category>模板</category>
+        <category>shell</category>
       </categories>
       <tags>
-        <tag>其他,模板</tag>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概论</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html</url>
+    <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a><strong>简介</strong></h2><p>shell是我们通过命令行与操作系统沟通的语言。<br>shell脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用。 </p>
+<span id="more"></span>
+<p>Linux中常见的shell脚本有很多种，常见的有：</p>
+<ul>
+<li>Bourne Shell(<code>/usr/bin/sh</code>或<code>/bin/sh</code>)</li>
+<li>Bourne Again Shell(<code>/bin/bash</code>)</li>
+<li>C Shell(<code>/usr/bin/csh</code>)</li>
+<li>K Shell(<code>/usr/bin/ksh</code>)</li>
+<li><a href="https://ohmyz.sh/">zsh</a></li>
+</ul>
+<p>Linux系统中一般默认使用bash，所以接下来讲解bash中的语法。<br>文件开头需要写<code>#! /bin/bash</code>，指明bash为脚本解释器。  </p>
+<h2 id="运行方式"><a href="#运行方式" class="headerlink" title="运行方式"></a><strong>运行方式</strong></h2><h3 id="作为可执行文件"><a href="#作为可执行文件" class="headerlink" title="作为可执行文件"></a><strong>作为可执行文件</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh  <span class="comment"># 使脚本具有可执行权限</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh  <span class="comment"># 当前路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ /home/catgok/test.sh  <span class="comment"># 绝对路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ~/test.sh  <span class="comment"># 家目录路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
+<h3 id="用解释器执行"><a href="#用解释器执行" class="headerlink" title="用解释器执行"></a><strong>用解释器执行</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ bash test.sh</span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>注释</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html</url>
+    <content><![CDATA[<h2 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a><strong>单行注释</strong></h2><p>每行中<code>#</code>之后的内容均是注释。 </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Hello World&#x27;</span>  <span class="comment">#`  这也是注释</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<h2 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a><strong>多行注释</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">EOF</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+<p>其中<code>EOF</code>可以换成其它任意字符串。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">abc</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">abc</span></span><br><span class="line"></span><br><span class="line">:&lt;&lt;<span class="string">x</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">x</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>默认变量</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html</url>
+    <content><![CDATA[<h2 id="文件参数变量"><a href="#文件参数变量" class="headerlink" title="文件参数变量"></a><strong>文件参数变量</strong></h2><p>在执行shell脚本时，可以向脚本传递参数。<code>$1</code>是第一个参数，<code>$2</code>是第二个参数，以此类推。特殊的，<code>$0</code>是文件名（包含路径）。例如(文件名为<code>test.sh</code>):</p>
+<span id="more"></span>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;文件名：&quot;</span><span class="variable">$0</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第一个参数：&quot;</span><span class="variable">$1</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第二个参数：&quot;</span><span class="variable">$2</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第三个参数：&quot;</span><span class="variable">$3</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&quot;第四个参数：&quot;</span><span class="variable">$4</span></span><br></pre></td></tr></table></figure>
+<p>执行该脚本：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh 1 2 3 4</span><br><span class="line">文件名：./test.sh</span><br><span class="line">第一个参数：1</span><br><span class="line">第二个参数：2</span><br><span class="line">第三个参数：3</span><br><span class="line">第四个参数：4</span><br></pre></td></tr></table></figure>
+
+<h2 id="其它参数相关变量"><a href="#其它参数相关变量" class="headerlink" title="其它参数相关变量"></a><strong>其它参数相关变量</strong></h2><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>$#</code></td>
+<td>代表文件传入的<strong>参数个数</strong>，如上例中值为4</td>
+</tr>
+<tr>
+<td><code>$*</code></td>
+<td>由<strong>所有参数</strong>构成的用空格隔开的字符串，如上例中值为<code>&quot;$1 $2 $3 $4&quot;</code></td>
+</tr>
+<tr>
+<td><code>$@</code></td>
+<td><strong>每个参数</strong>分别用双引号括起来的字符串，如上例中值为<code>&quot;$1&quot; &quot;$2&quot; &quot;$3&quot; &quot;$4&quot;</code></td>
+</tr>
+<tr>
+<td><code>$$</code></td>
+<td>脚本当前运行的<strong>进程ID</strong></td>
+</tr>
+<tr>
+<td><code>$?</code></td>
+<td>上一条命令的退出状态(注意不是stdout，而是<strong>exit code</strong>)。0表示正常退出，其他值表示错误</td>
+</tr>
+<tr>
+<td><code>$(command)</code></td>
+<td>返回<code>command</code>这条命令的stdout(<strong>可嵌套</strong>)</td>
+</tr>
+<tr>
+<td>`command`</td>
+<td>返回<code>command</code>这条命令的stdout(<strong>不可嵌套</strong>)</td>
+</tr>
+</tbody></table>
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
       </tags>
   </entry>
 </search>
