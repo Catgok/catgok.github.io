@@ -1,0 +1,20 @@
+<hr>
+<h2 id="title-leetcode2681-英雄的力量date-2023-08-01-21-47-52date-2023-07-31-18-14-53categories-刷题-刷题记录-tags-刷题"><a href="#title-leetcode2681-英雄的力量date-2023-08-01-21-47-52date-2023-07-31-18-14-53categories-刷题-刷题记录-tags-刷题" class="headerlink" title="title: leetcode2681.英雄的力量date: 2023-08-01 21:47:52date: 2023-07-31 18:14:53categories:- [刷题,刷题记录]tags:- [刷题]"></a>title: leetcode2681.英雄的力量<br>date: 2023-08-01 21:47:52<br>date: 2023-07-31 18:14:53<br>categories:<br>- [刷题,刷题记录]<br>tags:<br>- [刷题]</h2><p><a href="https://leetcode.cn/problems/power-of-heroes/">原题链接 2681.英雄的力量</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<pre><code class="go">func sumOfPower(nums []int) (ans int) {
+    const P int = 1e9 + 7
+    sort.Ints(nums)
+    pr := 0
+    for _, v := range nums {
+        res := v * pr % P * v
+        ans = (ans + res) % P
+        ans = (ans + v*v%P*v) % P
+        pr = (2*pr + v) % P
+    }
+    return ans
+}
+</code></pre>
+</details>
