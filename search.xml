@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一级目录</title>
-    <url>/%E4%B8%80%E7%BA%A7%E7%9B%AE%E5%BD%95.html</url>
-    <content><![CDATA[<h2 id="1-语言"><a href="#1-语言" class="headerlink" title="1. 语言"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80.html">语言</a></strong></h2><h2 id="2-计算机基础"><a href="#2-计算机基础" class="headerlink" title="2. 计算机基础"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html">计算机基础</a></strong></h2><h2 id="3-刷题记录"><a href="#3-刷题记录" class="headerlink" title="3. 刷题记录"></a>3. <strong><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html">刷题记录</a></strong></h2><span id="more"></span>
-<h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. <strong><a href="/%E5%85%B6%E4%BB%96.html">其他</a></strong></h2>]]></content>
-      <categories>
-        <category>一级目录</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>刷题记录</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html</url>
-    <content><![CDATA[<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16. 最接近的三数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911. 最大子序列交替和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544. 交替数字和</a><span id="more"></span><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931. 下降路径最小和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979. 在二叉树中分配硬币</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18. 四数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834. 树中距离之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415. 字符串相加</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">leetcode874. 模拟行走机器人</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">leetcode918. 环形子数组的最大和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1499. 满足不等式的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html">leetcode860. 柠檬水找零</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html">leetcode42. 接雨水</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html">leetcode771. 宝石与石头</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html">leetcode2208. 将数组和减半的最少操作次数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html">leetcode2569. 更新数组后处理求和查询</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html">leetcode946. 验证栈序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html">leetcode2790. 长度递增组的最大数目</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html">leetcode2791. 树中可以形成回文的路径数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode2500. 删除每行中的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html">leetcode2050. 并行课程III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html">leetcode1851. 包含每个查询的最小区间</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html">leetcode141. 环形链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html">leetcode142. 环形链表II</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html">leetcode143. 重排链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html">leetcode2681. 英雄的力量</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html">leetcode822. 翻转卡片游戏</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html">leetcode980. 不同路径III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode21. 合并两个有序链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html">leetcode6951. 找出最安全路径</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html">leetcode6932. 子序列最大优雅度</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">leetcode24. 两两交换链表中的节点</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html">leetcode334. 递增的三元子序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856A-Tales-of-a-Sort.html">codeforces1856A. Tales of a Sort</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html">codeforces1856B. Good Arrays</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856C-To-Become-Max.html">codeforces185C. To Become Max</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856E1-PermuTree-easy-version.html">codeforces1856E1. PermuTree (easy version)</a></p>
-]]></content>
-      <categories>
-        <category>刷题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>其他</title>
     <url>/%E5%85%B6%E4%BB%96.html</url>
     <content><![CDATA[<p><a href="/%E5%85%B6%E4%BB%96/%E6%A8%A1%E6%9D%BF.html">模板</a></p>
@@ -34,15 +13,24 @@
       </tags>
   </entry>
   <entry>
-    <title>计算机基础</title>
-    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html</url>
-    <content><![CDATA[<h2 id="1-计算机网络"><a href="#1-计算机网络" class="headerlink" title="1. 计算机网络"></a>1. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="2-计算机网络"><a href="#2-计算机网络" class="headerlink" title="2. 计算机网络"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="3-计算机网络"><a href="#3-计算机网络" class="headerlink" title="3. 计算机网络"></a>3. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><span id="more"></span>
-<h2 id="4-计算机网络"><a href="#4-计算机网络" class="headerlink" title="4. 计算机网络"></a>4. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2>]]></content>
+    <title>一级目录</title>
+    <url>/%E4%B8%80%E7%BA%A7%E7%9B%AE%E5%BD%95.html</url>
+    <content><![CDATA[<h2 id="1-语言"><a href="#1-语言" class="headerlink" title="1. 语言"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80.html">语言</a></strong></h2><h2 id="2-计算机基础"><a href="#2-计算机基础" class="headerlink" title="2. 计算机基础"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html">计算机基础</a></strong></h2><h2 id="3-刷题记录"><a href="#3-刷题记录" class="headerlink" title="3. 刷题记录"></a>3. <strong><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html">刷题记录</a></strong></h2><span id="more"></span>
+<h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. <strong><a href="/%E5%85%B6%E4%BB%96.html">其他</a></strong></h2>]]></content>
       <categories>
-        <category>计算机基础</category>
+        <category>一级目录</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>刷题记录</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html</url>
+    <content><![CDATA[<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16. 最接近的三数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911. 最大子序列交替和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544. 交替数字和</a><span id="more"></span><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931. 下降路径最小和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979. 在二叉树中分配硬币</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18. 四数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834. 树中距离之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415. 字符串相加</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">leetcode874. 模拟行走机器人</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">leetcode918. 环形子数组的最大和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1499. 满足不等式的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html">leetcode860. 柠檬水找零</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html">leetcode42. 接雨水</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html">leetcode771. 宝石与石头</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html">leetcode2208. 将数组和减半的最少操作次数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html">leetcode2569. 更新数组后处理求和查询</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html">leetcode946. 验证栈序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html">leetcode2790. 长度递增组的最大数目</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html">leetcode2791. 树中可以形成回文的路径数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode2500. 删除每行中的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html">leetcode2050. 并行课程III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html">leetcode1851. 包含每个查询的最小区间</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html">leetcode141. 环形链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html">leetcode142. 环形链表II</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html">leetcode143. 重排链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html">leetcode2681. 英雄的力量</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html">leetcode822. 翻转卡片游戏</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html">leetcode980. 不同路径III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode21. 合并两个有序链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html">leetcode6951. 找出最安全路径</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html">leetcode6932. 子序列最大优雅度</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">leetcode24. 两两交换链表中的节点</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html">leetcode334. 递增的三元子序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856A-Tales-of-a-Sort.html">codeforces1856A. Tales of a Sort</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html">codeforces1856B. Good Arrays</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856C-To-Become-Max.html">codeforces185C. To Become Max</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856E1-PermuTree-easy-version.html">codeforces1856E1. PermuTree (easy version)</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode344. 反转字符串</a></p>
+]]></content>
+      <categories>
+        <category>刷题</category>
       </categories>
       <tags>
-        <tag>计算机基础</tag>
+        <tag>刷题</tag>
       </tags>
   </entry>
   <entry>
@@ -53,6 +41,18 @@
       <categories>
         <category>语言</category>
       </categories>
+  </entry>
+  <entry>
+    <title>计算机基础</title>
+    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html</url>
+    <content><![CDATA[<h2 id="1-计算机网络"><a href="#1-计算机网络" class="headerlink" title="1. 计算机网络"></a>1. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="2-计算机网络"><a href="#2-计算机网络" class="headerlink" title="2. 计算机网络"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="3-计算机网络"><a href="#3-计算机网络" class="headerlink" title="3. 计算机网络"></a>3. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><span id="more"></span>
+<h2 id="4-计算机网络"><a href="#4-计算机网络" class="headerlink" title="4. 计算机网络"></a>4. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2>]]></content>
+      <categories>
+        <category>计算机基础</category>
+      </categories>
+      <tags>
+        <tag>计算机基础</tag>
+      </tags>
   </entry>
   <entry>
     <title>24秋招</title>
@@ -74,6 +74,19 @@
       </categories>
       <tags>
         <tag>其他</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>go</title>
+    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>语言</category>
+        <category>go</category>
+        <category>目录</category>
+      </categories>
+      <tags>
+        <tag>go</tag>
       </tags>
   </entry>
   <entry>
@@ -104,16 +117,17 @@
       </tags>
   </entry>
   <entry>
-    <title>go</title>
-    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
-    <content><![CDATA[]]></content>
+    <title>shell</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell.html</url>
+    <content><![CDATA[<h2 id="1-概论"><a href="#1-概论" class="headerlink" title="1. 概论"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html">概论</a></strong></h2><h2 id="2-注释"><a href="#2-注释" class="headerlink" title="2. 注释"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html">注释</a></strong></h2><h2 id="3-变量"><a href="#3-变量" class="headerlink" title="3. 变量"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html">变量</a></strong></h2><span id="more"></span>
+<h2 id="4-默认变量"><a href="#4-默认变量" class="headerlink" title="4. 默认变量"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html">默认变量</a></strong></h2><h2 id="5-数组"><a href="#5-数组" class="headerlink" title="5. 数组"></a>5. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html">数组</a></strong></h2><h2 id="6-expr命令"><a href="#6-expr命令" class="headerlink" title="6. expr命令"></a>6. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html">expr命令</a></strong></h2><h2 id="7-read命令"><a href="#7-read命令" class="headerlink" title="7. read命令"></a>7. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html">read命令</a></strong></h2><h2 id="8-echo命令"><a href="#8-echo命令" class="headerlink" title="8. echo命令"></a>8. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html">echo命令</a></strong></h2><h2 id="9-printf命令"><a href="#9-printf命令" class="headerlink" title="9. printf命令"></a>9. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html">printf命令</a></strong></h2><h2 id="10-test命令与判断符号"><a href="#10-test命令与判断符号" class="headerlink" title="10. test命令与判断符号"></a>10. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html">test命令与判断符号</a></strong></h2><h2 id="11-判断语句"><a href="#11-判断语句" class="headerlink" title="11. 判断语句"></a>11. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5.html">判断语句</a></strong></h2><h2 id="12-循环语句"><a href="#12-循环语句" class="headerlink" title="12. 循环语句"></a>12. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html">循环语句</a></strong></h2><h2 id="13-函数"><a href="#13-函数" class="headerlink" title="13. 函数"></a>13. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html">函数</a></strong></h2><h2 id="14-exit命令"><a href="#14-exit命令" class="headerlink" title="14. exit命令"></a>14. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/exit%E5%91%BD%E4%BB%A4.html">exit命令</a></strong></h2><h2 id="15-文件重定向"><a href="#15-文件重定向" class="headerlink" title="15. 文件重定向"></a>15. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html">文件重定向</a></strong></h2><h2 id="16-引入外部脚本"><a href="#16-引入外部脚本" class="headerlink" title="16. 引入外部脚本"></a>16. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html">引入外部脚本</a></strong></h2>]]></content>
       <categories>
         <category>语言</category>
-        <category>go</category>
+        <category>shell</category>
         <category>目录</category>
       </categories>
       <tags>
-        <tag>go</tag>
+        <tag>shell</tag>
       </tags>
   </entry>
   <entry>
@@ -130,20 +144,6 @@
       </tags>
   </entry>
   <entry>
-    <title>shell</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell.html</url>
-    <content><![CDATA[<h2 id="1-概论"><a href="#1-概论" class="headerlink" title="1. 概论"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html">概论</a></strong></h2><h2 id="2-注释"><a href="#2-注释" class="headerlink" title="2. 注释"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html">注释</a></strong></h2><h2 id="3-变量"><a href="#3-变量" class="headerlink" title="3. 变量"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%8F%98%E9%87%8F.html">变量</a></strong></h2><span id="more"></span>
-<h2 id="4-默认变量"><a href="#4-默认变量" class="headerlink" title="4. 默认变量"></a>4. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E9%BB%98%E8%AE%A4%E5%8F%98%E9%87%8F.html">默认变量</a></strong></h2><h2 id="5-数组"><a href="#5-数组" class="headerlink" title="5. 数组"></a>5. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html">数组</a></strong></h2><h2 id="6-expr命令"><a href="#6-expr命令" class="headerlink" title="6. expr命令"></a>6. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html">expr命令</a></strong></h2><h2 id="7-read命令"><a href="#7-read命令" class="headerlink" title="7. read命令"></a>7. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html">read命令</a></strong></h2><h2 id="8-echo命令"><a href="#8-echo命令" class="headerlink" title="8. echo命令"></a>8. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html">echo命令</a></strong></h2><h2 id="9-printf命令"><a href="#9-printf命令" class="headerlink" title="9. printf命令"></a>9. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html">printf命令</a></strong></h2><h2 id="10-test命令与判断符号"><a href="#10-test命令与判断符号" class="headerlink" title="10. test命令与判断符号"></a>10. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html">test命令与判断符号</a></strong></h2><h2 id="11-判断语句"><a href="#11-判断语句" class="headerlink" title="11. 判断语句"></a>11. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%88%A4%E6%96%AD%E8%AF%AD%E5%8F%A5.html">判断语句</a></strong></h2><h2 id="12-循环语句"><a href="#12-循环语句" class="headerlink" title="12. 循环语句"></a>12. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html">循环语句</a></strong></h2><h2 id="13-函数"><a href="#13-函数" class="headerlink" title="13. 函数"></a>13. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%87%BD%E6%95%B0.html">函数</a></strong></h2><h2 id="14-exit命令"><a href="#14-exit命令" class="headerlink" title="14. exit命令"></a>14. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/exit%E5%91%BD%E4%BB%A4.html">exit命令</a></strong></h2><h2 id="15-文件重定向"><a href="#15-文件重定向" class="headerlink" title="15. 文件重定向"></a>15. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E6%96%87%E4%BB%B6%E9%87%8D%E5%AE%9A%E5%90%91.html">文件重定向</a></strong></h2><h2 id="16-引入外部脚本"><a href="#16-引入外部脚本" class="headerlink" title="16. 引入外部脚本"></a>16. <strong><a href="/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html">引入外部脚本</a></strong></h2>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-        <category>目录</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>codeforces1856A.Tales of a Sort</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856A-Tales-of-a-Sort.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/A">原题链接 1856A. Tales of a Sort</a></p>
@@ -152,25 +152,6 @@
     <summary>展开答案</summary>
 
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], mi[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] &lt; a[i - <span class="number">1</span>]) &#123;</span><br><span class="line">            ans = <span class="built_in">max</span>(ans, a[i - <span class="number">1</span>]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>codeforces1856B.Good Arrays</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html</url>
-    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/B">原题链接 1856B. Good Arrays</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], mi[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> add = <span class="number">0</span>, sub = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == <span class="number">1</span>) &#123;</span><br><span class="line">            add++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sub += (a[i] - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; add &lt;&lt; &quot; &quot; &lt;&lt; sub &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">    <span class="keyword">if</span> (add &lt;= sub &amp;&amp; n != <span class="number">1</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -201,15 +182,16 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode141.环形链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/linked-list-cycle/">原题链接 141. 环形链表</a></p>
+    <title>codeforces1856B.Good Arrays</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html</url>
+    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/B">原题链接 1856B. Good Arrays</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">hasCycle</span><span class="params">(head *ListNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> head == <span class="literal">nil</span> || head.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">	&#125;</span><br><span class="line">	c1, c2 := head.Next, head.Next.Next</span><br><span class="line">	<span class="keyword">for</span> c1 != <span class="literal">nil</span> &amp;&amp; c2 != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> c1 == c2 &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125;</span><br><span class="line">		c1 = c1.Next</span><br><span class="line">		<span class="keyword">if</span> c2.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">		c2 = c2.Next.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], mi[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> add = <span class="number">0</span>, sub = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == <span class="number">1</span>) &#123;</span><br><span class="line">            add++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sub += (a[i] - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; add &lt;&lt; &quot; &quot; &lt;&lt; sub &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">    <span class="keyword">if</span> (add &lt;= sub &amp;&amp; n != <span class="number">1</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -230,6 +212,24 @@
 </details>
 
 ]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode141.环形链表</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/linked-list-cycle/">原题链接 141. 环形链表</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">hasCycle</span><span class="params">(head *ListNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> head == <span class="literal">nil</span> || head.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">	&#125;</span><br><span class="line">	c1, c2 := head.Next, head.Next.Next</span><br><span class="line">	<span class="keyword">for</span> c1 != <span class="literal">nil</span> &amp;&amp; c2 != <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> c1 == c2 &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125;</span><br><span class="line">		c1 = c1.Next</span><br><span class="line">		<span class="keyword">if</span> c2.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">		c2 = c2.Next.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -282,6 +282,25 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode143.重排链表</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/reorder-list">原题链接 143.重排链表</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reorderList</span><span class="params">(head *ListNode)</span></span> &#123;</span><br><span class="line">	a := <span class="built_in">make</span>([]*ListNode, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> head != <span class="literal">nil</span> &#123;</span><br><span class="line">		a = <span class="built_in">append</span>(a, head)</span><br><span class="line">		head = head.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(a)<span class="number">-1</span>; i &lt;= j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> i == j<span class="number">-1</span> &#123;</span><br><span class="line">			a[j].Next = <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> i == j &#123;</span><br><span class="line">			a[i].Next, a[j].Next = <span class="literal">nil</span>, <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		a[i].Next, a[j].Next = a[j], a[i+<span class="number">1</span>]</span><br><span class="line">	&#125;</span><br><span class="line">	head = a[<span class="number">0</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode16.最接近的三数之和</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
@@ -309,25 +328,6 @@
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">fourSum</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> (ans [][]<span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line"></span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cnt[nums[i]]++</span><br><span class="line">	&#125;</span><br><span class="line">	used := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">4</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">for</span> k := j + <span class="number">1</span>; k &lt; n; k++ &#123;</span><br><span class="line">				a, b, c := nums[i], nums[j], nums[k]</span><br><span class="line">				cnt[a]--</span><br><span class="line">				cnt[b]--</span><br><span class="line">				cnt[c]--</span><br><span class="line">				<span class="keyword">if</span> cnt[target-a-b-c] != <span class="number">0</span> &amp;&amp; target-a-b-c &gt;= c &#123;</span><br><span class="line">					tmp := [<span class="number">4</span>]<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;</span><br><span class="line">					<span class="keyword">if</span> used[tmp] == <span class="number">0</span> &#123;</span><br><span class="line">						ans = <span class="built_in">append</span>(ans, []<span class="type">int</span>&#123;a, b, c, target - a - b - c&#125;)</span><br><span class="line">						used[tmp] = <span class="number">1</span></span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">				cnt[a]++</span><br><span class="line">				cnt[b]++</span><br><span class="line">				cnt[c]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode143.重排链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/reorder-list">原题链接 143.重排链表</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reorderList</span><span class="params">(head *ListNode)</span></span> &#123;</span><br><span class="line">	a := <span class="built_in">make</span>([]*ListNode, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> head != <span class="literal">nil</span> &#123;</span><br><span class="line">		a = <span class="built_in">append</span>(a, head)</span><br><span class="line">		head = head.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(a)<span class="number">-1</span>; i &lt;= j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> i == j<span class="number">-1</span> &#123;</span><br><span class="line">			a[j].Next = <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> i == j &#123;</span><br><span class="line">			a[i].Next, a[j].Next = <span class="literal">nil</span>, <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		a[i].Next, a[j].Next = a[j], a[i+<span class="number">1</span>]</span><br><span class="line">	&#125;</span><br><span class="line">	head = a[<span class="number">0</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -392,6 +392,24 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode21.合并两个有序链表</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-two-sorted-lists/">原题链接 21.合并两个有序链表</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">mergeTwoLists</span><span class="params">(list1 *ListNode, list2 *ListNode)</span></span> *ListNode &#123;</span><br><span class="line">	<span class="keyword">if</span> list1 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list2 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list1.Val &lt; list2.Val &#123;</span><br><span class="line">		list1.Next = mergeTwoLists(list1.Next, list2)</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		list2.Next = mergeTwoLists(list2.Next, list1)</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode2208.将数组和减半的最少操作次数</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/">原题链接 2208. 将数组和减半的最少操作次数</a></p>
@@ -416,24 +434,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode21.合并两个有序链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-two-sorted-lists/">原题链接 21.合并两个有序链表</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">mergeTwoLists</span><span class="params">(list1 *ListNode, list2 *ListNode)</span></span> *ListNode &#123;</span><br><span class="line">	<span class="keyword">if</span> list1 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list2 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list1.Val &lt; list2.Val &#123;</span><br><span class="line">		list1.Next = mergeTwoLists(list1.Next, list2)</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		list2.Next = mergeTwoLists(list2.Next, list1)</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode24.两两交换链表中的节点</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/swap-nodes-in-pairs/">原题链接 24.两两交换链表中的节点</a></p>
@@ -443,25 +443,6 @@
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">swapPairs</span><span class="params">(head *ListNode)</span></span> *ListNode &#123;</span><br><span class="line">	<span class="keyword">if</span> head == <span class="literal">nil</span> || head.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> head</span><br><span class="line">	&#125;</span><br><span class="line">	head, head.Next, head.Next.Next = head.Next, swapPairs(head.Next.Next), head</span><br><span class="line">	<span class="keyword">return</span> head</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode2500.删除每行中的最大值</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/delete-greatest-value-in-each-row">原题链接 2500.删除每行中的最大值</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">deleteGreatestValue</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		sort.Ints(grid[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(grid[<span class="number">0</span>]) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		res := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> j := <span class="keyword">range</span> grid &#123;</span><br><span class="line">			res = max(res, grid[j][i])</span><br><span class="line">		&#125;</span><br><span class="line">		ans += res</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -526,14 +507,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2791.树中可以形成回文的路径数</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree">原题链接 2791. 树中可以形成回文的路径数</a></p>
+    <title>leetcode2500.删除每行中的最大值</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/delete-greatest-value-in-each-row">原题链接 2500.删除每行中的最大值</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPalindromePaths</span><span class="params">(parent []<span class="type">int</span>, s <span class="type">string</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(parent)</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		v := parent[i]</span><br><span class="line">		g[v] = <span class="built_in">append</span>(g[v], i)</span><br><span class="line">	&#125;</span><br><span class="line">	val := <span class="number">0</span></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		mp[val]++</span><br><span class="line">		<span class="comment">// fmt.Println(u,val)</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">			dfs(v, fa)</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(<span class="number">0</span>, <span class="number">-1</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		ans += <span class="type">int64</span>(v)*<span class="type">int64</span>(v) - <span class="type">int64</span>(v)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> k, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">26</span>; i++ &#123;</span><br><span class="line">			res := mp[k^(<span class="number">1</span>&lt;&lt;i)]</span><br><span class="line">			ans += <span class="type">int64</span>(res) * <span class="type">int64</span>(v)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">// fmt.Println(mp)</span></span><br><span class="line">	<span class="keyword">return</span> ans / <span class="number">2</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">deleteGreatestValue</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		sort.Ints(grid[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(grid[<span class="number">0</span>]) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		res := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> j := <span class="keyword">range</span> grid &#123;</span><br><span class="line">			res = max(res, grid[j][i])</span><br><span class="line">		&#125;</span><br><span class="line">		ans += res</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -563,6 +544,25 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode2791.树中可以形成回文的路径数</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree">原题链接 2791. 树中可以形成回文的路径数</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPalindromePaths</span><span class="params">(parent []<span class="type">int</span>, s <span class="type">string</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(parent)</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		v := parent[i]</span><br><span class="line">		g[v] = <span class="built_in">append</span>(g[v], i)</span><br><span class="line">	&#125;</span><br><span class="line">	val := <span class="number">0</span></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		mp[val]++</span><br><span class="line">		<span class="comment">// fmt.Println(u,val)</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">			dfs(v, fa)</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(<span class="number">0</span>, <span class="number">-1</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		ans += <span class="type">int64</span>(v)*<span class="type">int64</span>(v) - <span class="type">int64</span>(v)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> k, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">26</span>; i++ &#123;</span><br><span class="line">			res := mp[k^(<span class="number">1</span>&lt;&lt;i)]</span><br><span class="line">			ans += <span class="type">int64</span>(res) * <span class="type">int64</span>(v)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">// fmt.Println(mp)</span></span><br><span class="line">	<span class="keyword">return</span> ans / <span class="number">2</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode334.递增的三元子序列</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/increasing-triplet-subsequence/">原题链接 334.递增的三元子序列</a></p>
@@ -572,6 +572,25 @@
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">increasingTriplet</span><span class="params">(nums []<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	mi := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	ma := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	mi[<span class="number">0</span>] = nums[<span class="number">0</span>]</span><br><span class="line">	ma[n<span class="number">-1</span>] = nums[n<span class="number">-1</span>]</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		mi[i] = min(mi[i<span class="number">-1</span>], nums[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := n - <span class="number">2</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		ma[i] = max(ma[i+<span class="number">1</span>], nums[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n<span class="number">-1</span>; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> mi[i<span class="number">-1</span>] &lt; nums[i] &amp;&amp; nums[i] &lt; ma[i+<span class="number">1</span>] &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> x</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -min(-x, -y)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode344.反转字符串</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/reverse-string/">原题链接 344. 反转字符串</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reverseString</span><span class="params">(s []<span class="type">byte</span>)</span></span> &#123;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(s)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		s[i], s[j] = s[j], s[i]</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -654,6 +673,24 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode771.宝石与石头</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/jewels-and-stones/">原题链接 771. 宝石与石头</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">numJewelsInStones</span><span class="params">(jewels <span class="type">string</span>, stones <span class="type">string</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">rune</span>]<span class="type">int</span>, <span class="built_in">len</span>(jewels))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> jewels &#123;</span><br><span class="line">		mp[v] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> stones &#123;</span><br><span class="line">		ans += mp[v]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode822.翻转卡片游戏</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/card-flipping-game">原题链接 822.翻转卡片游戏</a></p>
@@ -692,24 +729,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode771.宝石与石头</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/jewels-and-stones/">原题链接 771. 宝石与石头</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">numJewelsInStones</span><span class="params">(jewels <span class="type">string</span>, stones <span class="type">string</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">rune</span>]<span class="type">int</span>, <span class="built_in">len</span>(jewels))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> jewels &#123;</span><br><span class="line">		mp[v] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> stones &#123;</span><br><span class="line">		ans += mp[v]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode860.柠檬水找零</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/lemonade-change">原题链接 860. 柠檬水找零</a></p>
@@ -720,24 +739,6 @@
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">lemonadeChange</span><span class="params">(bills []<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	r1, r2, r3 := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> bills &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">5</span> &#123;</span><br><span class="line">			r1++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">10</span> &#123;</span><br><span class="line">			r1--</span><br><span class="line">			r2++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">20</span> &#123;</span><br><span class="line">			<span class="keyword">if</span> r2 &gt; <span class="number">0</span> &#123;</span><br><span class="line">				r2--</span><br><span class="line">				r1--</span><br><span class="line">				r3++</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				r1 -= <span class="number">3</span></span><br><span class="line">				r3++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> r1 &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>刷题记录</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode874.模拟行走机器人</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/walking-robot-simulation/">原题链接 874. 模拟行走机器人</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">robotSim</span><span class="params">(commands []<span class="type">int</span>, obstacles [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	dx := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line">	dy := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(obstacles))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> obstacles &#123;</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;v[<span class="number">0</span>], v[<span class="number">1</span>]&#125;] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	cx, cy, d := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> commands &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-2</span> &#123;</span><br><span class="line">			d = (d + <span class="number">3</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">-1</span> &#123;</span><br><span class="line">			d = (d + <span class="number">1</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; v; i++ &#123;</span><br><span class="line">				nx, ny := cx+dx[d], cy+dy[d]</span><br><span class="line">				<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;nx, ny&#125;] == <span class="number">0</span> &#123;</span><br><span class="line">					cx, cy = nx, ny</span><br><span class="line">					ans = max(ans, nx*nx+ny*ny)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -766,6 +767,25 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode931.下降路径最小和</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-falling-path-sum/">原题链接 931. 下降路径最小和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minFallingPathSum</span><span class="params">(matrix [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(matrix)</span><br><span class="line">	dp := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[i] = <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			dp[i][j] = <span class="number">0x3f3f3f3f</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[<span class="number">0</span>][i] = <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">1</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> j != <span class="number">1</span> &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j<span class="number">-1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">			dp[i][j] = min(dp[i<span class="number">-1</span>][j]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			<span class="keyword">if</span> j != n &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j+<span class="number">1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans := <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		ans = min(ans, dp[n][i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>刷题记录</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode946.验证栈序列</title>
     <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/validate-stack-sequences">原题链接 946.验证栈序列</a></p>
@@ -784,16 +804,15 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode931.下降路径最小和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-falling-path-sum/">原题链接 931. 下降路径最小和</a></p>
+    <title>leetcode874.模拟行走机器人</title>
+    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/walking-robot-simulation/">原题链接 874. 模拟行走机器人</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minFallingPathSum</span><span class="params">(matrix [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(matrix)</span><br><span class="line">	dp := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[i] = <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			dp[i][j] = <span class="number">0x3f3f3f3f</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[<span class="number">0</span>][i] = <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">1</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> j != <span class="number">1</span> &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j<span class="number">-1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">			dp[i][j] = min(dp[i<span class="number">-1</span>][j]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			<span class="keyword">if</span> j != n &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j+<span class="number">1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans := <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		ans = min(ans, dp[n][i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">robotSim</span><span class="params">(commands []<span class="type">int</span>, obstacles [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	dx := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line">	dy := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(obstacles))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> obstacles &#123;</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;v[<span class="number">0</span>], v[<span class="number">1</span>]&#125;] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	cx, cy, d := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> commands &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-2</span> &#123;</span><br><span class="line">			d = (d + <span class="number">3</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">-1</span> &#123;</span><br><span class="line">			d = (d + <span class="number">1</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; v; i++ &#123;</span><br><span class="line">				nx, ny := cx+dx[d], cy+dy[d]</span><br><span class="line">				<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;nx, ny&#125;] == <span class="number">0</span> &#123;</span><br><span class="line">					cx, cy = nx, ny</span><br><span class="line">					ans = max(ans, nx*nx+ny*ny)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>刷题记录</category>
@@ -1355,6 +1374,36 @@
       </tags>
   </entry>
   <entry>
+    <title>引入外部脚本</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
+    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
+<span id="more"></span>
+<p>语法格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
+
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
+<p>然后创建test2.sh，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
+<p>执行命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>循环语句</title>
     <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html</url>
     <content><![CDATA[<h2 id="for…in…do…done"><a href="#for…in…do…done" class="headerlink" title="for…in…do…done"></a><strong>for…in…do…done</strong></h2><p>命令格式</p>
@@ -1412,21 +1461,29 @@
       </tags>
   </entry>
   <entry>
-    <title>引入外部脚本</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
-    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
+    <title>数组</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html</url>
+    <content><![CDATA[<p>数组中可以存放多个不同类型的值，只支持一维数组，初始化时不需要指明数组大小。数组<strong>下标从0开始</strong>。</p>
 <span id="more"></span>
-<p>语法格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
-<p>或</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
+<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a><strong>定义</strong></h2><p>数组用小括号表示，元素之间用空格隔开。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br></pre></td></tr></table></figure>
+<p>也可以直接定义数组中某个元素的值：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array[0]=1</span><br><span class="line">array[1]=abc</span><br><span class="line">array[2]=<span class="string">&quot;def&quot;</span></span><br><span class="line">array[3]=catgok</span><br></pre></td></tr></table></figure>
 
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
-<p>然后创建test2.sh，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
-<p>执行命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
+<h2 id="读取数组中某个元素的值"><a href="#读取数组中某个元素的值" class="headerlink" title="读取数组中某个元素的值"></a><strong>读取数组中某个元素的值</strong></h2><p>格式：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[index]&#125;</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[0]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[1]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[2]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[3]&#125;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="读取整个数组"><a href="#读取整个数组" class="headerlink" title="读取整个数组"></a><strong>读取整个数组</strong></h2><p>格式：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="数组长度"><a href="#数组长度" class="headerlink" title="数组长度"></a><strong>数组长度</strong></h2><p>类似于字符串</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
+<p>例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
@@ -1501,6 +1558,30 @@
       </tags>
   </entry>
   <entry>
+    <title>注释</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html</url>
+    <content><![CDATA[<h2 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a><strong>单行注释</strong></h2><p>每行中<code>#</code>之后的内容均是注释。 </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Hello World&#x27;</span>  <span class="comment">#`  这也是注释</span></span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+
+<h2 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a><strong>多行注释</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">EOF</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
+<p>其中<code>EOF</code>可以换成其它任意字符串。例如：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">abc</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">abc</span></span><br><span class="line"></span><br><span class="line">:&lt;&lt;<span class="string">x</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">x</span></span><br></pre></td></tr></table></figure>
+
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>概论</title>
     <url>/%E8%AF%AD%E8%A8%80/shell/%E6%A6%82%E8%AE%BA.html</url>
     <content><![CDATA[<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a><strong>简介</strong></h2><p>shell是我们通过命令行与操作系统沟通的语言。<br>shell脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用。 </p>
@@ -1516,68 +1597,6 @@
 <p>Linux系统中一般默认使用bash，所以接下来讲解bash中的语法。<br>文件开头需要写<code>#! /bin/bash</code>，指明bash为脚本解释器。  </p>
 <h2 id="运行方式"><a href="#运行方式" class="headerlink" title="运行方式"></a><strong>运行方式</strong></h2><h3 id="作为可执行文件"><a href="#作为可执行文件" class="headerlink" title="作为可执行文件"></a><strong>作为可执行文件</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ <span class="built_in">chmod</span> +x test.sh  <span class="comment"># 使脚本具有可执行权限</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test.sh  <span class="comment"># 当前路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ /home/catgok/test.sh  <span class="comment"># 绝对路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br><span class="line">catgok@9e0ebfcd82d7:~$ ~/test.sh  <span class="comment"># 家目录路径下执行</span></span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
 <h3 id="用解释器执行"><a href="#用解释器执行" class="headerlink" title="用解释器执行"></a><strong>用解释器执行</strong></h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ bash test.sh</span><br><span class="line">Hello World!  <span class="comment"># 脚本输出</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数组</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%95%B0%E7%BB%84.html</url>
-    <content><![CDATA[<p>数组中可以存放多个不同类型的值，只支持一维数组，初始化时不需要指明数组大小。数组<strong>下标从0开始</strong>。</p>
-<span id="more"></span>
-<h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a><strong>定义</strong></h2><p>数组用小括号表示，元素之间用空格隔开。例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br></pre></td></tr></table></figure>
-<p>也可以直接定义数组中某个元素的值：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array[0]=1</span><br><span class="line">array[1]=abc</span><br><span class="line">array[2]=<span class="string">&quot;def&quot;</span></span><br><span class="line">array[3]=catgok</span><br></pre></td></tr></table></figure>
-
-<h2 id="读取数组中某个元素的值"><a href="#读取数组中某个元素的值" class="headerlink" title="读取数组中某个元素的值"></a><strong>读取数组中某个元素的值</strong></h2><p>格式：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[index]&#125;</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[0]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[1]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[2]&#125;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[3]&#125;</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="读取整个数组"><a href="#读取整个数组" class="headerlink" title="读取整个数组"></a><strong>读取整个数组</strong></h2><p>格式：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="数组长度"><a href="#数组长度" class="headerlink" title="数组长度"></a><strong>数组长度</strong></h2><p>类似于字符串</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-<p>例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">array=(1 abc <span class="string">&quot;def&quot;</span> catgok)</span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[@]&#125;</span>  <span class="comment"># 第一种写法</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#array[*]&#125;</span>  <span class="comment"># 第二种写法</span></span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>注释</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E6%B3%A8%E9%87%8A.html</url>
-    <content><![CDATA[<h2 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a><strong>单行注释</strong></h2><p>每行中<code>#</code>之后的内容均是注释。 </p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 这是一行注释</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;Hello World&#x27;</span>  <span class="comment">#`  这也是注释</span></span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-
-<h2 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a><strong>多行注释</strong></h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">EOF</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">EOF</span></span><br></pre></td></tr></table></figure>
-<p>其中<code>EOF</code>可以换成其它任意字符串。例如：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">:&lt;&lt;<span class="string">abc</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">abc</span></span><br><span class="line"></span><br><span class="line">:&lt;&lt;<span class="string">x</span></span><br><span class="line"><span class="string">第一行注释</span></span><br><span class="line"><span class="string">第二行注释</span></span><br><span class="line"><span class="string">第三行注释</span></span><br><span class="line"><span class="string">x</span></span><br></pre></td></tr></table></figure>
 
 <hr>
 <center>
