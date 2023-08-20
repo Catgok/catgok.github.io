@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">75</span>
+          <span class="site-state-item-count">92</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html" class="post-title-link" itemprop="url">expr命令</a>
+          <a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html" class="post-title-link" itemprop="url">leetcode979.在二叉树中分配硬币</a>
         </h2>
 
         <div class="post-meta-container">
@@ -221,15 +221,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-07-09 21:12:54" itemprop="dateCreated datePublished" datetime="2023-07-09T21:12:54+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-11 15:12:31" itemprop="dateModified" datetime="2023-07-11T15:12:31+08:00">2023-07-11</time>
+      <time title="创建时间：2023-07-14 15:23:34 / 修改时间：21:33:05" itemprop="dateCreated datePublished" datetime="2023-07-14T15:23:34+08:00">2023-07-14</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -237,11 +231,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">语言</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">刷题记录</span></a>
         </span>
     </span>
 
@@ -252,14 +246,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>773</span>
+      <span>114</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
@@ -270,10 +264,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><code>expr</code>命令用于求表达式的值</p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">distributeCoins</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	resl := distributeCoins(l)</span><br><span class="line">	resr := distributeCoins(r)</span><br><span class="line">	sum, cnt := get(root)</span><br><span class="line">	<span class="keyword">return</span> resl + resr + abs(sum-cnt)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">get</span><span class="params">(root *TreeNode)</span></span> (sum, cnt <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	suml, cntl := get(l)</span><br><span class="line">	sumr, cntr := get(r)</span><br><span class="line">	sum = root.Val + suml + sumr</span><br><span class="line">	cnt = <span class="number">1</span> + cntl + cntr</span><br><span class="line">	<span class="keyword">return</span> sum, cnt</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E8%AF%AD%E8%A8%80/shell/expr%E5%91%BD%E4%BB%A4.html#more" rel="contents">
+              <a class="btn" href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -304,7 +304,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -322,7 +322,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html" class="post-title-link" itemprop="url">read命令</a>
+          <a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode931.下降路径最小和</a>
         </h2>
 
         <div class="post-meta-container">
@@ -332,15 +332,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-07-09 21:12:50" itemprop="dateCreated datePublished" datetime="2023-07-09T21:12:50+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-11 15:12:36" itemprop="dateModified" datetime="2023-07-11T15:12:36+08:00">2023-07-11</time>
+      <time title="创建时间：2023-07-13 11:41:01 / 修改时间：11:44:19" itemprop="dateCreated datePublished" datetime="2023-07-13T11:41:01+08:00">2023-07-13</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -348,11 +342,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">语言</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">刷题记录</span></a>
         </span>
     </span>
 
@@ -381,10 +375,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><code>read</code>命令用于从标准输入中读取单行数据。当读到文件结束符时，<code>exit code</code>为1，否则为0。</p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-falling-path-sum/">原题链接 931. 下降路径最小和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minFallingPathSum</span><span class="params">(matrix [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(matrix)</span><br><span class="line">	dp := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[i] = <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			dp[i][j] = <span class="number">0x3f3f3f3f</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp[<span class="number">0</span>][i] = <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">1</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> j != <span class="number">1</span> &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j<span class="number">-1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">			dp[i][j] = min(dp[i<span class="number">-1</span>][j]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			<span class="keyword">if</span> j != n &#123;</span><br><span class="line">				dp[i][j] = min(dp[i<span class="number">-1</span>][j+<span class="number">1</span>]+matrix[i<span class="number">-1</span>][j<span class="number">-1</span>], dp[i][j])</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans := <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		ans = min(ans, dp[n][i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E8%AF%AD%E8%A8%80/shell/read%E5%91%BD%E4%BB%A4.html#more" rel="contents">
+              <a class="btn" href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -415,7 +416,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -433,7 +434,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html" class="post-title-link" itemprop="url">echo命令</a>
+          <a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode2544.交替数字和</a>
         </h2>
 
         <div class="post-meta-container">
@@ -443,15 +444,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-07-09 21:12:46" itemprop="dateCreated datePublished" datetime="2023-07-09T21:12:46+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-11 14:42:03" itemprop="dateModified" datetime="2023-07-11T14:42:03+08:00">2023-07-11</time>
+      <time title="创建时间：2023-07-12 17:05:37 / 修改时间：17:06:50" itemprop="dateCreated datePublished" datetime="2023-07-12T17:05:37+08:00">2023-07-12</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -459,11 +454,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">语言</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">刷题记录</span></a>
         </span>
     </span>
 
@@ -474,7 +469,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>236</span>
+      <span>42</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -492,10 +487,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><code>echo</code>用于输出字符串。</p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/alternating-digit-sum">原题链接 2544. 交替数字和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">alternateDigitSum</span><span class="params">(n <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	ans, f := <span class="number">0</span>, <span class="number">1</span></span><br><span class="line">	<span class="keyword">for</span> n != <span class="number">0</span> &#123;</span><br><span class="line">		ans += f * (n % <span class="number">10</span>)</span><br><span class="line">		f *= <span class="number">-1</span></span><br><span class="line">		n /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -f * ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E8%AF%AD%E8%A8%80/shell/echo%E5%91%BD%E4%BB%A4.html#more" rel="contents">
+              <a class="btn" href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -526,7 +527,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -544,7 +545,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html" class="post-title-link" itemprop="url">printf命令</a>
+          <a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode1911.最大子序列交替和</a>
         </h2>
 
         <div class="post-meta-container">
@@ -554,15 +555,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-07-09 21:12:41" itemprop="dateCreated datePublished" datetime="2023-07-09T21:12:41+08:00">2023-07-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-11 15:12:34" itemprop="dateModified" datetime="2023-07-11T15:12:34+08:00">2023-07-11</time>
+      <time title="创建时间：2023-07-11 18:35:47 / 修改时间：22:16:29" itemprop="dateCreated datePublished" datetime="2023-07-11T18:35:47+08:00">2023-07-11</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -570,11 +565,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">语言</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">刷题记录</span></a>
         </span>
     </span>
 
@@ -585,7 +580,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>130</span>
+      <span>80</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -603,10 +598,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><code>printf</code>命令用于格式化输出，类似于<code>C/C++</code>中的<code>printf</code>函数。</p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-alternating-subsequence-sum/">原题链接 1911. 最大子序列交替和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxAlternatingSum</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	maxx := <span class="type">int</span>(<span class="number">1e9</span> + <span class="number">7</span>)</span><br><span class="line">	ans = <span class="number">0</span></span><br><span class="line">	cur, nex := nums[<span class="number">0</span>], maxx</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(nums); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> nex == maxx &amp;&amp; cur &lt; nums[i] &#123;</span><br><span class="line">			cur = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> nex &gt; nums[i] &#123;</span><br><span class="line">			nex = nums[i]</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			ans += <span class="type">int64</span>(cur - nex)</span><br><span class="line">			<span class="comment">// fmt.Println(cur,nex)</span></span><br><span class="line">			cur, nex = nums[i], maxx</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans + <span class="type">int64</span>(cur)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E8%AF%AD%E8%A8%80/shell/printf%E5%91%BD%E4%BB%A4.html#more" rel="contents">
+              <a class="btn" href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -637,7 +638,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -655,7 +656,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html" class="post-title-link" itemprop="url">test命令与判断符号</a>
+          <a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode16.最接近的三数之和</a>
         </h2>
 
         <div class="post-meta-container">
@@ -666,14 +667,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-09 21:12:37" itemprop="dateCreated datePublished" datetime="2023-07-09T21:12:37+08:00">2023-07-09</time>
+      <time title="创建时间：2023-07-10 19:25:15" itemprop="dateCreated datePublished" datetime="2023-07-10T19:25:15+08:00">2023-07-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-07-11 15:13:05" itemprop="dateModified" datetime="2023-07-11T15:13:05+08:00">2023-07-11</time>
+      <time title="修改时间：2023-08-06 19:52:39" itemprop="dateModified" datetime="2023-08-06T19:52:39+08:00">2023-08-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -681,11 +682,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">语言</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%AF%AD%E8%A8%80/shell/" itemprop="url" rel="index"><span itemprop="name">shell</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/" itemprop="url" rel="index"><span itemprop="name">刷题记录</span></a>
         </span>
     </span>
 
@@ -696,14 +697,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>732</span>
+      <span>154</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
@@ -714,17 +715,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="逻辑运算符-amp-amp-和"><a href="#逻辑运算符-amp-amp-和" class="headerlink" title="逻辑运算符&amp;&amp;和||"></a><strong>逻辑运算符&amp;&amp;和||</strong></h2><ul>
-<li><code>&amp;&amp;</code> 表示与，<code>||</code> 表示或</li>
-<li>二者具有短路原则：<ul>
-<li><code>expr1 &amp;&amp; expr2</code>：当expr1为假时，直接忽略expr2</li>
-<li><code>expr1 || expr2</code>：当expr1为真时，直接忽略expr2</li>
-</ul>
-</li>
-<li>表达式的<code>exit code</code>为0，表示真；为非零，表示假。（与C&#x2F;C++中的定义<strong>相反</strong>）
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">threeSumClosest</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">var</span> ans, minn <span class="type">int</span> = <span class="number">1e9</span>, <span class="number">1e9</span></span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">2</span>; j &lt; n; j++ &#123;</span><br><span class="line">			l, r := i+<span class="number">1</span>, j<span class="number">-1</span></span><br><span class="line">			<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">				m1 := (<span class="number">2</span>*l + r) / <span class="number">3</span></span><br><span class="line">				m2 := (l + <span class="number">2</span>*r + <span class="number">2</span>) / <span class="number">3</span> <span class="comment">// 上取整</span></span><br><span class="line">				res1 := abs(target - nums[i] - nums[j] - nums[m1])</span><br><span class="line">				res2 := abs(target - nums[i] - nums[j] - nums[m2])</span><br><span class="line">				<span class="keyword">if</span> res1 &lt; res2 &#123;</span><br><span class="line">					r = m2 - <span class="number">1</span></span><br><span class="line">				&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">					l = m1 + <span class="number">1</span></span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			res := abs(target - nums[i] - nums[j] - nums[r])</span><br><span class="line">			<span class="keyword">if</span> res &lt; minn &#123;</span><br><span class="line">				minn = res</span><br><span class="line">				ans = nums[i] + nums[j] + nums[r]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> -x</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E8%AF%AD%E8%A8%80/shell/test%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%88%A4%E6%96%AD%E7%AC%A6%E5%8F%B7.html#more" rel="contents">
+              <a class="btn" href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -748,7 +748,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/13/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/15/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/13/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/15/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -771,13 +771,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">15k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">45 分钟</span>
+    <span title="站点阅读时长">54 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
