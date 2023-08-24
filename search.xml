@@ -3,7 +3,7 @@
   <entry>
     <title>一级目录</title>
     <url>/%E4%B8%80%E7%BA%A7%E7%9B%AE%E5%BD%95.html</url>
-    <content><![CDATA[<h2 id="1-语言"><a href="#1-语言" class="headerlink" title="1. 语言"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80.html">语言</a></strong></h2><h2 id="2-计算机基础"><a href="#2-计算机基础" class="headerlink" title="2. 计算机基础"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html">计算机基础</a></strong></h2><h2 id="3-刷题记录"><a href="#3-刷题记录" class="headerlink" title="3. 刷题记录"></a>3. <strong><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html">刷题记录</a></strong></h2><span id="more"></span>
+    <content><![CDATA[<h2 id="1-语言"><a href="#1-语言" class="headerlink" title="1. 语言"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80.html">语言</a></strong></h2><h2 id="2-计算机基础"><a href="#2-计算机基础" class="headerlink" title="2. 计算机基础"></a>2. <strong><a href="/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80.html">计算机基础</a></strong></h2><h2 id="3-每日一题"><a href="#3-每日一题" class="headerlink" title="3. 每日一题"></a>3. <strong><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98.html">每日一题</a></strong></h2><span id="more"></span>
 <h2 id="4-其他"><a href="#4-其他" class="headerlink" title="4. 其他"></a>4. <strong><a href="/%E5%85%B6%E4%BB%96.html">其他</a></strong></h2>]]></content>
       <categories>
         <category>一级目录</category>
@@ -37,8 +37,65 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode1267.统计参与通信的服务器</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-servers-that-communicate/">原题链接 1267. 统计参与通信的服务器</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countServers</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	cntr, cntc := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">				cntr[i]++</span><br><span class="line">				cntc[j]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; (cntr[i] &gt;= <span class="number">2</span> || cntc[j] &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode1782.统计点对的数目</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-pairs-of-nodes/">原题链接 1782. 统计点对的数目</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPairs</span><span class="params">(n <span class="type">int</span>, edges [][]<span class="type">int</span>, queries []<span class="type">int</span>)</span></span> (ans []<span class="type">int</span>) &#123;</span><br><span class="line">	siz := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(edges))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> edges &#123;</span><br><span class="line">		x, y := v[<span class="number">0</span>], v[<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			x, y = y, x</span><br><span class="line">		&#125;</span><br><span class="line">		siz[x]++</span><br><span class="line">		siz[y]++</span><br><span class="line">		cnt[[<span class="number">2</span>]<span class="type">int</span>&#123;x, y&#125;]++</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	sizc := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="built_in">copy</span>(sizc, siz)</span><br><span class="line">	sort.Ints(sizc)</span><br><span class="line">	sizc = <span class="built_in">append</span>(sizc, <span class="number">0x3f3f3f3f</span>)</span><br><span class="line">	<span class="comment">// fmt.Println(siz)</span></span><br><span class="line">	<span class="keyword">for</span> _, q := <span class="keyword">range</span> queries &#123;</span><br><span class="line">		tmp := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> i, j := <span class="number">1</span>, n+<span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">			<span class="keyword">for</span> j &gt;= <span class="number">1</span> &amp;&amp; sizc[i]+sizc[j] &gt; q &#123;</span><br><span class="line">				j--</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span> j+<span class="number">1</span> &gt; i &#123;</span><br><span class="line">				tmp += n - j</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				tmp += n - i</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> k, v := <span class="keyword">range</span> cnt &#123;</span><br><span class="line">			x, y := k[<span class="number">0</span>], k[<span class="number">1</span>]</span><br><span class="line">			<span class="keyword">if</span> siz[x]+siz[y] &gt; q &amp;&amp; siz[x]+siz[y]-v &lt;= q &#123;</span><br><span class="line">				tmp--</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		ans = <span class="built_in">append</span>(ans, tmp)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode849.到最近的人的最大距离</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximize-distance-to-closest-person/">原题链接 849. 到最近的人的最大距离</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxDistToClosest</span><span class="params">(seats []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(seats)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">1</span>)</span><br><span class="line">	a[<span class="number">0</span>] = <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> seats &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">			a = <span class="built_in">append</span>(a, i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = max(a[<span class="number">1</span>], n<span class="number">-1</span>-a[<span class="built_in">len</span>(a)<span class="number">-1</span>])</span><br><span class="line">	a = <span class="built_in">append</span>(a, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(a); i++ &#123;</span><br><span class="line">		res := (a[i] - a[i<span class="number">-1</span>]) / <span class="number">2</span></span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode2337-移动片段得到字符串</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/move-pieces-to-obtain-a-string/">原题链接 2337. 移动片段得到字符串</a></p>
 <hr>
 <details> 
@@ -49,7 +106,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -57,7 +114,7 @@
   </entry>
   <entry>
     <title>leetcode6467-找出最长等值子数组</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-the-longest-equal-subarray/">原题链接 6467. 找出最长等值子数组</a></p>
 <hr>
 <details> 
@@ -67,7 +124,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -75,7 +132,7 @@
   </entry>
   <entry>
     <title>leetcode7006-销售利润最大化</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode7006-%E9%94%80%E5%94%AE%E5%88%A9%E6%B6%A6%E6%9C%80%E5%A4%A7%E5%8C%96.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode7006-%E9%94%80%E5%94%AE%E5%88%A9%E6%B6%A6%E6%9C%80%E5%A4%A7%E5%8C%96.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximize-the-profit-as-the-salesman/">原题链接 7006. 销售利润最大化</a></p>
 <hr>
 <details> 
@@ -85,7 +142,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -93,7 +150,7 @@
   </entry>
   <entry>
     <title>leetcode6450-k-avoiding数组的最小总和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6450-k-avoiding%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%80%BB%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6450-k-avoiding%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%80%BB%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/determine-the-minimum-sum-of-a-k-avoiding-array/">原题链接 6450. k-avoiding 数组的最小总和</a></p>
 <hr>
 <details> 
@@ -103,7 +160,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -111,7 +168,7 @@
   </entry>
   <entry>
     <title>leetcode7004-判别首字母缩略词</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/">原题链接 7004. 判别首字母缩略词</a></p>
 <hr>
 <details> 
@@ -121,7 +178,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -129,7 +186,7 @@
   </entry>
   <entry>
     <title>leetcode2236-判断根结点是否等于子结点之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/root-equals-sum-of-children/">原题链接 2236. 判断根结点是否等于子结点之和</a></p>
 <hr>
 <details> 
@@ -139,7 +196,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -147,7 +204,7 @@
   </entry>
   <entry>
     <title>leetcode6941-将三个组排序</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/sorting-three-groups/">原题链接 6941. 将三个组排序</a></p>
 <hr>
 <details> 
@@ -157,7 +214,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -165,7 +222,7 @@
   </entry>
   <entry>
     <title>leetcode8014-循环增长使字符串子序列等于另一个字符串</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/make-string-a-subsequence-using-cyclic-increments/">原题链接 8014. 循环增长使字符串子序列等于另一个字符串</a></p>
 <hr>
 <details> 
@@ -176,7 +233,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -184,7 +241,7 @@
   </entry>
   <entry>
     <title>leetcode6954-统计和小于目标的下标对数目</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/">原题链接 6954. 统计和小于目标的下标对数目</a></p>
 <hr>
 <details> 
@@ -194,7 +251,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -202,7 +259,7 @@
   </entry>
   <entry>
     <title>leetcode2235-两整数相加</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-two-integers/">原题链接 2235. 两整数相加</a></p>
 <hr>
 <details> 
@@ -212,7 +269,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -220,18 +277,18 @@
   </entry>
   <entry>
     <title>abc315G-Ai+Bj+Ck=X-1&lt;=i-j-k&lt;=N</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html</url>
     <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_g">原题链接 abc315 G - Ai + Bj + Ck &#x3D; X (1 &lt;&#x3D; i, j, k &lt;&#x3D; N)</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> i128 __int128</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> n, a, b, c, x, ans;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">exgcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, i128 &amp;x, i128 &amp;y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (!b) &#123;</span><br><span class="line">		x = <span class="number">1</span>, y = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">return</span> a;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="type">int</span> t = <span class="built_in">exgcd</span>(b, a % b, y, x);</span><br><span class="line">	y -= a / b * x;</span><br><span class="line">	<span class="keyword">return</span> t;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">i128 <span class="title">ceil</span><span class="params">(i128 x, i128 y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (x &gt;= <span class="number">0</span>) <span class="keyword">return</span> (x + y - <span class="number">1</span>) / y;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> x / y;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">i128 <span class="title">floor</span><span class="params">(i128 x, i128 y)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (x &gt;= <span class="number">0</span>) <span class="keyword">return</span> x / y;</span><br><span class="line">	<span class="keyword">else</span> <span class="built_in">return</span> (x - y + <span class="number">1</span>) / y;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b, <span class="type">int</span> c)</span> </span>&#123;</span><br><span class="line">	i128 x, y;</span><br><span class="line">	<span class="keyword">if</span> (c &lt;= <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	<span class="type">int</span> t = <span class="built_in">exgcd</span>(a, b, x, y);</span><br><span class="line">	<span class="keyword">if</span> (c % t) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">	x = x * c / t;</span><br><span class="line">	y = y * c / t;</span><br><span class="line"></span><br><span class="line">	i128 l = <span class="built_in">max</span>(<span class="built_in">ceil</span>((<span class="number">1</span> - x), (b / t)), <span class="built_in">ceil</span>((y - n), (a / t)));</span><br><span class="line">	i128 r = <span class="built_in">min</span>(<span class="built_in">floor</span>((n - x), (b / t)), <span class="built_in">floor</span>((y - <span class="number">1</span>), (a / t)));</span><br><span class="line">	<span class="keyword">return</span> <span class="built_in">max</span>((i128)<span class="number">0</span>, r - l + <span class="number">1</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	cin &gt;&gt; n &gt;&gt; a &gt;&gt; b &gt;&gt; c &gt;&gt; x;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) ans += <span class="built_in">f</span>(a, b, x - c * i);</span><br><span class="line">	cout &lt;&lt; ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;bufio&quot;</span></span><br><span class="line">	<span class="string">&quot;fmt&quot;</span></span><br><span class="line">	<span class="string">&quot;os&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> in = bufio.NewReader(os.Stdin)</span><br><span class="line"><span class="keyword">var</span> n, a, b, c, x <span class="type">int</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &gt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	ceil := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a + b - <span class="number">1</span>) / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	floor := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a - b + <span class="number">1</span>) / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> exgcd <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>)</span><br><span class="line">	exgcd = <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>) &#123;</span><br><span class="line">		<span class="keyword">if</span> b == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a, <span class="number">1</span>, <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		d, y, x = exgcd(b, a%b)</span><br><span class="line">		<span class="keyword">return</span> d, x, y - a/b*x</span><br><span class="line">	&#125;</span><br><span class="line">	cnt := <span class="function"><span class="keyword">func</span><span class="params">(a, b, c <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		d, x, y := exgcd(a, b)</span><br><span class="line">		<span class="keyword">if</span> c%d != <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		x = (c / d) % (b / d) * x % (b / d)</span><br><span class="line">		y = (c - a*x) / b</span><br><span class="line">		l := max(ceil(<span class="number">1</span>-x, b/d), ceil(y-n, a/d))</span><br><span class="line">		r := min(floor(n-x, b/d), floor(y<span class="number">-1</span>, a/d))</span><br><span class="line">		<span class="keyword">return</span> max(<span class="number">0</span>, r-l+<span class="number">1</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	fmt.Fscan(in, &amp;n, &amp;a, &amp;b, &amp;c, &amp;x)</span><br><span class="line">	ans := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n &amp;&amp; x-i*c &gt; <span class="number">0</span>; i++ &#123;</span><br><span class="line">		ans += cnt(a, b, x-i*c)</span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Println(ans)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -239,7 +296,7 @@
   </entry>
   <entry>
     <title>abc315F-Shortcuts</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315F-Shortcuts.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315F-Shortcuts.html</url>
     <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_f">原题链接 abc315 F - Shortcuts</a></p>
 <hr>
 <details>
@@ -249,7 +306,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -257,7 +314,7 @@
   </entry>
   <entry>
     <title>abc315E-Prerequisites</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315E-Prerequisites.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315E-Prerequisites.html</url>
     <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_e">原题链接 abc315 E - Prerequisites</a></p>
 <hr>
 <details>
@@ -267,7 +324,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -275,7 +332,7 @@
   </entry>
   <entry>
     <title>abc315C-Flavors</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315C-Flavors.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315C-Flavors.html</url>
     <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_c">原题链接 abc315 C - Flavors</a></p>
 <hr>
 <details>
@@ -286,7 +343,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -294,8 +351,8 @@
   </entry>
   <entry>
     <title>leetcode1388.3n块披萨</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1388-3n%E5%9D%97%E6%8A%AB%E8%90%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/pizza-with-3n-slices/description/">原题链接 1388. 3n 块披萨</a></p>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1388-3n%E5%9D%97%E6%8A%AB%E8%90%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/pizza-with-3n-slices/">原题链接 1388. 3n 块披萨</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
@@ -304,7 +361,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -312,10 +369,10 @@
   </entry>
   <entry>
     <title>2023CCPC华为云挑战赛-1004塔</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94.html</url>
-    <content><![CDATA[<img data-src="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94/2023-08-19-19-52-58.png" class="" title="描述">
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94.html</url>
+    <content><![CDATA[<img data-src="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94/2023-08-19-19-52-58.png" class="" title="描述">
 
-<img data-src="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94/2023-08-19-19-55-09.png" class="" title="样例">
+<img data-src="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94/2023-08-19-19-55-09.png" class="" title="样例">
 
 <hr>
 <details>
@@ -325,7 +382,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -333,7 +390,7 @@
   </entry>
   <entry>
     <title>leetcode1444.切披萨的方案数</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/number-of-ways-of-cutting-a-pizza/">原题链接 1444. 切披萨的方案数</a></p>
 <hr>
 <details>
@@ -344,7 +401,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -352,7 +409,7 @@
   </entry>
   <entry>
     <title>leetcode2682.找出转圈游戏输家</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2682-%E6%89%BE%E5%87%BA%E8%BD%AC%E5%9C%88%E6%B8%B8%E6%88%8F%E8%BE%93%E5%AE%B6.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2682-%E6%89%BE%E5%87%BA%E8%BD%AC%E5%9C%88%E6%B8%B8%E6%88%8F%E8%BE%93%E5%AE%B6.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-the-losers-of-the-circular-game/">原题链接 2682. 找出转圈游戏输家</a></p>
 <hr>
 <details>
@@ -362,7 +419,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -370,7 +427,7 @@
   </entry>
   <entry>
     <title>leetcode833.字符串中的查找与替换</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-and-replace-in-string/">原题链接 833. 字符串中的查找与替换</a></p>
 <hr>
 <details>
@@ -380,7 +437,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -388,7 +445,7 @@
   </entry>
   <entry>
     <title>leetcode617.合并二叉树</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode617-%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode617-%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-sorted-array/">原题链接 88. 合并两个有序数组</a></p>
 <hr>
 <details>
@@ -398,7 +455,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -406,7 +463,7 @@
   </entry>
   <entry>
     <title>leetcode2817.限制条件下元素之间的最小绝对差</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2817-%E9%99%90%E5%88%B6%E6%9D%A1%E4%BB%B6%E4%B8%8B%E5%85%83%E7%B4%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2817-%E9%99%90%E5%88%B6%E6%9D%A1%E4%BB%B6%E4%B8%8B%E5%85%83%E7%B4%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-absolute-difference-between-elements-with-constraint/">原题链接 2817. 限制条件下元素之间的最小绝对差</a></p>
 <hr>
 <details>
@@ -418,7 +475,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -426,7 +483,7 @@
   </entry>
   <entry>
     <title>leetcode2818.操作使得分最大</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2818-%E6%93%8D%E4%BD%9C%E4%BD%BF%E5%BE%97%E5%88%86%E6%9C%80%E5%A4%A7.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2818-%E6%93%8D%E4%BD%9C%E4%BD%BF%E5%BE%97%E5%88%86%E6%9C%80%E5%A4%A7.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/apply-operations-to-maximize-score/">原题链接 2818. 操作使得分最大</a></p>
 <hr>
 <details>
@@ -436,7 +493,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -444,7 +501,7 @@
   </entry>
   <entry>
     <title>leetcode88.合并两个有序数组</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-sorted-array/">原题链接 88. 合并两个有序数组</a></p>
 <hr>
 <details>
@@ -454,7 +511,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -462,7 +519,7 @@
   </entry>
   <entry>
     <title>leetcode23.合并K个升序链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode23-%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode23-%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-k-sorted-lists">原题链接 23. 合并 K 个升序链表</a></p>
 <hr>
 <details>
@@ -472,7 +529,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -480,7 +537,7 @@
   </entry>
   <entry>
     <title>leetcode1572.矩阵对角线元素的和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1572-%E7%9F%A9%E9%98%B5%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E7%9A%84%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1572-%E7%9F%A9%E9%98%B5%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E7%9A%84%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/matrix-diagonal-sum/">原题链接 1572. 矩阵对角线元素的和</a></p>
 <hr>
 <details>
@@ -489,7 +546,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -497,7 +554,7 @@
   </entry>
   <entry>
     <title>leetcode1289.下降路径最小和II</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1289-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1289-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-falling-path-sum-ii/">原题链接 1289. 下降路径最小和 II</a></p>
 <hr>
 <details>
@@ -507,7 +564,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -515,7 +572,7 @@
   </entry>
   <entry>
     <title>leetcode1281.整数的各位积和之差</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1281-%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1281-%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/subtract-the-product-and-sum-of-digits-of-an-integer">原题链接 1281. 整数的各位积和之差</a></p>
 <hr>
 <details>
@@ -526,7 +583,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -534,7 +591,7 @@
   </entry>
   <entry>
     <title>leetcode1749.任意子数组和的绝对值的最大值</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1749-%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1749-%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray">原题链接 1749. 任意子数组和的绝对值的最大值</a></p>
 <hr>
 <details>
@@ -545,7 +602,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -553,7 +610,7 @@
   </entry>
   <entry>
     <title>leetcode344.反转字符串</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/reverse-string/">原题链接 344. 反转字符串</a></p>
 <hr>
 <details>
@@ -564,7 +621,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -572,7 +629,7 @@
   </entry>
   <entry>
     <title>codeforces1856E1.PermuTree easy version</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856E1-PermuTree-easy-version.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856E1-PermuTree-easy-version.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/E1">原题链接 E1. PermuTree (easy version)</a></p>
 <hr>
 <details>
@@ -584,7 +641,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -592,7 +649,7 @@
   </entry>
   <entry>
     <title>codeforces1856C.To Become Max</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856C-To-Become-Max.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856C-To-Become-Max.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/C">原题链接 1856C. To Become Max</a></p>
 <hr>
 <details>
@@ -603,7 +660,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -611,7 +668,7 @@
   </entry>
   <entry>
     <title>codeforces1856B.Good Arrays</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856B-Good-Arrays.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/B">原题链接 1856B. Good Arrays</a></p>
 <hr>
 <details>
@@ -622,7 +679,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -630,7 +687,7 @@
   </entry>
   <entry>
     <title>codeforces1856A.Tales of a Sort</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856A-Tales-of-a-Sort.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856A-Tales-of-a-Sort.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/A">原题链接 1856A. Tales of a Sort</a></p>
 <hr>
 <details>
@@ -641,7 +698,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -649,7 +706,7 @@
   </entry>
   <entry>
     <title>leetcode334.递增的三元子序列</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/increasing-triplet-subsequence/">原题链接 334.递增的三元子序列</a></p>
 <hr>
 <details>
@@ -659,7 +716,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -667,7 +724,7 @@
   </entry>
   <entry>
     <title>leetcode24.两两交换链表中的节点</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/swap-nodes-in-pairs/">原题链接 24.两两交换链表中的节点</a></p>
 <hr>
 <details>
@@ -677,7 +734,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -685,7 +742,7 @@
   </entry>
   <entry>
     <title>leetcode6932.子序列最大优雅度</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence/">原题链接 6932.子序列最大优雅度</a></p>
 <hr>
 <details>
@@ -696,7 +753,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -704,7 +761,7 @@
   </entry>
   <entry>
     <title>leetcode6951.找出最安全路径</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-the-safest-path-in-a-grid">原题链接 6951.找出最安全路径</a></p>
 <hr>
 <details>
@@ -714,7 +771,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -722,7 +779,7 @@
   </entry>
   <entry>
     <title>leetcode21.合并两个有序链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/merge-two-sorted-lists/">原题链接 21.合并两个有序链表</a></p>
 <hr>
 <details>
@@ -732,7 +789,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -740,7 +797,7 @@
   </entry>
   <entry>
     <title>leetcode980.不同路径III</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/unique-paths-iii">原题链接 980.不同路径III</a></p>
 <hr>
 <details>
@@ -752,7 +809,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -760,7 +817,7 @@
   </entry>
   <entry>
     <title>leetcode822.翻转卡片游戏</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/card-flipping-game">原题链接 822.翻转卡片游戏</a></p>
 <hr>
 <details>
@@ -771,7 +828,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -779,7 +836,7 @@
   </entry>
   <entry>
     <title>leetcode2681.英雄的力量</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/power-of-heroes/">原题链接 2681.英雄的力量</a></p>
 <hr>
 <details>
@@ -790,7 +847,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -798,7 +855,7 @@
   </entry>
   <entry>
     <title>leetcode143.重排链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/reorder-list">原题链接 143.重排链表</a></p>
 <hr>
 <details>
@@ -809,7 +866,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -817,7 +874,7 @@
   </entry>
   <entry>
     <title>leetcode142.环形链表II</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/linked-list-cycle-ii">原题链接 142.环形链表II</a></p>
 <hr>
 <details>
@@ -827,7 +884,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -835,7 +892,7 @@
   </entry>
   <entry>
     <title>leetcode141.环形链表</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/linked-list-cycle/">原题链接 141. 环形链表</a></p>
 <hr>
 <details>
@@ -845,7 +902,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -853,7 +910,7 @@
   </entry>
   <entry>
     <title>leetcode1851.包含每个查询的最小区间</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-interval-to-include-each-querys">原题链接 1851. 包含每个查询的最小区间</a></p>
 <hr>
 <details>
@@ -863,7 +920,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -871,7 +928,7 @@
   </entry>
   <entry>
     <title>leetcode2050.并行课程III</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/parallel-courses-iii">原题链接 2050. 并行课程III</a></p>
 <hr>
 <details>
@@ -882,7 +939,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -890,7 +947,7 @@
   </entry>
   <entry>
     <title>leetcode2500.删除每行中的最大值</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/delete-greatest-value-in-each-row">原题链接 2500.删除每行中的最大值</a></p>
 <hr>
 <details>
@@ -901,7 +958,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -909,7 +966,7 @@
   </entry>
   <entry>
     <title>leetcode2791.树中可以形成回文的路径数</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree">原题链接 2791. 树中可以形成回文的路径数</a></p>
 <hr>
 <details>
@@ -920,7 +977,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -928,7 +985,7 @@
   </entry>
   <entry>
     <title>leetcode2790.长度递增组的最大数目</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-number-of-groups-with-increasing-length">原题链接 2790. 长度递增组的最大数目</a></p>
 <hr>
 <details>
@@ -938,7 +995,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -946,7 +1003,7 @@
   </entry>
   <entry>
     <title>leetcode946.验证栈序列</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/validate-stack-sequences">原题链接 946.验证栈序列</a></p>
 <hr>
 <details>
@@ -956,7 +1013,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -964,7 +1021,7 @@
   </entry>
   <entry>
     <title>leetcode2569.更新数组后处理求和查询</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/handling-sum-queries-after-update/">原题链接 2569. 更新数组后处理求和查询</a></p>
 <hr>
 <details>
@@ -974,7 +1031,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -982,7 +1039,7 @@
   </entry>
   <entry>
     <title>leetcode2208.将数组和减半的最少操作次数</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/">原题链接 2208. 将数组和减半的最少操作次数</a></p>
 <hr>
 <details>
@@ -998,7 +1055,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1006,7 +1063,7 @@
   </entry>
   <entry>
     <title>leetcode771.宝石与石头</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/jewels-and-stones/">原题链接 771. 宝石与石头</a></p>
 <hr>
 <details>
@@ -1016,7 +1073,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1024,7 +1081,7 @@
   </entry>
   <entry>
     <title>leetcode42.接雨水</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/trapping-rain-water">原题链接 42. 接雨水</a></p>
 <hr>
 <details>
@@ -1034,7 +1091,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1042,7 +1099,7 @@
   </entry>
   <entry>
     <title>leetcode860.柠檬水找零</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/lemonade-change">原题链接 860. 柠檬水找零</a></p>
 <hr>
 <details>
@@ -1053,7 +1110,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1061,7 +1118,7 @@
   </entry>
   <entry>
     <title>leetcode1499.满足不等式的最大值</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
 <hr>
 <details>
@@ -1078,7 +1135,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1086,7 +1143,7 @@
   </entry>
   <entry>
     <title>leetcode918.环形子数组的最大和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
 <hr>
 <details>
@@ -1097,7 +1154,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1105,7 +1162,7 @@
   </entry>
   <entry>
     <title>leetcode874.模拟行走机器人</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/walking-robot-simulation/">原题链接 874. 模拟行走机器人</a></p>
 <hr>
 <details>
@@ -1115,7 +1172,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1123,7 +1180,7 @@
   </entry>
   <entry>
     <title>leetcode415.字符串相加</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-strings/">原题链接 415. 字符串相加</a></p>
 <hr>
 <details> 
@@ -1133,7 +1190,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1141,7 +1198,7 @@
   </entry>
   <entry>
     <title>leetcode834.树中距离之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/sum-of-distances-in-tree/">原题链接 834. 树中距离之和</a></p>
 <hr>
 <details> 
@@ -1152,7 +1209,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1182,7 +1239,7 @@
   </entry>
   <entry>
     <title>leetcode18.四数之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/4sum/">原题链接 18. 四数之和</a></p>
 <hr>
 <details> 
@@ -1192,7 +1249,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1200,7 +1257,7 @@
   </entry>
   <entry>
     <title>leetcode979.在二叉树中分配硬币</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
 <hr>
 <details>
@@ -1210,7 +1267,7 @@
 </detail>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1218,7 +1275,7 @@
   </entry>
   <entry>
     <title>leetcode931.下降路径最小和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-falling-path-sum/">原题链接 931. 下降路径最小和</a></p>
 <hr>
 <details>
@@ -1229,7 +1286,7 @@
 ]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1237,7 +1294,7 @@
   </entry>
   <entry>
     <title>leetcode2544.交替数字和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/alternating-digit-sum">原题链接 2544. 交替数字和</a></p>
 <hr>
 <details>
@@ -1247,7 +1304,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1255,7 +1312,7 @@
   </entry>
   <entry>
     <title>leetcode1911.最大子序列交替和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-alternating-subsequence-sum/">原题链接 1911. 最大子序列交替和</a></p>
 <hr>
 <details>
@@ -1265,7 +1322,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1273,7 +1330,7 @@
   </entry>
   <entry>
     <title>leetcode16.最接近的三数之和</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
 <hr>
 <details> 
@@ -1283,7 +1340,7 @@
 </details>]]></content>
       <categories>
         <category>刷题</category>
-        <category>刷题记录</category>
+        <category>每日一题</category>
       </categories>
       <tags>
         <tag>刷题</tag>
@@ -1315,19 +1372,19 @@
       </tags>
   </entry>
   <entry>
-    <title>刷题记录</title>
-    <url>/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95.html</url>
-    <content><![CDATA[<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16. 最接近的三数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911. 最大子序列交替和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544. 交替数字和</a><span id="more"></span></p>
+    <title>每日一题</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98.html</url>
+    <content><![CDATA[<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode16. 最接近的三数之和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1911-%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%88%97%E4%BA%A4%E6%9B%BF%E5%92%8C.html">leetcode1911. 最大子序列交替和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2544-%E4%BA%A4%E6%9B%BF%E6%95%B0%E5%AD%97%E5%92%8C.html">leetcode2544. 交替数字和</a><span id="more"></span></p>
 <details>
     <summary>(2023.7)</summary>
 
-<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931. 下降路径最小和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979. 在二叉树中分配硬币</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18. 四数之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834. 树中距离之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415. 字符串相加</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">leetcode874. 模拟行走机器人</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">leetcode918. 环形子数组的最大和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1499. 满足不等式的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html">leetcode860. 柠檬水找零</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html">leetcode42. 接雨水</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html">leetcode771. 宝石与石头</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html">leetcode2208. 将数组和减半的最少操作次数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html">leetcode2569. 更新数组后处理求和查询</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html">leetcode946. 验证栈序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html">leetcode2790. 长度递增组的最大数目</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html">leetcode2791. 树中可以形成回文的路径数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode2500. 删除每行中的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html">leetcode2050. 并行课程III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html">leetcode1851. 包含每个查询的最小区间</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html">leetcode141. 环形链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html">leetcode142. 环形链表II</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html">leetcode143. 重排链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html">leetcode2681. 英雄的力量</a></p>
+<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode931-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8C.html">leetcode931. 下降路径最小和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html">leetcode979. 在二叉树中分配硬币</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode18-%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.html">leetcode18. 四数之和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">leetcode834. 树中距离之和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">leetcode415. 字符串相加</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">leetcode874. 模拟行走机器人</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">leetcode918. 环形子数组的最大和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1499. 满足不等式的最大值</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html">leetcode860. 柠檬水找零</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html">leetcode42. 接雨水</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html">leetcode771. 宝石与石头</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html">leetcode2208. 将数组和减半的最少操作次数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html">leetcode2569. 更新数组后处理求和查询</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html">leetcode946. 验证栈序列</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html">leetcode2790. 长度递增组的最大数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html">leetcode2791. 树中可以形成回文的路径数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode2500. 删除每行中的最大值</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html">leetcode2050. 并行课程III</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1851-%E5%8C%85%E5%90%AB%E6%AF%8F%E4%B8%AA%E6%9F%A5%E8%AF%A2%E7%9A%84%E6%9C%80%E5%B0%8F%E5%8C%BA%E9%97%B4.html">leetcode1851. 包含每个查询的最小区间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode141-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.html">leetcode141. 环形链表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode142-%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.html">leetcode142. 环形链表II</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html">leetcode143. 重排链表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2681-%E8%8B%B1%E9%9B%84%E7%9A%84%E5%8A%9B%E9%87%8F.html">leetcode2681. 英雄的力量</a></p>
 </details>
 
 <details>
     <summary>(2023.8)</summary>
 
-<p><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html">leetcode822. 翻转卡片游戏</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html">leetcode980. 不同路径III</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode21. 合并两个有序链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html">leetcode6951. 找出最安全路径</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html">leetcode6932. 子序列最大优雅度</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">leetcode24. 两两交换链表中的节点</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html">leetcode334. 递增的三元子序列</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856A-Tales-of-a-Sort.html">codeforces1856A. Tales of a Sort</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856B-Good-Arrays.html">codeforces1856B. Good Arrays</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856C-To-Become-Max.html">codeforces185C. To Become Max</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/codeforces1856E1-PermuTree-easy-version.html">codeforces1856E1. PermuTree (easy version)</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode344. 反转字符串</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1749-%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1749. 任意子数组和的绝对值的最大值</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1281-%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE.html">leetcode1281. 整数的各位积和之差</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1289-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII.html">leetcode1289. 下降路径最小和 II</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1572-%E7%9F%A9%E9%98%B5%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E7%9A%84%E5%92%8C.html">leetcode1572. 矩阵对角线元素的和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode23-%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode23. 合并 K 个升序链表</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html">leetcode88. 合并两个有序数组</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2817-%E9%99%90%E5%88%B6%E6%9D%A1%E4%BB%B6%E4%B8%8B%E5%85%83%E7%B4%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE.html">leetcode2817. 限制条件下元素之间的最小绝对差</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2818-%E6%93%8D%E4%BD%9C%E4%BD%BF%E5%BE%97%E5%88%86%E6%9C%80%E5%A4%A7.html">leetcode2818. 操作使得分最大</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode617-%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91.html">leetcode617. 合并二叉树</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html">leetcode833. 字符串中的查找与替换</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2682-%E6%89%BE%E5%87%BA%E8%BD%AC%E5%9C%88%E6%B8%B8%E6%88%8F%E8%BE%93%E5%AE%B6%E6%8D%A2.html">leetcode2682. 找出转圈游戏输家</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode1444. 切披萨的方案数</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode1388-3n%E5%9D%97%E6%8A%AB%E8%90%A8.html">leetcode1388. 3n 块披萨</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94.html">2023CCPC华为云挑战赛 1004塔</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315C-Flavors.html">abc315 C - Flavors</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315E-Prerequisites.html">abc315 E - Prerequisites</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315F-Shortcuts.html">abc315 F - Shortcuts</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html">abc315 G - Ai + Bj + Ck &#x3D; X (1 &lt;&#x3D; i, j, k &lt;&#x3D; N)</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html">leetcode2235. 两整数相加</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html">leetcode6954. 统计和小于目标的下标对数目</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode8014. 循环增长使字符串子序列等于另一个字符串</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html">leetcode6941. 将三个组排序</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html">leetcode2236. 判断根结点是否等于子结点之和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html">leetcode7004. 判别首字母缩略词</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6450-k-avoiding%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%80%BB%E5%92%8C.html">leetcode6450. k-avoiding 数组的最小总和</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode7006-%E9%94%80%E5%94%AE%E5%88%A9%E6%B6%A6%E6%9C%80%E5%A4%A7%E5%8C%96.html">leetcode7006. 销售利润最大化</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html">leetcode6467. 找出最长等值子数组</a><br><a href="/%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode2337. 移动片段得到字符串</a></p>
+<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode822-%E7%BF%BB%E8%BD%AC%E5%8D%A1%E7%89%87%E6%B8%B8%E6%88%8F.html">leetcode822. 翻转卡片游戏</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html">leetcode980. 不同路径III</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode21. 合并两个有序链表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html">leetcode6951. 找出最安全路径</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html">leetcode6932. 子序列最大优雅度</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">leetcode24. 两两交换链表中的节点</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html">leetcode334. 递增的三元子序列</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856A-Tales-of-a-Sort.html">codeforces1856A. Tales of a Sort</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856B-Good-Arrays.html">codeforces1856B. Good Arrays</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856C-To-Become-Max.html">codeforces185C. To Become Max</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/codeforces1856E1-PermuTree-easy-version.html">codeforces1856E1. PermuTree (easy version)</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode344-%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode344. 反转字符串</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1749-%E4%BB%BB%E6%84%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E7%9A%84%E7%BB%9D%E5%AF%B9%E5%80%BC%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">leetcode1749. 任意子数组和的绝对值的最大值</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1281-%E6%95%B4%E6%95%B0%E7%9A%84%E5%90%84%E4%BD%8D%E7%A7%AF%E5%92%8C%E4%B9%8B%E5%B7%AE.html">leetcode1281. 整数的各位积和之差</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1289-%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E6%9C%80%E5%B0%8F%E5%92%8CII.html">leetcode1289. 下降路径最小和 II</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1572-%E7%9F%A9%E9%98%B5%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E7%9A%84%E5%92%8C.html">leetcode1572. 矩阵对角线元素的和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode23-%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8.html">leetcode23. 合并 K 个升序链表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode88-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.html">leetcode88. 合并两个有序数组</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2817-%E9%99%90%E5%88%B6%E6%9D%A1%E4%BB%B6%E4%B8%8B%E5%85%83%E7%B4%A0%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE.html">leetcode2817. 限制条件下元素之间的最小绝对差</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2818-%E6%93%8D%E4%BD%9C%E4%BD%BF%E5%BE%97%E5%88%86%E6%9C%80%E5%A4%A7.html">leetcode2818. 操作使得分最大</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode617-%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91.html">leetcode617. 合并二叉树</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html">leetcode833. 字符串中的查找与替换</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2682-%E6%89%BE%E5%87%BA%E8%BD%AC%E5%9C%88%E6%B8%B8%E6%88%8F%E8%BE%93%E5%AE%B6%E6%8D%A2.html">leetcode2682. 找出转圈游戏输家</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1444-%E5%88%87%E6%8A%AB%E8%90%A8%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode1444. 切披萨的方案数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1388-3n%E5%9D%97%E6%8A%AB%E8%90%A8.html">leetcode1388. 3n 块披萨</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94.html">2023CCPC华为云挑战赛 1004塔</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315C-Flavors.html">abc315 C - Flavors</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315E-Prerequisites.html">abc315 E - Prerequisites</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315F-Shortcuts.html">abc315 F - Shortcuts</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html">abc315 G - Ai + Bj + Ck &#x3D; X (1 &lt;&#x3D; i, j, k &lt;&#x3D; N)</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html">leetcode2235. 两整数相加</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html">leetcode6954. 统计和小于目标的下标对数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode8014. 循环增长使字符串子序列等于另一个字符串</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html">leetcode6941. 将三个组排序</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html">leetcode2236. 判断根结点是否等于子结点之和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html">leetcode7004. 判别首字母缩略词</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6450-k-avoiding%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%80%BB%E5%92%8C.html">leetcode6450. k-avoiding 数组的最小总和</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode7006-%E9%94%80%E5%94%AE%E5%88%A9%E6%B6%A6%E6%9C%80%E5%A4%A7%E5%8C%96.html">leetcode7006. 销售利润最大化</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html">leetcode6467. 找出最长等值子数组</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html">leetcode2337. 移动片段得到字符串</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html">leetcode849. 到最近的人的最大距离</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html">leetcode1782. 统计点对的数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html">leetcode1267. 统计参与通信的服务器</a></p>
 </details>]]></content>
       <categories>
         <category>刷题</category>
