@@ -62,18 +62,6 @@
       </tags>
   </entry>
   <entry>
-    <title>面试</title>
-    <url>/%E9%9D%A2%E8%AF%95.html</url>
-    <content><![CDATA[<h2 id="1-go"><a href="#1-go" class="headerlink" title="1. go"></a>1. <strong><a href="/%E9%9D%A2%E8%AF%95/go.html">go</a></strong></h2><h2 id="2-mysql"><a href="#2-mysql" class="headerlink" title="2. mysql"></a>2. <strong><a href="/%E9%9D%A2%E8%AF%95/mysql.html">mysql</a></strong></h2><h2 id="3-redis"><a href="#3-redis" class="headerlink" title="3. redis"></a>3. <strong><a href="/%E9%9D%A2%E8%AF%95/redis.html">redis</a></strong></h2><span id="more"></span>
-<h2 id="4-linux"><a href="#4-linux" class="headerlink" title="4. linux"></a>4. <strong><a href="/%E9%9D%A2%E8%AF%95/linux.html">linux</a></strong></h2><h2 id="5-docker"><a href="#5-docker" class="headerlink" title="5. docker"></a>5. <strong><a href="/%E9%9D%A2%E8%AF%95/docker.html">docker</a></strong></h2><h2 id="6-计算机网络"><a href="#6-计算机网络" class="headerlink" title="6. 计算机网络"></a>6. <strong><a href="/%E9%9D%A2%E8%AF%95/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="7-操作系统"><a href="#7-操作系统" class="headerlink" title="7. 操作系统"></a>7. <strong><a href="/%E9%9D%A2%E8%AF%95/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html">操作系统</a></strong></h2><h2 id="8-数据结构"><a href="#8-数据结构" class="headerlink" title="8. 数据结构"></a>8. <strong><a href="/%E9%9D%A2%E8%AF%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html">数据结构</a></strong></h2><h2 id="9-cpp"><a href="#9-cpp" class="headerlink" title="9. cpp"></a>9. <strong><a href="/%E9%9D%A2%E8%AF%95/cpp.html">cpp</a></strong></h2><h2 id="10-java"><a href="#10-java" class="headerlink" title="10. java"></a>10. <strong><a href="/%E9%9D%A2%E8%AF%95/java.html">java</a></strong></h2>]]></content>
-      <categories>
-        <category>面试</category>
-      </categories>
-      <tags>
-        <tag>面试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>语言</title>
     <url>/%E8%AF%AD%E8%A8%80.html</url>
     <content><![CDATA[<h2 id="1-go"><a href="#1-go" class="headerlink" title="1. go"></a>1. <strong><a href="/%E8%AF%AD%E8%A8%80/go.html">go</a></strong></h2><h2 id="2-shell"><a href="#2-shell" class="headerlink" title="2. shell"></a>2. <strong><a href="/%E8%AF%AD%E8%A8%80/shell.html">shell</a></strong></h2><h2 id="3-java"><a href="#3-java" class="headerlink" title="3. java"></a>3. <strong><a href="/%E8%AF%AD%E8%A8%80/java.html">java</a></strong></h2><span id="more"></span>
@@ -132,6 +120,18 @@
       </tags>
   </entry>
   <entry>
+    <title>面试</title>
+    <url>/%E9%9D%A2%E8%AF%95.html</url>
+    <content><![CDATA[<h2 id="1-go"><a href="#1-go" class="headerlink" title="1. go"></a>1. <strong><a href="/%E9%9D%A2%E8%AF%95/go.html">go</a></strong></h2><h2 id="2-mysql"><a href="#2-mysql" class="headerlink" title="2. mysql"></a>2. <strong><a href="/%E9%9D%A2%E8%AF%95/mysql.html">mysql</a></strong></h2><h2 id="3-redis"><a href="#3-redis" class="headerlink" title="3. redis"></a>3. <strong><a href="/%E9%9D%A2%E8%AF%95/redis.html">redis</a></strong></h2><span id="more"></span>
+<h2 id="4-linux"><a href="#4-linux" class="headerlink" title="4. linux"></a>4. <strong><a href="/%E9%9D%A2%E8%AF%95/linux.html">linux</a></strong></h2><h2 id="5-docker"><a href="#5-docker" class="headerlink" title="5. docker"></a>5. <strong><a href="/%E9%9D%A2%E8%AF%95/docker.html">docker</a></strong></h2><h2 id="6-计算机网络"><a href="#6-计算机网络" class="headerlink" title="6. 计算机网络"></a>6. <strong><a href="/%E9%9D%A2%E8%AF%95/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html">计算机网络</a></strong></h2><h2 id="7-操作系统"><a href="#7-操作系统" class="headerlink" title="7. 操作系统"></a>7. <strong><a href="/%E9%9D%A2%E8%AF%95/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html">操作系统</a></strong></h2><h2 id="8-数据结构"><a href="#8-数据结构" class="headerlink" title="8. 数据结构"></a>8. <strong><a href="/%E9%9D%A2%E8%AF%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html">数据结构</a></strong></h2><h2 id="9-cpp"><a href="#9-cpp" class="headerlink" title="9. cpp"></a>9. <strong><a href="/%E9%9D%A2%E8%AF%95/cpp.html">cpp</a></strong></h2><h2 id="10-java"><a href="#10-java" class="headerlink" title="10. java"></a>10. <strong><a href="/%E9%9D%A2%E8%AF%95/java.html">java</a></strong></h2>]]></content>
+      <categories>
+        <category>面试</category>
+      </categories>
+      <tags>
+        <tag>面试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode16.最接近的三数之和</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/leetcode16-%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9A%84%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/3sum-closest">原题链接 16.最接近的三数之和</a></p>
@@ -186,19 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>操作系统</title>
-    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>计算机基础</category>
-        <category>操作系统</category>
-        <category>目录</category>
-      </categories>
-      <tags>
-        <tag>操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据库</title>
     <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E5%BA%93.html</url>
     <content><![CDATA[]]></content>
@@ -209,6 +196,19 @@
       </categories>
       <tags>
         <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统</title>
+    <url>/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>计算机基础</category>
+        <category>操作系统</category>
+        <category>目录</category>
+      </categories>
+      <tags>
+        <tag>操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -251,19 +251,6 @@
       </tags>
   </entry>
   <entry>
-    <title>go</title>
-    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>语言</category>
-        <category>go</category>
-        <category>目录</category>
-      </categories>
-      <tags>
-        <tag>go</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>java</title>
     <url>/%E8%AF%AD%E8%A8%80/java.html</url>
     <content><![CDATA[]]></content>
@@ -287,6 +274,19 @@
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>go</title>
+    <url>/%E8%AF%AD%E8%A8%80/go.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>语言</category>
+        <category>go</category>
+        <category>目录</category>
+      </categories>
+      <tags>
+        <tag>go</tag>
       </tags>
   </entry>
   <entry>
@@ -339,6 +339,22 @@
       </tags>
   </entry>
   <entry>
+    <title>java</title>
+    <url>/%E9%9D%A2%E8%AF%95/java.html</url>
+    <content><![CDATA[<details> 
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>]]></content>
+      <categories>
+        <category>面试</category>
+        <category>java</category>
+      </categories>
+      <tags>
+        <tag>面试,java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>go</title>
     <url>/%E9%9D%A2%E8%AF%95/go.html</url>
     <content><![CDATA[<details> 
@@ -353,22 +369,6 @@
       </categories>
       <tags>
         <tag>面试,go</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>java</title>
-    <url>/%E9%9D%A2%E8%AF%95/java.html</url>
-    <content><![CDATA[<details> 
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>]]></content>
-      <categories>
-        <category>面试</category>
-        <category>java</category>
-      </categories>
-      <tags>
-        <tag>面试,java</tag>
       </tags>
   </entry>
   <entry>
@@ -404,22 +404,6 @@
       </tags>
   </entry>
   <entry>
-    <title>操作系统</title>
-    <url>/%E9%9D%A2%E8%AF%95/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html</url>
-    <content><![CDATA[<details> 
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>]]></content>
-      <categories>
-        <category>面试</category>
-        <category>操作系统</category>
-      </categories>
-      <tags>
-        <tag>面试,操作系统</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>redis</title>
     <url>/%E9%9D%A2%E8%AF%95/redis.html</url>
     <content><![CDATA[<details> 
@@ -451,6 +435,22 @@
       </categories>
       <tags>
         <tag>面试,数据结构</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>操作系统</title>
+    <url>/%E9%9D%A2%E8%AF%95/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.html</url>
+    <content><![CDATA[<details> 
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>]]></content>
+      <categories>
+        <category>面试</category>
+        <category>操作系统</category>
+      </categories>
+      <tags>
+        <tag>面试,操作系统</tag>
       </tags>
   </entry>
   <entry>
@@ -507,25 +507,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode143.重排链表</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/reorder-list">原题链接 143.重排链表</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reorderList</span><span class="params">(head *ListNode)</span></span> &#123;</span><br><span class="line">	a := <span class="built_in">make</span>([]*ListNode, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> head != <span class="literal">nil</span> &#123;</span><br><span class="line">		a = <span class="built_in">append</span>(a, head)</span><br><span class="line">		head = head.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(a)<span class="number">-1</span>; i &lt;= j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> i == j<span class="number">-1</span> &#123;</span><br><span class="line">			a[j].Next = <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> i == j &#123;</span><br><span class="line">			a[i].Next, a[j].Next = <span class="literal">nil</span>, <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		a[i].Next, a[j].Next = a[j], a[i+<span class="number">1</span>]</span><br><span class="line">	&#125;</span><br><span class="line">	head = a[<span class="number">0</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode1499.满足不等式的最大值</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
@@ -540,6 +521,25 @@
     <summary>展开答案(c++)</summary>
 
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">findMaxValueOfEquation</span><span class="params">(vector &lt;vector&lt;<span class="type">int</span>&gt;&gt; &amp;points, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">-1e9</span>;</span><br><span class="line">        priority_queue &lt;PII&gt; q;</span><br><span class="line">        q.<span class="built_in">push</span>(&#123;points[<span class="number">0</span>][<span class="number">1</span>] - points[<span class="number">0</span>][<span class="number">0</span>], points[<span class="number">0</span>][<span class="number">0</span>]&#125;);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; points.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="type">int</span> x = points[i][<span class="number">0</span>], y = points[i][<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">while</span> (q.<span class="built_in">size</span>() &amp;&amp; q.<span class="built_in">top</span>().y + k &lt; x) &#123;</span><br><span class="line">                q.<span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (q.<span class="built_in">size</span>() != <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="type">int</span> res = x + y + q.<span class="built_in">top</span>().x;</span><br><span class="line">                ans = <span class="built_in">max</span>(ans, res);</span><br><span class="line">            &#125;</span><br><span class="line">            q.<span class="built_in">push</span>(&#123;y - x, x&#125;);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode143.重排链表</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode143-%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/reorder-list">原题链接 143.重排链表</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reorderList</span><span class="params">(head *ListNode)</span></span> &#123;</span><br><span class="line">	a := <span class="built_in">make</span>([]*ListNode, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> head != <span class="literal">nil</span> &#123;</span><br><span class="line">		a = <span class="built_in">append</span>(a, head)</span><br><span class="line">		head = head.Next</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(a)<span class="number">-1</span>; i &lt;= j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> i == j<span class="number">-1</span> &#123;</span><br><span class="line">			a[j].Next = <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> i == j &#123;</span><br><span class="line">			a[i].Next, a[j].Next = <span class="literal">nil</span>, <span class="literal">nil</span></span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		a[i].Next, a[j].Next = a[j], a[i+<span class="number">1</span>]</span><br><span class="line">	&#125;</span><br><span class="line">	head = a[<span class="number">0</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -606,20 +606,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2208.将数组和减半的最少操作次数</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/">原题链接 2208. 将数组和减半的最少操作次数</a></p>
+    <title>leetcode2569.更新数组后处理求和查询</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/handling-sum-queries-after-update/">原题链接 2569. 更新数组后处理求和查询</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">halveArray</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">float64</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">var</span> sum <span class="type">float64</span> = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		cur := <span class="type">float64</span>(v)</span><br><span class="line">		sum += cur</span><br><span class="line">		<span class="keyword">for</span> <span class="number">4</span>*cur &gt;= <span class="type">float64</span>(nums[<span class="built_in">len</span>(nums)/<span class="number">2</span>]) &#123;</span><br><span class="line">			cur /= <span class="number">2.0</span></span><br><span class="line">			a = <span class="built_in">append</span>(a, cur)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	sum /= <span class="number">2.0</span></span><br><span class="line">	sort.Float64s(a)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(a) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		<span class="keyword">if</span> sum &lt;= <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		sum -= a[i]</span><br><span class="line">		ans++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-
-<details>
-    <summary>展开答案(c++)</summary>
-
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">halveArray</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;nums)</span> </span>&#123;</span><br><span class="line">        priority_queue&lt;<span class="type">double</span>&gt; q;</span><br><span class="line">        <span class="type">double</span> sum = <span class="number">0</span>, res = <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i: nums) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">            q.<span class="built_in">push</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span> (res * <span class="number">2</span> &lt; sum) &#123;</span><br><span class="line">            cnt++;</span><br><span class="line">            <span class="type">double</span> cur = q.<span class="built_in">top</span>();</span><br><span class="line">            q.<span class="built_in">pop</span>();</span><br><span class="line">            res += cur / <span class="number">2.0</span>;</span><br><span class="line">            q.<span class="built_in">push</span>(cur / <span class="number">2.0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">handleQuery</span><span class="params">(nums1 []<span class="type">int</span>, nums2 []<span class="type">int</span>, queries [][]<span class="type">int</span>)</span></span> (ans []<span class="type">int64</span>) &#123;</span><br><span class="line">	<span class="keyword">type</span> node <span class="keyword">struct</span> &#123;</span><br><span class="line">		l, r   <span class="type">int</span></span><br><span class="line">		sum, t <span class="type">int</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> build <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> pushup <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> pushdown <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> modify <span class="function"><span class="keyword">func</span><span class="params">(u, l, r, q <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> query <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> <span class="type">int</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> init = <span class="function"><span class="keyword">func</span><span class="params">(n <span class="type">int</span>)</span></span> (res []node) &#123;</span><br><span class="line">		res = <span class="built_in">make</span>([]node, n&lt;&lt;<span class="number">2</span>)</span><br><span class="line">		build(<span class="number">1</span>, <span class="number">1</span>, n, res)</span><br><span class="line">		<span class="keyword">return</span> res</span><br><span class="line">	&#125;</span><br><span class="line">	pushup = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		tr[u].sum = tr[u&lt;&lt;<span class="number">1</span>].sum + tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum</span><br><span class="line">	&#125;</span><br><span class="line">	pushdown = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> tr[u].t == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>].t ^= tr[u].t</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>].sum = (tr[u&lt;&lt;<span class="number">1</span>].r - tr[u&lt;&lt;<span class="number">1</span>].l + <span class="number">1</span>) - tr[u&lt;&lt;<span class="number">1</span>].sum</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].t ^= tr[u].t</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum = (tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].r - tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].l + <span class="number">1</span>) - tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum</span><br><span class="line">		tr[u].t = <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	build = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l == r &#123;</span><br><span class="line">			tr[u] = node&#123;l, r, nums1[l<span class="number">-1</span>], <span class="number">0</span>&#125;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		tr[u].l, tr[u].r = l, r</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		build(u&lt;&lt;<span class="number">1</span>, l, m, tr)</span><br><span class="line">		build(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, m+<span class="number">1</span>, r, tr)</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">	&#125;</span><br><span class="line">	modify = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r, q <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l &lt;= tr[u].l &amp;&amp; tr[u].r &lt;= r &#123;</span><br><span class="line">			tr[u].t ^= q</span><br><span class="line">			tr[u].sum = (tr[u].r - tr[u].l + <span class="number">1</span>) - tr[u].sum</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		pushdown(u, tr)</span><br><span class="line">		m := (tr[u].l + tr[u].r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> l &lt;= m &#123;</span><br><span class="line">			modify(u&lt;&lt;<span class="number">1</span>, l, r, q, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> m+<span class="number">1</span> &lt;= r &#123;</span><br><span class="line">			modify(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, l, r, q, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">	&#125;</span><br><span class="line">	query = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l &lt;= tr[u].l &amp;&amp; tr[u].r &lt;= r &#123;</span><br><span class="line">			<span class="keyword">return</span> tr[u].sum</span><br><span class="line">		&#125;</span><br><span class="line">		pushdown(u, tr)</span><br><span class="line">		m := (tr[u].l + tr[u].r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		res := <span class="number">0</span></span><br><span class="line">		<span class="keyword">if</span> l &lt;= m &#123;</span><br><span class="line">			res += query(u&lt;&lt;<span class="number">1</span>, l, r, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> m+<span class="number">1</span> &lt;= r &#123;</span><br><span class="line">			res += query(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, l, r, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">		<span class="keyword">return</span> res</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	res := <span class="type">int64</span>(<span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums2 &#123;</span><br><span class="line">		res += <span class="type">int64</span>(v)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(nums1)</span><br><span class="line">	tr := init(n)</span><br><span class="line">	<span class="comment">// fmt.Println(query(1,1,n,tr))</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> queries &#123;</span><br><span class="line">		<span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">1</span> &#123;</span><br><span class="line">			modify(<span class="number">1</span>, v[<span class="number">1</span>]+<span class="number">1</span>, v[<span class="number">2</span>]+<span class="number">1</span>, <span class="number">1</span>, tr)</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">2</span> &#123;</span><br><span class="line">			res += <span class="type">int64</span>(query(<span class="number">1</span>, <span class="number">1</span>, n, tr)) * <span class="type">int64</span>(v[<span class="number">1</span>])</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">3</span> &#123;</span><br><span class="line">			ans = <span class="built_in">append</span>(ans, res)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">// fmt.Println(res)</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -649,14 +643,38 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2569.更新数组后处理求和查询</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2569-%E6%9B%B4%E6%96%B0%E6%95%B0%E7%BB%84%E5%90%8E%E5%A4%84%E7%90%86%E6%B1%82%E5%92%8C%E6%9F%A5%E8%AF%A2.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/handling-sum-queries-after-update/">原题链接 2569. 更新数组后处理求和查询</a></p>
+    <title>leetcode2208.将数组和减半的最少操作次数</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/">原题链接 2208. 将数组和减半的最少操作次数</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">handleQuery</span><span class="params">(nums1 []<span class="type">int</span>, nums2 []<span class="type">int</span>, queries [][]<span class="type">int</span>)</span></span> (ans []<span class="type">int64</span>) &#123;</span><br><span class="line">	<span class="keyword">type</span> node <span class="keyword">struct</span> &#123;</span><br><span class="line">		l, r   <span class="type">int</span></span><br><span class="line">		sum, t <span class="type">int</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> build <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> pushup <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> pushdown <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> modify <span class="function"><span class="keyword">func</span><span class="params">(u, l, r, q <span class="type">int</span>, tr []node)</span></span></span><br><span class="line">	<span class="keyword">var</span> query <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> <span class="type">int</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> init = <span class="function"><span class="keyword">func</span><span class="params">(n <span class="type">int</span>)</span></span> (res []node) &#123;</span><br><span class="line">		res = <span class="built_in">make</span>([]node, n&lt;&lt;<span class="number">2</span>)</span><br><span class="line">		build(<span class="number">1</span>, <span class="number">1</span>, n, res)</span><br><span class="line">		<span class="keyword">return</span> res</span><br><span class="line">	&#125;</span><br><span class="line">	pushup = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		tr[u].sum = tr[u&lt;&lt;<span class="number">1</span>].sum + tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum</span><br><span class="line">	&#125;</span><br><span class="line">	pushdown = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> tr[u].t == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>].t ^= tr[u].t</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>].sum = (tr[u&lt;&lt;<span class="number">1</span>].r - tr[u&lt;&lt;<span class="number">1</span>].l + <span class="number">1</span>) - tr[u&lt;&lt;<span class="number">1</span>].sum</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].t ^= tr[u].t</span><br><span class="line">		tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum = (tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].r - tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].l + <span class="number">1</span>) - tr[u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>].sum</span><br><span class="line">		tr[u].t = <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	build = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l == r &#123;</span><br><span class="line">			tr[u] = node&#123;l, r, nums1[l<span class="number">-1</span>], <span class="number">0</span>&#125;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		tr[u].l, tr[u].r = l, r</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		build(u&lt;&lt;<span class="number">1</span>, l, m, tr)</span><br><span class="line">		build(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, m+<span class="number">1</span>, r, tr)</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">	&#125;</span><br><span class="line">	modify = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r, q <span class="type">int</span>, tr []node)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l &lt;= tr[u].l &amp;&amp; tr[u].r &lt;= r &#123;</span><br><span class="line">			tr[u].t ^= q</span><br><span class="line">			tr[u].sum = (tr[u].r - tr[u].l + <span class="number">1</span>) - tr[u].sum</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		pushdown(u, tr)</span><br><span class="line">		m := (tr[u].l + tr[u].r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> l &lt;= m &#123;</span><br><span class="line">			modify(u&lt;&lt;<span class="number">1</span>, l, r, q, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> m+<span class="number">1</span> &lt;= r &#123;</span><br><span class="line">			modify(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, l, r, q, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">	&#125;</span><br><span class="line">	query = <span class="function"><span class="keyword">func</span><span class="params">(u, l, r <span class="type">int</span>, tr []node)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> l &lt;= tr[u].l &amp;&amp; tr[u].r &lt;= r &#123;</span><br><span class="line">			<span class="keyword">return</span> tr[u].sum</span><br><span class="line">		&#125;</span><br><span class="line">		pushdown(u, tr)</span><br><span class="line">		m := (tr[u].l + tr[u].r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		res := <span class="number">0</span></span><br><span class="line">		<span class="keyword">if</span> l &lt;= m &#123;</span><br><span class="line">			res += query(u&lt;&lt;<span class="number">1</span>, l, r, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> m+<span class="number">1</span> &lt;= r &#123;</span><br><span class="line">			res += query(u&lt;&lt;<span class="number">1</span>|<span class="number">1</span>, l, r, tr)</span><br><span class="line">		&#125;</span><br><span class="line">		pushup(u, tr)</span><br><span class="line">		<span class="keyword">return</span> res</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	res := <span class="type">int64</span>(<span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums2 &#123;</span><br><span class="line">		res += <span class="type">int64</span>(v)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(nums1)</span><br><span class="line">	tr := init(n)</span><br><span class="line">	<span class="comment">// fmt.Println(query(1,1,n,tr))</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> queries &#123;</span><br><span class="line">		<span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">1</span> &#123;</span><br><span class="line">			modify(<span class="number">1</span>, v[<span class="number">1</span>]+<span class="number">1</span>, v[<span class="number">2</span>]+<span class="number">1</span>, <span class="number">1</span>, tr)</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">2</span> &#123;</span><br><span class="line">			res += <span class="type">int64</span>(query(<span class="number">1</span>, <span class="number">1</span>, n, tr)) * <span class="type">int64</span>(v[<span class="number">1</span>])</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v[<span class="number">0</span>] == <span class="number">3</span> &#123;</span><br><span class="line">			ans = <span class="built_in">append</span>(ans, res)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">// fmt.Println(res)</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">halveArray</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">float64</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">var</span> sum <span class="type">float64</span> = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		cur := <span class="type">float64</span>(v)</span><br><span class="line">		sum += cur</span><br><span class="line">		<span class="keyword">for</span> <span class="number">4</span>*cur &gt;= <span class="type">float64</span>(nums[<span class="built_in">len</span>(nums)/<span class="number">2</span>]) &#123;</span><br><span class="line">			cur /= <span class="number">2.0</span></span><br><span class="line">			a = <span class="built_in">append</span>(a, cur)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	sum /= <span class="number">2.0</span></span><br><span class="line">	sort.Float64s(a)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(a) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		<span class="keyword">if</span> sum &lt;= <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		sum -= a[i]</span><br><span class="line">		ans++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+
+<details>
+    <summary>展开答案(c++)</summary>
+
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">halveArray</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;nums)</span> </span>&#123;</span><br><span class="line">        priority_queue&lt;<span class="type">double</span>&gt; q;</span><br><span class="line">        <span class="type">double</span> sum = <span class="number">0</span>, res = <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i: nums) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">            q.<span class="built_in">push</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span> (res * <span class="number">2</span> &lt; sum) &#123;</span><br><span class="line">            cnt++;</span><br><span class="line">            <span class="type">double</span> cur = q.<span class="built_in">top</span>();</span><br><span class="line">            q.<span class="built_in">pop</span>();</span><br><span class="line">            res += cur / <span class="number">2.0</span>;</span><br><span class="line">            q.<span class="built_in">push</span>(cur / <span class="number">2.0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode2790.长度递增组的最大数目</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-number-of-groups-with-increasing-length">原题链接 2790. 长度递增组的最大数目</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxIncreasingGroups</span><span class="params">(a []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	cur, re := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	sort.Ints(a)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> a &#123;</span><br><span class="line">		<span class="keyword">if</span> v+re &gt; cur &#123;</span><br><span class="line">			cur++</span><br><span class="line">			re -= cur - v</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			re += v</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> cur</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -686,24 +704,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2790.长度递增组的最大数目</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximum-number-of-groups-with-increasing-length">原题链接 2790. 长度递增组的最大数目</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxIncreasingGroups</span><span class="params">(a []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	cur, re := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	sort.Ints(a)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> a &#123;</span><br><span class="line">		<span class="keyword">if</span> v+re &gt; cur &#123;</span><br><span class="line">			cur++</span><br><span class="line">			re -= cur - v</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			re += v</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> cur</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode2791.树中可以形成回文的路径数</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree">原题链接 2791. 树中可以形成回文的路径数</a></p>
@@ -723,14 +723,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode415.字符串相加</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-strings/">原题链接 415. 字符串相加</a></p>
+    <title>leetcode42.接雨水</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/trapping-rain-water">原题链接 42. 接雨水</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">addStrings</span><span class="params">(num1 <span class="type">string</span>, num2 <span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	x := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num1))</span><br><span class="line">	y := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num2))</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num1) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		x[<span class="built_in">len</span>(num1)<span class="number">-1</span>-i] = <span class="type">int</span>(num1[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num2) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		y[<span class="built_in">len</span>(num2)<span class="number">-1</span>-i] = <span class="type">int</span>(num2[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> <span class="built_in">len</span>(x) &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">		x, y = y, x</span><br><span class="line">	&#125;</span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="built_in">len</span>(x))</span><br><span class="line">	t := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(x); i++ &#123;</span><br><span class="line">		t += x[i]</span><br><span class="line">		<span class="keyword">if</span> i &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">			t += y[i]</span><br><span class="line">		&#125;</span><br><span class="line">		res[i] = <span class="type">byte</span>(t%<span class="number">10</span> + <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">		t /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> t != <span class="number">0</span> &#123;</span><br><span class="line">		res = <span class="built_in">append</span>(res, <span class="type">byte</span>(t+<span class="string">&#x27;0&#x27;</span>))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(res)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		res[i], res[j] = res[j], res[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">trap</span><span class="params">(height []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(height)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	cur := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = cur</span><br><span class="line">	&#125;</span><br><span class="line">	cur = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = min(a[i], cur)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		ans += a[i] - height[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -min(-x, -y)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -741,14 +741,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode42.接雨水</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/trapping-rain-water">原题链接 42. 接雨水</a></p>
+    <title>leetcode415.字符串相加</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-strings/">原题链接 415. 字符串相加</a></p>
 <hr>
-<details>
+<details> 
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">trap</span><span class="params">(height []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(height)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	cur := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = cur</span><br><span class="line">	&#125;</span><br><span class="line">	cur = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = min(a[i], cur)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		ans += a[i] - height[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -min(-x, -y)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">addStrings</span><span class="params">(num1 <span class="type">string</span>, num2 <span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	x := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num1))</span><br><span class="line">	y := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num2))</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num1) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		x[<span class="built_in">len</span>(num1)<span class="number">-1</span>-i] = <span class="type">int</span>(num1[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num2) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		y[<span class="built_in">len</span>(num2)<span class="number">-1</span>-i] = <span class="type">int</span>(num2[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> <span class="built_in">len</span>(x) &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">		x, y = y, x</span><br><span class="line">	&#125;</span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="built_in">len</span>(x))</span><br><span class="line">	t := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(x); i++ &#123;</span><br><span class="line">		t += x[i]</span><br><span class="line">		<span class="keyword">if</span> i &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">			t += y[i]</span><br><span class="line">		&#125;</span><br><span class="line">		res[i] = <span class="type">byte</span>(t%<span class="number">10</span> + <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">		t /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> t != <span class="number">0</span> &#123;</span><br><span class="line">		res = <span class="built_in">append</span>(res, <span class="type">byte</span>(t+<span class="string">&#x27;0&#x27;</span>))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(res)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		res[i], res[j] = res[j], res[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -889,24 +889,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode979.在二叉树中分配硬币</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">distributeCoins</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	resl := distributeCoins(l)</span><br><span class="line">	resr := distributeCoins(r)</span><br><span class="line">	sum, cnt := get(root)</span><br><span class="line">	<span class="keyword">return</span> resl + resr + abs(sum-cnt)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">get</span><span class="params">(root *TreeNode)</span></span> (sum, cnt <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	suml, cntl := get(l)</span><br><span class="line">	sumr, cntr := get(r)</span><br><span class="line">	sum = root.Val + suml + sumr</span><br><span class="line">	cnt = <span class="number">1</span> + cntl + cntr</span><br><span class="line">	<span class="keyword">return</span> sum, cnt</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</detail>]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023CCPC华为云挑战赛-1004塔</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94.html</url>
     <content><![CDATA[<img data-src="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/2023CCPC%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%8C%91%E6%88%98%E8%B5%9B-1004%E5%A1%94/2023-08-19-19-52-58.png" class="" title="描述">
@@ -919,6 +901,24 @@
 
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e5</span> + <span class="number">9</span>, P = <span class="number">998244353</span>;</span><br><span class="line"><span class="type">int</span> T, n, m, k;</span><br><span class="line"><span class="type">int</span> fact[N], fact_inv[N];</span><br><span class="line"></span><br><span class="line"><span class="function">ll <span class="title">fpow</span><span class="params">(ll a, ll b)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (!b)<span class="keyword">return</span> <span class="number">1</span> % P;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">if</span> (b &amp; <span class="number">1</span>) <span class="keyword">return</span> a * <span class="built_in">fpow</span>(a * a % P, b &gt;&gt; <span class="number">1</span>) % P;</span><br><span class="line">	<span class="keyword">else</span> <span class="keyword">return</span> <span class="built_in">fpow</span>(a * a % P, b &gt;&gt; <span class="number">1</span>) % P;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function">ll <span class="title">C</span><span class="params">(<span class="type">int</span> n, <span class="type">int</span> m)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">if</span> (m &gt; n)<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">return</span> fact[n] * fact_inv[m] % P * fact_inv[n - m] % P;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">	fact[<span class="number">0</span>] = <span class="number">1</span>, fact_inv[<span class="number">0</span>] = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; N; i++) &#123;</span><br><span class="line">		fact[i] = fact[i - <span class="number">1</span>] * i % P;</span><br><span class="line">		fact_inv[i] = <span class="built_in">fpow</span>(fact[i], P - <span class="number">2</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	cin &gt;&gt; T;</span><br><span class="line">	<span class="keyword">while</span> (T--) &#123;</span><br><span class="line">		cin &gt;&gt; n &gt;&gt; m &gt;&gt; k;</span><br><span class="line">		<span class="type">int</span> inv = <span class="built_in">fpow</span>(<span class="built_in">C</span>(n, k), P - <span class="number">2</span>);</span><br><span class="line">		<span class="type">int</span> res = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i = n; i &lt;= n + k; i++) &#123;</span><br><span class="line">			<span class="type">int</span> p = <span class="built_in">C</span>(n - k - <span class="number">1</span> + (i - n), (i - n)) * inv % P;</span><br><span class="line">			res += (i - n) * p;</span><br><span class="line">			res %= P;</span><br><span class="line">		&#125;</span><br><span class="line">		cout &lt;&lt; (n + res * m % P) % P ;</span><br><span class="line">		<span class="keyword">if</span> (T) cout &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode979.在二叉树中分配硬币</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode979-%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/distribute-coins-in-binary-tree/">原题链接 931. 下降路径最小和</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">distributeCoins</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	resl := distributeCoins(l)</span><br><span class="line">	resr := distributeCoins(r)</span><br><span class="line">	sum, cnt := get(root)</span><br><span class="line">	<span class="keyword">return</span> resl + resr + abs(sum-cnt)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">get</span><span class="params">(root *TreeNode)</span></span> (sum, cnt <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	l, r := root.Left, root.Right</span><br><span class="line">	suml, cntl := get(l)</span><br><span class="line">	sumr, cntr := get(r)</span><br><span class="line">	sum = root.Val + suml + sumr</span><br><span class="line">	cnt = <span class="number">1</span> + cntl + cntr</span><br><span class="line">	<span class="keyword">return</span> sum, cnt</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">abs</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> -x</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</detail>]]></content>
       <categories>
         <category>刷题</category>
         <category>每日一题</category>
@@ -983,25 +983,6 @@
       </tags>
   </entry>
   <entry>
-    <title>abc315G-Ai+Bj+Ck=X-1&lt;=i-j-k&lt;=N</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html</url>
-    <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_g">原题链接 abc315 G - Ai + Bj + Ck &#x3D; X (1 &lt;&#x3D; i, j, k &lt;&#x3D; N)</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;bufio&quot;</span></span><br><span class="line">	<span class="string">&quot;fmt&quot;</span></span><br><span class="line">	<span class="string">&quot;os&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> in = bufio.NewReader(os.Stdin)</span><br><span class="line"><span class="keyword">var</span> n, a, b, c, x <span class="type">int</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &gt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	ceil := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a + b - <span class="number">1</span>) / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	floor := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a - b + <span class="number">1</span>) / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> exgcd <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>)</span><br><span class="line">	exgcd = <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>) &#123;</span><br><span class="line">		<span class="keyword">if</span> b == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a, <span class="number">1</span>, <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		d, y, x = exgcd(b, a%b)</span><br><span class="line">		<span class="keyword">return</span> d, x, y - a/b*x</span><br><span class="line">	&#125;</span><br><span class="line">	cnt := <span class="function"><span class="keyword">func</span><span class="params">(a, b, c <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		d, x, y := exgcd(a, b)</span><br><span class="line">		<span class="keyword">if</span> c%d != <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		x = (c / d) % (b / d) * x % (b / d)</span><br><span class="line">		y = (c - a*x) / b</span><br><span class="line">		l := max(ceil(<span class="number">1</span>-x, b/d), ceil(y-n, a/d))</span><br><span class="line">		r := min(floor(n-x, b/d), floor(y<span class="number">-1</span>, a/d))</span><br><span class="line">		<span class="keyword">return</span> max(<span class="number">0</span>, r-l+<span class="number">1</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	fmt.Fscan(in, &amp;n, &amp;a, &amp;b, &amp;c, &amp;x)</span><br><span class="line">	ans := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n &amp;&amp; x-i*c &gt; <span class="number">0</span>; i++ &#123;</span><br><span class="line">		ans += cnt(a, b, x-i*c)</span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Println(ans)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>codeforces1856A.Tales of a Sort</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/codeforces1856A-Tales-of-a-Sort.html</url>
     <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/A">原题链接 1856A. Tales of a Sort</a></p>
@@ -1021,14 +1002,14 @@
       </tags>
   </entry>
   <entry>
-    <title>codeforces1856B.Good Arrays</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/codeforces1856B-Good-Arrays.html</url>
-    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/B">原题链接 1856B. Good Arrays</a></p>
+    <title>abc315G-Ai+Bj+Ck=X-1&lt;=i-j-k&lt;=N</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc315G-Ai-Bj-Ck-X-1-i-j-k-N.html</url>
+    <content><![CDATA[<p><a href="https://atcoder.jp/contests/abc315/tasks/abc315_g">原题链接 abc315 G - Ai + Bj + Ck &#x3D; X (1 &lt;&#x3D; i, j, k &lt;&#x3D; N)</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], mi[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> add = <span class="number">0</span>, sub = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == <span class="number">1</span>) &#123;</span><br><span class="line">            add++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sub += (a[i] - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; add &lt;&lt; &quot; &quot; &lt;&lt; sub &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">    <span class="keyword">if</span> (add &lt;= sub &amp;&amp; n != <span class="number">1</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> (</span><br><span class="line">	<span class="string">&quot;bufio&quot;</span></span><br><span class="line">	<span class="string">&quot;fmt&quot;</span></span><br><span class="line">	<span class="string">&quot;os&quot;</span></span><br><span class="line">)</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> in = bufio.NewReader(os.Stdin)</span><br><span class="line"><span class="keyword">var</span> n, a, b, c, x <span class="type">int</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &gt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; b &#123;</span><br><span class="line">			<span class="keyword">return</span> a</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> b</span><br><span class="line">	&#125;</span><br><span class="line">	ceil := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a + b - <span class="number">1</span>) / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	floor := <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> a &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> (a - b + <span class="number">1</span>) / b</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a / b</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> exgcd <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>)</span><br><span class="line">	exgcd = <span class="function"><span class="keyword">func</span><span class="params">(a, b <span class="type">int</span>)</span></span> (d, x, y <span class="type">int</span>) &#123;</span><br><span class="line">		<span class="keyword">if</span> b == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> a, <span class="number">1</span>, <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		d, y, x = exgcd(b, a%b)</span><br><span class="line">		<span class="keyword">return</span> d, x, y - a/b*x</span><br><span class="line">	&#125;</span><br><span class="line">	cnt := <span class="function"><span class="keyword">func</span><span class="params">(a, b, c <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		d, x, y := exgcd(a, b)</span><br><span class="line">		<span class="keyword">if</span> c%d != <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		x = (c / d) % (b / d) * x % (b / d)</span><br><span class="line">		y = (c - a*x) / b</span><br><span class="line">		l := max(ceil(<span class="number">1</span>-x, b/d), ceil(y-n, a/d))</span><br><span class="line">		r := min(floor(n-x, b/d), floor(y<span class="number">-1</span>, a/d))</span><br><span class="line">		<span class="keyword">return</span> max(<span class="number">0</span>, r-l+<span class="number">1</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	fmt.Fscan(in, &amp;n, &amp;a, &amp;b, &amp;c, &amp;x)</span><br><span class="line">	ans := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n &amp;&amp; x-i*c &gt; <span class="number">0</span>; i++ &#123;</span><br><span class="line">		ans += cnt(a, b, x-i*c)</span><br><span class="line">	&#125;</span><br><span class="line">	fmt.Println(ans)</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -1040,14 +1021,14 @@
       </tags>
   </entry>
   <entry>
-    <title>codeforces1856C.To Become Max</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/codeforces1856C-To-Become-Max.html</url>
-    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/C">原题链接 1856C. To Become Max</a></p>
+    <title>codeforces1856B.Good Arrays</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/codeforces1856B-Good-Arrays.html</url>
+    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/B">原题链接 1856B. Good Arrays</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], k;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">ck</span><span class="params">(<span class="type">int</span> s, <span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> rk = k;</span><br><span class="line">    <span class="keyword">while</span> (s &lt; n &amp;&amp; rk &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt;= a[s]) &#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        rk -= (x - a[s]);</span><br><span class="line">        s++;</span><br><span class="line">        x--;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (s == n) &#123;</span><br><span class="line">        <span class="keyword">return</span> x &lt; a[n - <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> rk &gt;= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">check</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">ck</span>(i, x)) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> l = <span class="number">1</span>, r = <span class="number">1e9</span>;</span><br><span class="line">    <span class="keyword">while</span> (l != r) &#123;</span><br><span class="line">        <span class="type">int</span> mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) &#123;</span><br><span class="line">            l = mid + <span class="number">1</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            r = mid;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> ans = l - <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; &quot;\t\t\t&quot; &lt;&lt; ans &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ll long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], mi[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> add = <span class="number">0</span>, sub = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (a[i] == <span class="number">1</span>) &#123;</span><br><span class="line">            add++;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sub += (a[i] - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; add &lt;&lt; &quot; &quot; &lt;&lt; sub &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">    <span class="keyword">if</span> (add &lt;= sub &amp;&amp; n != <span class="number">1</span>) &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;YES\n&quot;</span>;</span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        cout &lt;&lt; <span class="string">&quot;NO\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -1079,14 +1060,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode1267.统计参与通信的服务器</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-servers-that-communicate/">原题链接 1267. 统计参与通信的服务器</a></p>
+    <title>codeforces1856C.To Become Max</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/codeforces1856C-To-Become-Max.html</url>
+    <content><![CDATA[<p><a href="https://codeforces.com/contest/1856/problem/C">原题链接 1856C. To Become Max</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countServers</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	cntr, cntc := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">				cntr[i]++</span><br><span class="line">				cntc[j]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; (cntr[i] &gt;= <span class="number">2</span> || cntc[j] &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e6</span> + <span class="number">9</span>, P = <span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, a[N], k;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">ck</span><span class="params">(<span class="type">int</span> s, <span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> rk = k;</span><br><span class="line">    <span class="keyword">while</span> (s &lt; n &amp;&amp; rk &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="keyword">if</span> (x &lt;= a[s]) &#123;</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        rk -= (x - a[s]);</span><br><span class="line">        s++;</span><br><span class="line">        x--;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (s == n) &#123;</span><br><span class="line">        <span class="keyword">return</span> x &lt; a[n - <span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> rk &gt;= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">check</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">ck</span>(i, x)) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    cin &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++) &#123;</span><br><span class="line">        cin &gt;&gt; a[i];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> l = <span class="number">1</span>, r = <span class="number">1e9</span>;</span><br><span class="line">    <span class="keyword">while</span> (l != r) &#123;</span><br><span class="line">        <span class="type">int</span> mid = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span> (<span class="built_in">check</span>(mid)) &#123;</span><br><span class="line">            l = mid + <span class="number">1</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            r = mid;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="type">int</span> ans = l - <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; ans &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line"><span class="comment">//	cout &lt;&lt; &quot;\t\t\t&quot; &lt;&lt; ans &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin &gt;&gt; T;</span><br><span class="line">    <span class="keyword">while</span> (T--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -1106,6 +1087,25 @@
     <summary>展开答案</summary>
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">subtractProductAndSum</span><span class="params">(n <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	mul, add := <span class="number">1</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> n != <span class="number">0</span> &#123;</span><br><span class="line">		add += n % <span class="number">10</span></span><br><span class="line">		mul *= n % <span class="number">10</span></span><br><span class="line">		n /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> mul - add</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode1267.统计参与通信的服务器</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-servers-that-communicate/">原题链接 1267. 统计参与通信的服务器</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countServers</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	cntr, cntc := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">				cntr[i]++</span><br><span class="line">				cntc[j]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; (cntr[i] &gt;= <span class="number">2</span> || cntc[j] &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -1172,25 +1172,6 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode1448.统计二叉树中好节点的数目</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1448-%E7%BB%9F%E8%AE%A1%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%A5%BD%E8%8A%82%E7%82%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-good-nodes-in-binary-tree/">原题链接 1448. 统计二叉树中好节点的数目</a></p>
-<hr>
-<details> 
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">goodNodes</span><span class="params">(root *TreeNode)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, ma <span class="type">int</span>)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, ma <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> root.Val &gt;= ma &#123;</span><br><span class="line">			ans++</span><br><span class="line">			ma = root.Val</span><br><span class="line">		&#125;</span><br><span class="line">		dfs(root.Left, ma)</span><br><span class="line">		dfs(root.Right, ma)</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(root, <span class="number">-0x3f3f3f3f</span>)</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>leetcode1572.矩阵对角线元素的和</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1572-%E7%9F%A9%E9%98%B5%E5%AF%B9%E8%A7%92%E7%BA%BF%E5%85%83%E7%B4%A0%E7%9A%84%E5%92%8C.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/matrix-diagonal-sum/">原题链接 1572. 矩阵对角线元素的和</a></p>
@@ -1216,6 +1197,25 @@
     <summary>展开答案</summary>
 
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minimumJumps</span><span class="params">(forbidden []<span class="type">int</span>, a <span class="type">int</span>, b <span class="type">int</span>, x <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	ban := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="keyword">struct</span>&#123;&#125;, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> forbidden &#123;</span><br><span class="line">		ban[v] = <span class="keyword">struct</span>&#123;&#125;&#123;&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">const</span> INF, N <span class="type">int</span> = <span class="number">0x3f3f3f3f</span>, <span class="number">2e3</span> + <span class="number">9</span></span><br><span class="line">	f := <span class="built_in">make</span>([][<span class="number">2</span>]<span class="type">int</span>, <span class="number">3</span>*N)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(f); i++ &#123;</span><br><span class="line">		f[i][<span class="number">0</span>], f[i][<span class="number">1</span>] = INF, INF</span><br><span class="line">	&#125;</span><br><span class="line">	q, hh, tt := <span class="built_in">make</span>([][<span class="number">3</span>]<span class="type">int</span>, <span class="number">12</span>*N), <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">	q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">	<span class="keyword">for</span> hh &lt; tt &#123;</span><br><span class="line">		cur, op, v := q[hh][<span class="number">0</span>], q[hh][<span class="number">1</span>], q[hh][<span class="number">2</span>]</span><br><span class="line">		hh++</span><br><span class="line">		<span class="keyword">if</span> _, e := ban[cur]; e &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> cur &lt; <span class="number">0</span> || cur &gt;= <span class="number">3</span>*N &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> f[cur][op] != INF &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		f[cur][op] = v</span><br><span class="line">		q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;cur + a, <span class="number">0</span>, v + <span class="number">1</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> op != <span class="number">1</span> &#123;</span><br><span class="line">			q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;cur - b, <span class="number">1</span>, v + <span class="number">1</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = min(f[x][<span class="number">0</span>], f[x][<span class="number">1</span>])</span><br><span class="line">	<span class="keyword">if</span> ans &gt;= INF &#123;</span><br><span class="line">		ans = <span class="number">-1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode1448.统计二叉树中好节点的数目</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1448-%E7%BB%9F%E8%AE%A1%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%A5%BD%E8%8A%82%E7%82%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/count-good-nodes-in-binary-tree/">原题链接 1448. 统计二叉树中好节点的数目</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">goodNodes</span><span class="params">(root *TreeNode)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, ma <span class="type">int</span>)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, ma <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> root.Val &gt;= ma &#123;</span><br><span class="line">			ans++</span><br><span class="line">			ma = root.Val</span><br><span class="line">		&#125;</span><br><span class="line">		dfs(root.Left, ma)</span><br><span class="line">		dfs(root.Right, ma)</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(root, <span class="number">-0x3f3f3f3f</span>)</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
       <categories>
@@ -1301,14 +1301,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2235.两整数相加</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-two-integers/">原题链接 2235. 两整数相加</a></p>
+    <title>leetcode2236.判断根结点是否等于子结点之和</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/root-equals-sum-of-children/">原题链接 2236. 判断根结点是否等于子结点之和</a></p>
 <hr>
 <details> 
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sum</span><span class="params">(num1 <span class="type">int</span>, num2 <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> num1 + num2</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">checkTree</span><span class="params">(root *TreeNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> root.Val == root.Left.Val+root.Right.Val</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -1319,14 +1319,14 @@
       </tags>
   </entry>
   <entry>
-    <title>leetcode2236.判断根结点是否等于子结点之和</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/root-equals-sum-of-children/">原题链接 2236. 判断根结点是否等于子结点之和</a></p>
+    <title>leetcode2235.两整数相加</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/add-two-integers/">原题链接 2235. 两整数相加</a></p>
 <hr>
 <details> 
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">checkTree</span><span class="params">(root *TreeNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> root.Val == root.Left.Val+root.Right.Val</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sum</span><span class="params">(num1 <span class="type">int</span>, num2 <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> num1 + num2</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>]]></content>
       <categories>
         <category>刷题</category>
@@ -1467,6 +1467,24 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode2836.在传球游戏中最大化函数值</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2836-%E5%9C%A8%E4%BC%A0%E7%90%83%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%9C%80%E5%A4%A7%E5%8C%96%E5%87%BD%E6%95%B0%E5%80%BC.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximize-value-of-function-in-a-ball-passing-game/">原题链接 2836. 在传球游戏中最大化函数值</a></p>
+<hr>
+<details> 
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">getMaxFunctionValue</span><span class="params">(receiver []<span class="type">int</span>, k <span class="type">int64</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int64</span>)</span></span> <span class="type">int64</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(receiver)</span><br><span class="line">	a, v := <span class="built_in">make</span>([][<span class="number">40</span>]<span class="type">int</span>, n), <span class="built_in">make</span>([][<span class="number">40</span>]<span class="type">int64</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		a[i][<span class="number">0</span>] = receiver[i]</span><br><span class="line">		v[i][<span class="number">0</span>] = <span class="type">int64</span>(receiver[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> j := <span class="number">1</span>; j &lt; <span class="number">40</span>; j++ &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">			a[i][j] = a[a[i][j<span class="number">-1</span>]][j<span class="number">-1</span>]</span><br><span class="line">			v[i][j] = v[i][j<span class="number">-1</span>] + v[a[i][j<span class="number">-1</span>]][j<span class="number">-1</span>]</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">var</span> res <span class="type">int64</span> = <span class="number">0</span></span><br><span class="line">		u := i</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; <span class="number">40</span>; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> (k&gt;&gt;j)&amp;<span class="number">1</span> == <span class="number">1</span> &#123;</span><br><span class="line">				res += v[u][j]</span><br><span class="line">				u = a[u][j]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		ans = max(ans, res+<span class="type">int64</span>(i))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode334.递增的三元子序列</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode334-%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/increasing-triplet-subsequence/">原题链接 334.递增的三元子序列</a></p>
@@ -1495,24 +1513,6 @@
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">reverseString</span><span class="params">(s []<span class="type">byte</span>)</span></span> &#123;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(s)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		s[i], s[j] = s[j], s[i]</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode2836.在传球游戏中最大化函数值</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2836-%E5%9C%A8%E4%BC%A0%E7%90%83%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%9C%80%E5%A4%A7%E5%8C%96%E5%87%BD%E6%95%B0%E5%80%BC.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximize-value-of-function-in-a-ball-passing-game/">原题链接 2836. 在传球游戏中最大化函数值</a></p>
-<hr>
-<details> 
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">getMaxFunctionValue</span><span class="params">(receiver []<span class="type">int</span>, k <span class="type">int64</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int64</span>)</span></span> <span class="type">int64</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(receiver)</span><br><span class="line">	a, v := <span class="built_in">make</span>([][<span class="number">40</span>]<span class="type">int</span>, n), <span class="built_in">make</span>([][<span class="number">40</span>]<span class="type">int64</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		a[i][<span class="number">0</span>] = receiver[i]</span><br><span class="line">		v[i][<span class="number">0</span>] = <span class="type">int64</span>(receiver[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> j := <span class="number">1</span>; j &lt; <span class="number">40</span>; j++ &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">			a[i][j] = a[a[i][j<span class="number">-1</span>]][j<span class="number">-1</span>]</span><br><span class="line">			v[i][j] = v[i][j<span class="number">-1</span>] + v[a[i][j<span class="number">-1</span>]][j<span class="number">-1</span>]</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">var</span> res <span class="type">int64</span> = <span class="number">0</span></span><br><span class="line">		u := i</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; <span class="number">40</span>; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> (k&gt;&gt;j)&amp;<span class="number">1</span> == <span class="number">1</span> &#123;</span><br><span class="line">				res += v[u][j]</span><br><span class="line">				u = a[u][j]</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		ans = max(ans, res+<span class="type">int64</span>(i))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>每日一题</category>
@@ -1813,6 +1813,24 @@
       </tags>
   </entry>
   <entry>
+    <title>leetcode833.字符串中的查找与替换</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-and-replace-in-string/">原题链接 833. 字符串中的查找与替换</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findReplaceString</span><span class="params">(s <span class="type">string</span>, indices []<span class="type">int</span>, sources []<span class="type">string</span>, targets []<span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(indices)</span><br><span class="line">	<span class="keyword">type</span> option <span class="keyword">struct</span> &#123;</span><br><span class="line">		index          <span class="type">int</span></span><br><span class="line">		source, target <span class="type">string</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	options := <span class="built_in">make</span>([]option, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		options[i].index, options[i].source, options[i].target = indices[i], sources[i], targets[i]</span><br><span class="line">	&#125;</span><br><span class="line">	sort.Slice(options, <span class="function"><span class="keyword">func</span><span class="params">(i, j <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123; <span class="keyword">return</span> options[i].index &lt; options[j].index &#125;)</span><br><span class="line"></span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="number">0</span>; i &lt; <span class="built_in">len</span>(s); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> j &lt; n &amp;&amp; i == options[j].index &#123;</span><br><span class="line">			le := <span class="built_in">len</span>(options[j].source)</span><br><span class="line">			<span class="keyword">if</span> i+le &lt;= <span class="built_in">len</span>(s) &amp;&amp; s[i:i+le] == options[j].source &#123;</span><br><span class="line">				res = <span class="built_in">append</span>(res, options[j].target...)</span><br><span class="line">				i = i + le - <span class="number">1</span></span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				res = <span class="built_in">append</span>(res, s[i])</span><br><span class="line">			&#125;</span><br><span class="line">			j++</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			res = <span class="built_in">append</span>(res, s[i])</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode849.到最近的人的最大距离</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/maximize-distance-to-closest-person/">原题链接 849. 到最近的人的最大距离</a></p>
@@ -1823,24 +1841,6 @@
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxDistToClosest</span><span class="params">(seats []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(seats)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">1</span>)</span><br><span class="line">	a[<span class="number">0</span>] = <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> seats &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">			a = <span class="built_in">append</span>(a, i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = max(a[<span class="number">1</span>], n<span class="number">-1</span>-a[<span class="built_in">len</span>(a)<span class="number">-1</span>])</span><br><span class="line">	a = <span class="built_in">append</span>(a, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(a); i++ &#123;</span><br><span class="line">		res := (a[i] - a[i<span class="number">-1</span>]) / <span class="number">2</span></span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 ]]></content>
-      <categories>
-        <category>刷题</category>
-        <category>每日一题</category>
-      </categories>
-      <tags>
-        <tag>刷题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>leetcode833.字符串中的查找与替换</title>
-    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode833-%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%9B%BF%E6%8D%A2.html</url>
-    <content><![CDATA[<p><a href="https://leetcode.cn/problems/find-and-replace-in-string/">原题链接 833. 字符串中的查找与替换</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findReplaceString</span><span class="params">(s <span class="type">string</span>, indices []<span class="type">int</span>, sources []<span class="type">string</span>, targets []<span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(indices)</span><br><span class="line">	<span class="keyword">type</span> option <span class="keyword">struct</span> &#123;</span><br><span class="line">		index          <span class="type">int</span></span><br><span class="line">		source, target <span class="type">string</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	options := <span class="built_in">make</span>([]option, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		options[i].index, options[i].source, options[i].target = indices[i], sources[i], targets[i]</span><br><span class="line">	&#125;</span><br><span class="line">	sort.Slice(options, <span class="function"><span class="keyword">func</span><span class="params">(i, j <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123; <span class="keyword">return</span> options[i].index &lt; options[j].index &#125;)</span><br><span class="line"></span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="number">0</span>; i &lt; <span class="built_in">len</span>(s); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> j &lt; n &amp;&amp; i == options[j].index &#123;</span><br><span class="line">			le := <span class="built_in">len</span>(options[j].source)</span><br><span class="line">			<span class="keyword">if</span> i+le &lt;= <span class="built_in">len</span>(s) &amp;&amp; s[i:i+le] == options[j].source &#123;</span><br><span class="line">				res = <span class="built_in">append</span>(res, options[j].target...)</span><br><span class="line">				i = i + le - <span class="number">1</span></span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				res = <span class="built_in">append</span>(res, s[i])</span><br><span class="line">			&#125;</span><br><span class="line">			j++</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			res = <span class="built_in">append</span>(res, s[i])</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>]]></content>
       <categories>
         <category>刷题</category>
         <category>每日一题</category>
@@ -2402,36 +2402,6 @@
       </tags>
   </entry>
   <entry>
-    <title>引入外部脚本</title>
-    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
-    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
-<span id="more"></span>
-<p>语法格式</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
-<p>或</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
-
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
-<p>然后创建test2.sh，内容为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
-<p>执行命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
-
-<hr>
-<center>
-
-<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
-</center>]]></content>
-      <categories>
-        <category>语言</category>
-        <category>shell</category>
-      </categories>
-      <tags>
-        <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>循环语句</title>
     <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BE%AA%E7%8E%AF%E8%AF%AD%E5%8F%A5.html</url>
     <content><![CDATA[<h2 id="for…in…do…done"><a href="#for…in…do…done" class="headerlink" title="for…in…do…done"></a><strong>for…in…do…done</strong></h2><p>命令格式</p>
@@ -2475,6 +2445,36 @@
 </blockquote>
 </li>
 </ul>
+<hr>
+<center>
+
+<p><a href="/%E8%AF%AD%E8%A8%80/shell.html">返回目录</a></p>
+</center>]]></content>
+      <categories>
+        <category>语言</category>
+        <category>shell</category>
+      </categories>
+      <tags>
+        <tag>shell</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>引入外部脚本</title>
+    <url>/%E8%AF%AD%E8%A8%80/shell/%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8%E8%84%9A%E6%9C%AC.html</url>
+    <content><![CDATA[<p>类似于<code>C/C++</code>中的<code>include</code>操作，<code>bash</code>也可以引入其他文件中的代码。</p>
+<span id="more"></span>
+<p>语法格式</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">. filename  <span class="comment"># 注意点和文件名之间有一个空格</span></span><br></pre></td></tr></table></figure>
+<p>或</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">source</span> filename</span><br></pre></td></tr></table></figure>
+
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><strong>示例</strong></h2><p>创建<code>test1.sh</code>，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line">name=catgok  <span class="comment"># 定义变量name</span></span><br></pre></td></tr></table></figure>
+<p>然后创建test2.sh，内容为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#! /bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">source</span> test1.sh <span class="comment"># 或 . test1.sh</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> My name is: <span class="variable">$name</span>  <span class="comment"># 可以使用test1.sh中的变量</span></span><br></pre></td></tr></table></figure>
+<p>执行命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">catgok@9e0ebfcd82d7:~$ chmod +x test2.sh </span><br><span class="line">catgok@9e0ebfcd82d7:~$ ./test2.sh </span><br><span class="line">My name is: catgok</span><br></pre></td></tr></table></figure>
+
 <hr>
 <center>
 
