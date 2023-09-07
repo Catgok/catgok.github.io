@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">122</span>
+          <span class="site-state-item-count">128</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html" class="post-title-link" itemprop="url">leetcode7004.判别首字母缩略词</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html" class="post-title-link" itemprop="url">leetcode1267.统计参与通信的服务器</a>
         </h2>
 
         <div class="post-meta-container">
@@ -222,14 +222,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:52" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:52+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-24 12:14:08" itemprop="dateCreated datePublished" datetime="2023-08-24T12:14:08+08:00">2023-08-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-24 12:20:34" itemprop="dateModified" datetime="2023-08-24T12:20:34+08:00">2023-08-24</time>
+      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -252,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>54</span>
+      <span>84</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,16 +270,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/">原题链接 7004. 判别首字母缩略词</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-servers-that-communicate/">原题链接 1267. 统计参与通信的服务器</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">isAcronym</span><span class="params">(words []<span class="type">string</span>, s <span class="type">string</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(words)</span><br><span class="line">	<span class="keyword">if</span> n != <span class="built_in">len</span>(s) &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> s[i] != words[i][<span class="number">0</span>] &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countServers</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	cntr, cntc := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">				cntr[i]++</span><br><span class="line">				cntc[j]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; (cntr[i] &gt;= <span class="number">2</span> || cntc[j] &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode7004-%E5%88%A4%E5%88%AB%E9%A6%96%E5%AD%97%E6%AF%8D%E7%BC%A9%E7%95%A5%E8%AF%8D.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -310,7 +311,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -328,7 +329,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode2236.判断根结点是否等于子结点之和</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode1782.统计点对的数目</a>
         </h2>
 
         <div class="post-meta-container">
@@ -339,14 +340,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:45" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:45+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-23 22:24:10" itemprop="dateCreated datePublished" datetime="2023-08-23T22:24:10+08:00">2023-08-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-24 12:21:05" itemprop="dateModified" datetime="2023-08-24T12:21:05+08:00">2023-08-24</time>
+      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -369,7 +370,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>52</span>
+      <span>151</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -387,16 +388,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/root-equals-sum-of-children/">原题链接 2236. 判断根结点是否等于子结点之和</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-pairs-of-nodes/">原题链接 1782. 统计点对的数目</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">checkTree</span><span class="params">(root *TreeNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> root.Val == root.Left.Val+root.Right.Val</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPairs</span><span class="params">(n <span class="type">int</span>, edges [][]<span class="type">int</span>, queries []<span class="type">int</span>)</span></span> (ans []<span class="type">int</span>) &#123;</span><br><span class="line">	siz := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(edges))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> edges &#123;</span><br><span class="line">		x, y := v[<span class="number">0</span>], v[<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			x, y = y, x</span><br><span class="line">		&#125;</span><br><span class="line">		siz[x]++</span><br><span class="line">		siz[y]++</span><br><span class="line">		cnt[[<span class="number">2</span>]<span class="type">int</span>&#123;x, y&#125;]++</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	sizc := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="built_in">copy</span>(sizc, siz)</span><br><span class="line">	sort.Ints(sizc)</span><br><span class="line">	sizc = <span class="built_in">append</span>(sizc, <span class="number">0x3f3f3f3f</span>)</span><br><span class="line">	<span class="comment">// fmt.Println(siz)</span></span><br><span class="line">	<span class="keyword">for</span> _, q := <span class="keyword">range</span> queries &#123;</span><br><span class="line">		tmp := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> i, j := <span class="number">1</span>, n+<span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">			<span class="keyword">for</span> j &gt;= <span class="number">1</span> &amp;&amp; sizc[i]+sizc[j] &gt; q &#123;</span><br><span class="line">				j--</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span> j+<span class="number">1</span> &gt; i &#123;</span><br><span class="line">				tmp += n - j</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				tmp += n - i</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> k, v := <span class="keyword">range</span> cnt &#123;</span><br><span class="line">			x, y := k[<span class="number">0</span>], k[<span class="number">1</span>]</span><br><span class="line">			<span class="keyword">if</span> siz[x]+siz[y] &gt; q &amp;&amp; siz[x]+siz[y]-v &lt;= q &#123;</span><br><span class="line">				tmp--</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		ans = <span class="built_in">append</span>(ans, tmp)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -427,7 +429,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -445,7 +447,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html" class="post-title-link" itemprop="url">leetcode6941.将三个组排序</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html" class="post-title-link" itemprop="url">leetcode849.到最近的人的最大距离</a>
         </h2>
 
         <div class="post-meta-container">
@@ -456,14 +458,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:39" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:39+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-23 22:22:40" itemprop="dateCreated datePublished" datetime="2023-08-23T22:22:40+08:00">2023-08-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-24 12:20:43" itemprop="dateModified" datetime="2023-08-24T12:20:43+08:00">2023-08-24</time>
+      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -486,7 +488,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>117</span>
+      <span>100</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -504,16 +506,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sorting-three-groups/">原题链接 6941. 将三个组排序</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximize-distance-to-closest-person/">原题链接 849. 到最近的人的最大距离</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minimumOperations</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	a := <span class="built_in">make</span>([][]<span class="type">int</span>, <span class="number">3</span>)</span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		a[v<span class="number">-1</span>] = <span class="built_in">append</span>(a[v<span class="number">-1</span>], i)</span><br><span class="line">	&#125;</span><br><span class="line">	ans = <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="comment">// fmt.Println(a[0])</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i; j &lt;= n; j++ &#123;</span><br><span class="line">			res := <span class="number">0</span></span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">0</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &gt;= i &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">1</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &lt; i || v &gt;= j &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">2</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &lt; j &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			ans = min(ans, res)</span><br><span class="line">			<span class="comment">// fmt.Println(res,i,j)</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxDistToClosest</span><span class="params">(seats []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(seats)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">1</span>)</span><br><span class="line">	a[<span class="number">0</span>] = <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> seats &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">			a = <span class="built_in">append</span>(a, i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = max(a[<span class="number">1</span>], n<span class="number">-1</span>-a[<span class="built_in">len</span>(a)<span class="number">-1</span>])</span><br><span class="line">	a = <span class="built_in">append</span>(a, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(a); i++ &#123;</span><br><span class="line">		res := (a[i] - a[i<span class="number">-1</span>]) / <span class="number">2</span></span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -544,7 +547,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -562,7 +565,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html" class="post-title-link" itemprop="url">leetcode8014.循环增长使字符串子序列等于另一个字符串</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html" class="post-title-link" itemprop="url">leetcode2337.移动片段得到字符串</a>
         </h2>
 
         <div class="post-meta-container">
@@ -573,14 +576,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:33" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:33+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-21 00:57:36" itemprop="dateCreated datePublished" datetime="2023-08-21T00:57:36+08:00">2023-08-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-24 12:20:26" itemprop="dateModified" datetime="2023-08-24T12:20:26+08:00">2023-08-24</time>
+      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -603,7 +606,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>108</span>
+      <span>109</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -621,17 +624,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/make-string-a-subsequence-using-cyclic-increments/">原题链接 8014. 循环增长使字符串子序列等于另一个字符串</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/move-pieces-to-obtain-a-string/">原题链接 2337. 移动片段得到字符串</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">canMakeSubsequence</span><span class="params">(str1 <span class="type">string</span>, str2 <span class="type">string</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(str1), <span class="built_in">len</span>(str2)</span><br><span class="line">	a, b := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		a[i] = <span class="type">int</span>(str1[i] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; m; i++ &#123;</span><br><span class="line">		b[i] = <span class="type">int</span>(str2[i] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	i, j := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i &lt; n &amp;&amp; j &lt; m &#123;</span><br><span class="line">		<span class="keyword">if</span> a[i] == b[j] || ((a[i]+<span class="number">1</span>)%<span class="number">26</span>) == b[j] &#123;</span><br><span class="line">			j++</span><br><span class="line">			i++</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			i++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">// fmt.Println(i,j)</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j == m</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">canChange</span><span class="params">(start <span class="type">string</span>, target <span class="type">string</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	cntl, cntr := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> start &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="string">&#x27;L&#x27;</span> &#123;</span><br><span class="line">			cntl++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="string">&#x27;R&#x27;</span> &#123;</span><br><span class="line">			cntr++</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> target &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="string">&#x27;L&#x27;</span> &#123;</span><br><span class="line">			cntl--</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="string">&#x27;R&#x27;</span> &#123;</span><br><span class="line">			cntr--</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> cntl != <span class="number">0</span> || cntr != <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(start)</span><br><span class="line">	i, j := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i &lt; n &#123;</span><br><span class="line">		<span class="keyword">if</span> start[i] == <span class="string">&#x27;_&#x27;</span> &#123;</span><br><span class="line">			i++</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> j &lt; n &amp;&amp; target[j] != start[i] &#123;</span><br><span class="line">			j++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> j == n || (target[j] == <span class="string">&#x27;R&#x27;</span> &amp;&amp; j &lt; i) || (target[j] == <span class="string">&#x27;L&#x27;</span> &amp;&amp; j &gt; i) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">		i++</span><br><span class="line">		j++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -662,7 +665,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -680,7 +683,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode6954.统计和小于目标的下标对数目</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html" class="post-title-link" itemprop="url">leetcode6467.找出最长等值子数组</a>
         </h2>
 
         <div class="post-meta-container">
@@ -691,14 +694,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:25" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:25+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-20 23:48:11" itemprop="dateCreated datePublished" datetime="2023-08-20T23:48:11+08:00">2023-08-20</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-24 12:20:38" itemprop="dateModified" datetime="2023-08-24T12:20:38+08:00">2023-08-24</time>
+      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -721,7 +724,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>60</span>
+      <span>111</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -739,16 +742,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/">原题链接 6954. 统计和小于目标的下标对数目</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-the-longest-equal-subarray/">原题链接 6467. 找出最长等值子数组</a></p>
 <hr>
-<details> 
+<details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPairs</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> nums[j]+nums[i] &lt; target &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">longestEqualSubarray</span><span class="params">(nums []<span class="type">int</span>, k <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	pos := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		pos[v] = <span class="built_in">append</span>(pos[v], i)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		q := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(pos[i])+<span class="number">10</span>)</span><br><span class="line">		hh, tt := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> pos[i] &#123;</span><br><span class="line">			q[tt], tt = v, tt+<span class="number">1</span></span><br><span class="line">			le := tt - hh</span><br><span class="line">			<span class="keyword">if</span> v-q[hh]+<span class="number">1</span> &gt; le+k &#123;</span><br><span class="line">				hh++</span><br><span class="line">				le = tt - hh</span><br><span class="line">			&#125;</span><br><span class="line">			ans = max(ans, le)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -772,7 +775,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/7/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/25/">25</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/9/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/7/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/26/">26</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/9/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -795,13 +798,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">17k</span>
+    <span title="站点总字数">19k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:01</span>
+    <span title="站点阅读时长">1:09</span>
   </span>
 </div>
 <div class="busuanzi-count">
