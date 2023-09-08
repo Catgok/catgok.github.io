@@ -10,6 +10,24 @@
       </categories>
   </entry>
   <entry>
+    <title>leetcode2651.计算列车到站时间</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/calculate-delayed-arrival-time/">原题链接 2651. 计算列车到站时间</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findDelayedArrivalTime</span><span class="params">(arrivalTime <span class="type">int</span>, delayedTime <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> (arrivalTime + delayedTime) % <span class="number">24</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leetcode2594.修车的最少时间</title>
     <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html</url>
     <content><![CDATA[<p><a href="https://leetcode.cn/problems/minimum-time-to-repair-cars">原题链接 2594. 修车的最少时间</a></p>
@@ -218,6 +236,49 @@
     <title>数据结构</title>
     <url>/%E9%9D%A2%E8%AF%95/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84.html</url>
     <content><![CDATA[<details>
+    <summary>希尔排序</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>插入法生成二叉排序树的过程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>线性探测hash的查找次数</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>红黑树，hashmap是怎样的</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>hash扩容方式</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>二叉排序树的平均查找长度</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -249,6 +310,66 @@
 </details>
 
 <details>
+    <summary>线程同步的方式</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>中断</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+<span id="more"></span>
+<details>
+    <summary>堆和栈</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>为什么需要锁</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>线程，进程，协程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>linux中断，如何管理内存，用户态和内核态</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>进程的三态模型与五态模型</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>覆盖与交换技术</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>CPU调度算法</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -265,6 +386,91 @@
     <title>计算机网络</title>
     <url>/%E9%9D%A2%E8%AF%95/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.html</url>
     <content><![CDATA[<details>
+    <summary>OSI七层模型和TCP/IP五层模型</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>TCP连接三次握手过程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>路由器，交换机区别</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>dns过程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>tcp/udp</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>session,token,cookie</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>arp传包</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>HTTP状态码</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>浏览器输入网址后发生什么</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>TCP建立和断开连接过程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>ping IP 用到的网络协议</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>HTTPS TLS过程</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>HTTP报文内容</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>TCP的机制</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -286,6 +492,25 @@
 
 <p>答案</p>
 </details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
 ]]></content>
       <categories>
         <category>面试</category>
@@ -299,6 +524,31 @@
     <title>java</title>
     <url>/%E9%9D%A2%E8%AF%95/java.html</url>
     <content><![CDATA[<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -320,6 +570,25 @@
 <p>答案</p>
 </details>
 
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
 ]]></content>
       <categories>
         <category>面试</category>
@@ -333,6 +602,25 @@
     <title>linux</title>
     <url>/%E9%9D%A2%E8%AF%95/linux.html</url>
     <content><![CDATA[<details>
+    <summary>linux查看文件并支持实时更新的命令</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+<span id="more"></span>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -349,6 +637,37 @@
     <title>redis</title>
     <url>/%E9%9D%A2%E8%AF%95/redis.html</url>
     <content><![CDATA[<details>
+    <summary>redis 数据类型 zset使用场景</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -399,6 +718,43 @@
 </details>
 
 <details>
+    <summary>InnDB B+树的好处</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>mysql的锁</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+<span id="more"></span>
+
+<details>
+    <summary>主键，外键，索引的区别</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>ACID</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>为什么使用B+树</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<details>
     <summary>问题</summary>
 
 <p>答案</p>
@@ -436,6 +792,7 @@
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> str strings.Builder</span><br><span class="line"><span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">1000</span>; i++ &#123;</span><br><span class="line">    str.WriteString(<span class="string">&quot;a&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line">fmt.Println(str.String())</span><br></pre></td></tr></table></figure>
 <p>答案</p>
 </details>
+<span id="more"></span>
 
 <details>
     <summary>defer panic return 顺序</summary>
@@ -469,51 +826,51 @@
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>iota</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>线程，进程，协程</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>gmp模型</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>内存逃逸</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>map扩容机制</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>闭包</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>map并发安全吗，并发写会报什么错，能否用recover捕获</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
-    <summary>问题</summary>
+    <summary>GC</summary>
 
-<p>答案</p>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
 <details>
@@ -2103,7 +2460,7 @@
 <details>
     <summary>(2023.9)</summary>
 
-<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2240-%E4%B9%B0%E9%92%A2%E7%AC%94%E5%92%8C%E9%93%85%E7%AC%94%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode2240. 买钢笔和铅笔的方案数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html">leetcode2511. 最多可以摧毁的敌人城堡数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html">leetcode1921. 消灭怪物的最大数量</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html">leetcode449. 序列化和反序列化二叉搜索树</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97%E6%95%B0.html">leetcode2605. 从两个数字数组里生成最小数字</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html">leetcode1123. 最深叶节点的最近公共祖先</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html">leetcode2594. 修车的最少时间</a></p>
+<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2240-%E4%B9%B0%E9%92%A2%E7%AC%94%E5%92%8C%E9%93%85%E7%AC%94%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode2240. 买钢笔和铅笔的方案数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html">leetcode2511. 最多可以摧毁的敌人城堡数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html">leetcode1921. 消灭怪物的最大数量</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html">leetcode449. 序列化和反序列化二叉搜索树</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97%E6%95%B0.html">leetcode2605. 从两个数字数组里生成最小数字</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html">leetcode1123. 最深叶节点的最近公共祖先</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html">leetcode2594. 修车的最少时间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html">leetcode2651. 计算列车到站时间</a></p>
 </details>]]></content>
       <categories>
         <category>刷题</category>
