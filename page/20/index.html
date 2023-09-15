@@ -148,18 +148,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">134</span>
+          <span class="site-state-item-count">140</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">36</span>
+        <span class="site-state-item-count">39</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">24</span>
+        <span class="site-state-item-count">27</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html" class="post-title-link" itemprop="url">leetcode2208.将数组和减半的最少操作次数</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html" class="post-title-link" itemprop="url">leetcode2050.并行课程III</a>
         </h2>
 
         <div class="post-meta-container">
@@ -222,7 +222,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-25 15:40:43" itemprop="dateCreated datePublished" datetime="2023-07-25T15:40:43+08:00">2023-07-25</time>
+      <time title="创建时间：2023-07-28 20:48:58" itemprop="dateCreated datePublished" datetime="2023-07-28T20:48:58+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -252,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>142</span>
+      <span>135</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,22 +270,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/">原题链接 2208. 将数组和减半的最少操作次数</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/parallel-courses-iii">原题链接 2050. 并行课程III</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">halveArray</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	sort.Ints(nums)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">float64</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">var</span> sum <span class="type">float64</span> = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		cur := <span class="type">float64</span>(v)</span><br><span class="line">		sum += cur</span><br><span class="line">		<span class="keyword">for</span> <span class="number">4</span>*cur &gt;= <span class="type">float64</span>(nums[<span class="built_in">len</span>(nums)/<span class="number">2</span>]) &#123;</span><br><span class="line">			cur /= <span class="number">2.0</span></span><br><span class="line">			a = <span class="built_in">append</span>(a, cur)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	sum /= <span class="number">2.0</span></span><br><span class="line">	sort.Float64s(a)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(a) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		<span class="keyword">if</span> sum &lt;= <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		sum -= a[i]</span><br><span class="line">		ans++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minimumTime</span><span class="params">(n <span class="type">int</span>, relations [][]<span class="type">int</span>, time []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	in := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> relations &#123;</span><br><span class="line">		x, y := v[<span class="number">0</span>], v[<span class="number">1</span>]</span><br><span class="line">		g[y] = <span class="built_in">append</span>(g[y], x)</span><br><span class="line">		in[x]++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> in[i] == <span class="number">0</span> &#123;</span><br><span class="line">			g[<span class="number">0</span>] = <span class="built_in">append</span>(g[<span class="number">0</span>], i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	f := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">var</span> dp <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>)</span></span> <span class="type">int</span></span><br><span class="line">	dp = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> f[u] != <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> f[u]</span><br><span class="line">		&#125;</span><br><span class="line">		tmp := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			tmp = max(tmp, dp(v))</span><br><span class="line">		&#125;</span><br><span class="line">		f[u] = max(f[u], time[u]+tmp)</span><br><span class="line">		<span class="keyword">return</span> f[u]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> dp(<span class="number">0</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
 
-<details>
-    <summary>展开答案(c++)</summary>
-
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">halveArray</span><span class="params">(vector&lt;<span class="type">int</span>&gt; &amp;nums)</span> </span>&#123;</span><br><span class="line">        priority_queue&lt;<span class="type">double</span>&gt; q;</span><br><span class="line">        <span class="type">double</span> sum = <span class="number">0</span>, res = <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span> cnt = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i: nums) &#123;</span><br><span class="line">            sum += i;</span><br><span class="line">            q.<span class="built_in">push</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span> (res * <span class="number">2</span> &lt; sum) &#123;</span><br><span class="line">            cnt++;</span><br><span class="line">            <span class="type">double</span> cur = q.<span class="built_in">top</span>();</span><br><span class="line">            q.<span class="built_in">pop</span>();</span><br><span class="line">            res += cur / <span class="number">2.0</span>;</span><br><span class="line">            q.<span class="built_in">push</span>(cur / <span class="number">2.0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> cnt;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2208-%E5%B0%86%E6%95%B0%E7%BB%84%E5%92%8C%E5%87%8F%E5%8D%8A%E7%9A%84%E6%9C%80%E5%B0%91%E6%93%8D%E4%BD%9C%E6%AC%A1%E6%95%B0.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2050-%E5%B9%B6%E8%A1%8C%E8%AF%BE%E7%A8%8BIII.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -316,7 +311,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -334,7 +329,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html" class="post-title-link" itemprop="url">leetcode771.宝石与石头</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html" class="post-title-link" itemprop="url">leetcode2500.删除每行中的最大值</a>
         </h2>
 
         <div class="post-meta-container">
@@ -345,7 +340,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-25 15:40:36" itemprop="dateCreated datePublished" datetime="2023-07-25T15:40:36+08:00">2023-07-25</time>
+      <time title="创建时间：2023-07-27 17:46:08" itemprop="dateCreated datePublished" datetime="2023-07-27T17:46:08+08:00">2023-07-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -375,7 +370,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>50</span>
+      <span>74</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -393,16 +388,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/jewels-and-stones/">原题链接 771. 宝石与石头</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/delete-greatest-value-in-each-row">原题链接 2500.删除每行中的最大值</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">numJewelsInStones</span><span class="params">(jewels <span class="type">string</span>, stones <span class="type">string</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">rune</span>]<span class="type">int</span>, <span class="built_in">len</span>(jewels))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> jewels &#123;</span><br><span class="line">		mp[v] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> stones &#123;</span><br><span class="line">		ans += mp[v]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">deleteGreatestValue</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		sort.Ints(grid[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(grid[<span class="number">0</span>]) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		res := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> j := <span class="keyword">range</span> grid &#123;</span><br><span class="line">			res = max(res, grid[j][i])</span><br><span class="line">		&#125;</span><br><span class="line">		ans += res</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode771-%E5%AE%9D%E7%9F%B3%E4%B8%8E%E7%9F%B3%E5%A4%B4.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2500-%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -433,7 +429,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -451,7 +447,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html" class="post-title-link" itemprop="url">leetcode42.接雨水</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html" class="post-title-link" itemprop="url">leetcode2791.树中可以形成回文的路径数</a>
         </h2>
 
         <div class="post-meta-container">
@@ -462,7 +458,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-23 16:34:17" itemprop="dateCreated datePublished" datetime="2023-07-23T16:34:17+08:00">2023-07-23</time>
+      <time title="创建时间：2023-07-27 17:43:06" itemprop="dateCreated datePublished" datetime="2023-07-27T17:43:06+08:00">2023-07-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -492,7 +488,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>102</span>
+      <span>138</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -510,16 +506,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/trapping-rain-water">原题链接 42. 接雨水</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-paths-that-can-form-a-palindrome-in-a-tree">原题链接 2791. 树中可以形成回文的路径数</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">trap</span><span class="params">(height []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(height)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	cur := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = cur</span><br><span class="line">	&#125;</span><br><span class="line">	cur = <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := n - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		cur = max(cur, height[i])</span><br><span class="line">		a[i] = min(a[i], cur)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		ans += a[i] - height[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -min(-x, -y)</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPalindromePaths</span><span class="params">(parent []<span class="type">int</span>, s <span class="type">string</span>)</span></span> (ans <span class="type">int64</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(parent)</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		v := parent[i]</span><br><span class="line">		g[v] = <span class="built_in">append</span>(g[v], i)</span><br><span class="line">	&#125;</span><br><span class="line">	val := <span class="number">0</span></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		mp[val]++</span><br><span class="line">		<span class="comment">// fmt.Println(u,val)</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">			dfs(v, fa)</span><br><span class="line">			val ^= <span class="number">1</span> &lt;&lt; (s[v] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(<span class="number">0</span>, <span class="number">-1</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		ans += <span class="type">int64</span>(v)*<span class="type">int64</span>(v) - <span class="type">int64</span>(v)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> k, v := <span class="keyword">range</span> mp &#123;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">26</span>; i++ &#123;</span><br><span class="line">			res := mp[k^(<span class="number">1</span>&lt;&lt;i)]</span><br><span class="line">			ans += <span class="type">int64</span>(res) * <span class="type">int64</span>(v)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">// fmt.Println(mp)</span></span><br><span class="line">	<span class="keyword">return</span> ans / <span class="number">2</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode42-%E6%8E%A5%E9%9B%A8%E6%B0%B4.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2791-%E6%A0%91%E4%B8%AD%E5%8F%AF%E4%BB%A5%E5%BD%A2%E6%88%90%E5%9B%9E%E6%96%87%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -550,7 +547,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -568,7 +565,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html" class="post-title-link" itemprop="url">leetcode860.柠檬水找零</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode2790.长度递增组的最大数目</a>
         </h2>
 
         <div class="post-meta-container">
@@ -579,7 +576,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-22 17:12:26" itemprop="dateCreated datePublished" datetime="2023-07-22T17:12:26+08:00">2023-07-22</time>
+      <time title="创建时间：2023-07-27 17:40:37" itemprop="dateCreated datePublished" datetime="2023-07-27T17:40:37+08:00">2023-07-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -609,7 +606,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>65</span>
+      <span>52</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -627,17 +624,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/lemonade-change">原题链接 860. 柠檬水找零</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-number-of-groups-with-increasing-length">原题链接 2790. 长度递增组的最大数目</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">lemonadeChange</span><span class="params">(bills []<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	r1, r2, r3 := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> bills &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">5</span> &#123;</span><br><span class="line">			r1++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">10</span> &#123;</span><br><span class="line">			r1--</span><br><span class="line">			r2++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">20</span> &#123;</span><br><span class="line">			<span class="keyword">if</span> r2 &gt; <span class="number">0</span> &#123;</span><br><span class="line">				r2--</span><br><span class="line">				r1--</span><br><span class="line">				r3++</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				r1 -= <span class="number">3</span></span><br><span class="line">				r3++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> r1 &lt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxIncreasingGroups</span><span class="params">(a []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	cur, re := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	sort.Ints(a)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> a &#123;</span><br><span class="line">		<span class="keyword">if</span> v+re &gt; cur &#123;</span><br><span class="line">			cur++</span><br><span class="line">			re -= cur - v</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			re += v</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> cur</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
-
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode860-%E6%9F%A0%E6%AA%AC%E6%B0%B4%E6%89%BE%E9%9B%B6.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode2790-%E9%95%BF%E5%BA%A6%E9%80%92%E5%A2%9E%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -668,7 +664,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -686,7 +682,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html" class="post-title-link" itemprop="url">leetcode1499.满足不等式的最大值</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html" class="post-title-link" itemprop="url">leetcode946.验证栈序列</a>
         </h2>
 
         <div class="post-meta-container">
@@ -697,7 +693,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-21 21:54:41" itemprop="dateCreated datePublished" datetime="2023-07-21T21:54:41+08:00">2023-07-21</time>
+      <time title="创建时间：2023-07-27 17:38:08" itemprop="dateCreated datePublished" datetime="2023-07-27T17:38:08+08:00">2023-07-27</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -727,7 +723,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>215</span>
+      <span>76</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -745,23 +741,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/validate-stack-sequences">原题链接 946.验证栈序列</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findMaxValueOfEquation</span><span class="params">(points [][]<span class="type">int</span>, k <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	ans = <span class="number">-0x3f3f3f3f</span></span><br><span class="line">	hh, tt := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	queue := <span class="built_in">make</span>([][<span class="number">2</span>]<span class="type">int</span>, <span class="built_in">len</span>(points))</span><br><span class="line">	queue[<span class="number">0</span>] = [<span class="number">2</span>]<span class="type">int</span>&#123;points[<span class="number">0</span>][<span class="number">0</span>], points[<span class="number">0</span>][<span class="number">1</span>] - points[<span class="number">0</span>][<span class="number">0</span>]&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(points); i++ &#123;</span><br><span class="line">		x, y := points[i][<span class="number">0</span>], points[i][<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">for</span> hh &lt;= tt &amp;&amp; queue[hh][<span class="number">0</span>]+k &lt; x &#123;</span><br><span class="line">			hh++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> hh &lt;= tt &#123;</span><br><span class="line">			res := x + y + queue[hh][<span class="number">1</span>]</span><br><span class="line">			ans = max(ans, res)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> hh &lt;= tt &amp;&amp; queue[tt][<span class="number">1</span>] &lt; y-x &#123;</span><br><span class="line">			tt--</span><br><span class="line">		&#125;</span><br><span class="line">		tt++</span><br><span class="line">		queue[tt] = [<span class="number">2</span>]<span class="type">int</span>&#123;x, y - x&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">validateStackSequences</span><span class="params">(pushed []<span class="type">int</span>, popped []<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(pushed)</span><br><span class="line">	st, hh := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="number">0</span></span><br><span class="line">	i, j := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i != n &#123;</span><br><span class="line">		<span class="keyword">for</span> (hh == <span class="number">0</span> || st[hh<span class="number">-1</span>] != popped[i]) &amp;&amp; j != n &#123;</span><br><span class="line">			st[hh] = pushed[j]</span><br><span class="line">			hh++</span><br><span class="line">			j++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> hh == <span class="number">0</span> || st[hh<span class="number">-1</span>] != popped[i] &#123;</span><br><span class="line">			<span class="keyword">break</span></span><br><span class="line">		&#125;</span><br><span class="line">		hh--</span><br><span class="line">		i++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> i == n &amp;&amp; hh == <span class="number">0</span> &amp;&amp; j == n</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
-
-<details>
-    <summary>展开答案(c++)</summary>
-
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">findMaxValueOfEquation</span><span class="params">(vector &lt;vector&lt;<span class="type">int</span>&gt;&gt; &amp;points, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">-1e9</span>;</span><br><span class="line">        priority_queue &lt;PII&gt; q;</span><br><span class="line">        q.<span class="built_in">push</span>(&#123;points[<span class="number">0</span>][<span class="number">1</span>] - points[<span class="number">0</span>][<span class="number">0</span>], points[<span class="number">0</span>][<span class="number">0</span>]&#125;);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; points.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="type">int</span> x = points[i][<span class="number">0</span>], y = points[i][<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">while</span> (q.<span class="built_in">size</span>() &amp;&amp; q.<span class="built_in">top</span>().y + k &lt; x) &#123;</span><br><span class="line">                q.<span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (q.<span class="built_in">size</span>() != <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="type">int</span> res = x + y + q.<span class="built_in">top</span>().x;</span><br><span class="line">                ans = <span class="built_in">max</span>(ans, res);</span><br><span class="line">            &#125;</span><br><span class="line">            q.<span class="built_in">push</span>(&#123;y - x, x&#125;);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-</details>
-
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode946-%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -785,7 +774,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/19/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/27/">27</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/21/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/19/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/28/">28</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/21/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -808,13 +797,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">28k</span>
+    <span title="站点总字数">29k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:43</span>
+    <span title="站点阅读时长">1:45</span>
   </span>
 </div>
 <div class="busuanzi-count">
