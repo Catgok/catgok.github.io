@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/avatar.jpg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.jpg">
+  <link rel="mask-icon" href="/images/avatar.jpg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:300,300italic,400,400italic,700,700italic%7CRoboto+Slab:300,300italic,400,400italic,700,700italic%7CRoboto+Mono:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.17.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":true,"style":"mac"},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":-1,"unescape":false,"preload":false}}</script><script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/config.min.js"></script>
+
+    <meta name="description" content="a :&#x3D; []int{1, 2, 3}和a :&#x3D; [...]int{1, 2, 3}的区别       a :&#x3D; []int&amp;#123;1, 2, 3&amp;#125;：是切片(slice)的声明方式。切片是由数组构建而成的动态长度序列。使用切片可以方便地进行添加、删除和修改元素等操作。在声明时，切片并未指定具体的长度，而是根据初始化的元素个数动态确定长度。  a :&#x3D; [...]int&amp;#1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="go">
+<meta property="og:url" content="http://example.com/%E5%85%AB%E8%82%A1/go.html">
+<meta property="og:site_name" content="Catgok&#39;s Blog">
+<meta property="og:description" content="a :&#x3D; []int{1, 2, 3}和a :&#x3D; [...]int{1, 2, 3}的区别       a :&#x3D; []int&amp;#123;1, 2, 3&amp;#125;：是切片(slice)的声明方式。切片是由数组构建而成的动态长度序列。使用切片可以方便地进行添加、删除和修改元素等操作。在声明时，切片并未指定具体的长度，而是根据初始化的元素个数动态确定长度。  a :&#x3D; [...]int&amp;#1">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/%E5%85%AB%E8%82%A1/go/2023-09-12-14-28-45.png">
+<meta property="og:image" content="http://example.com/%E5%85%AB%E8%82%A1/go/2023-09-12-14-30-48.png">
+<meta property="og:image" content="http://example.com/%E5%85%AB%E8%82%A1/go/2023-09-12-14-31-55.png">
+<meta property="article:published_time" content="2023-08-31T10:57:24.000Z">
+<meta property="article:modified_time" content="2023-09-15T03:48:07.969Z">
+<meta property="article:author" content="catgok">
+<meta property="article:tag" content="八股,go">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/%E5%85%AB%E8%82%A1/go/2023-09-12-14-28-45.png">
+
+
+<link rel="canonical" href="http://example.com/%E5%85%AB%E8%82%A1/go.html">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://example.com/%E5%85%AB%E8%82%A1/go.html","path":"八股/go.html","title":"go"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>go | Catgok's Blog</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">Catgok's Blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="catgok"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">catgok</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">143</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/catgok" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;catgok" rel="noopener me" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:catgok@163.com" title="E-Mail → mailto:catgok@163.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/go.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="go | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          go
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-08-31 18:57:24" itemprop="dateCreated datePublished" datetime="2023-08-31T18:57:24+08:00">2023-08-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-09-15 11:48:07" itemprop="dateModified" datetime="2023-09-15T11:48:07+08:00">2023-09-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%AB%E8%82%A1/go/" itemprop="url" rel="index"><span itemprop="name">go</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">阅读次数：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.6k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>6 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><details>
+    <summary>a := []int{1, 2, 3}和a := [...]int{1, 2, 3}的区别</summary>
+    
+<ul>
+<li><p><code>a := []int&#123;1, 2, 3&#125;</code>：是<strong>切片(slice)<strong>的声明方式。切片是由数组构建而成的</strong>动态长度</strong>序列。使用切片可以方便地进行<strong>添加、删除和修改</strong>元素等操作。在声明时，切片并未指定具体的长度，而是根据初始化的元素个数动态确定长度。</p>
+</li>
+<li><p><code>a := [...]int&#123;1, 2, 3&#125;</code>：是<strong>数组(array)<strong>的声明方式。数组是由</strong>固定长度</strong>的连续内存空间构成的序列。数组长度在声明时就被确定，之后<strong>无法再改变</strong>。使用数组可以在需要固定长度且占用连续内存的场景中很有用。</p>
+</details></li>
+</ul>
+<hr>
+<details>
+    <summary>什么是协程（Goroutine）</summary>
+
+<p>Goroutine 是与其他函数或方法同时运行的函数或方法。Goroutine 可以被认为是轻量级的线程。与线程相比，创建 Goroutine 的开销很小。Go应用程序同时运行数千个Goroutine 是非常常见的做法。</p>
+</details>
+
+<hr>
+<details>
+    <summary>如何高效地拼接字符串</summary>
+
+<p>Go 语言中，字符串是只读的，也就意味着每次修改操作都会创建一个新的字符串。如果需要拼接多次，应使用 strings.Builder，最小化内存拷贝次数。</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> str strings.Builder</span><br><span class="line"><span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">1000</span>; i++ &#123;</span><br><span class="line">    str.WriteString(<span class="string">&quot;a&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line">fmt.Println(str.String())</span><br></pre></td></tr></table></figure>
+</details>
+<span id="more"></span>
+
+<hr>
+<details>
+    <summary>defer panic return 顺序</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>tag的用处</summary>
+
+<p>Go 语言中的 tag 是结构体字段标签，用于在运行时为结构体的字段添加元数据。它以反引号 &#96;&#96; 包围，并附加在结构体字段的类型后面。Tag 的主要用途如下：</p>
+<ol>
+<li>序列化与反序列化：Tag 可以指定结构体字段在进行序列化和反序列化时的名称、格式和选项。常见的应用场景是使用 JSON 或 XML 进行数据的编码和解码。</li>
+<li>数据验证：通过为字段添加验证规则的 Tag，可以实现对结构体字段的输入数据进行验证，例如检查输入是否为空、长度是否符合要求等。</li>
+<li>ORM 映射：当使用 ORM（对象关系映射）框架时，Tag 可以用来定义数据库表与结构体字段之间的映射关系，包括表名、字段名、索引等信息。</li>
+<li>文档生成：Tag 可以作为注释的一部分，用于生成文档或自动化工具的识别。通过给结构体字段添加相关的描述性 Tag，可以生成更丰富的文档。</li>
+</ol>
+<p>需要注意的是，Go 语言的编译器并不会直接使用 Tag，而是提供了反射机制来让程序在运行时读取和处理 Tag。因此，在使用 Tag 时，需要使用反射库来获取和解析标签的值。</p>
+</details>
+
+<hr>
+<details>
+    <summary>打印时, %v 和 %+v 的区别</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">type</span> Stu <span class="keyword">struct</span> &#123;</span><br><span class="line">    Name <span class="type">string</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">    fmt.Printf(<span class="string">&quot;%v\n&quot;</span>, Stu&#123;<span class="string">&quot;Tom&quot;</span>&#125;) <span class="comment">// &#123;Tom&#125;</span></span><br><span class="line">    fmt.Printf(<span class="string">&quot;%+v\n&quot;</span>, Stu&#123;<span class="string">&quot;Tom&quot;</span>&#125;) <span class="comment">// &#123;Name:Tom&#125;</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>但如果结构体定义了 String() 方法， %v 和 %+v 都会调用 String() 覆盖默认值</p>
+</details>
+
+<hr>
+<details>
+    <summary>空 struct{} 的用途</summary>
+
+<p>使用空结构体 struct{} 可以节省内存，一般作为占位符使用，也可以用于信道(channel)控制并发的信号，或者声明只包含方法的结构体。</p>
+</details>
+
+<hr>
+<details>
+    <summary>iota</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>slice扩容(1.18版本前)</summary>
+
+<img data-src="/%E5%85%AB%E8%82%A1/go/2023-09-12-14-28-45.png" class="" title="step1">
+<img data-src="/%E5%85%AB%E8%82%A1/go/2023-09-12-14-30-48.png" class="" title="step2">
+<img data-src="/%E5%85%AB%E8%82%A1/go/2023-09-12-14-31-55.png" class="" title="step3">
+</details>
+
+<hr>
+<details>
+    <summary>进程，线程，协程</summary>
+
+<ul>
+<li>进程是操作系统分配资源和调度的单位，包含一个或多个线程。</li>
+<li>线程是操作系统调度的基本执行单位，可以利用多核处理器的并行能力。</li>
+<li>协程是Go语言提供的轻量级并发机制，由Go运行时调度，在单个线程上并发执行函数或方法。协程的切换代价较低，且可以方便地进行扩展和通信。</details></li>
+</ul>
+<hr>
+<details>
+    <summary>为什么需要协程，直接用线程不行吗？</summary>
+
+<p><strong>1. 轻量级：</strong> 协程比线程更轻量级，创建和切换的成本较低。一个程序可以同时运行成百上千个协程，而线程的数量受限于操作系统的限制。</p>
+<p><strong>2. 更高的并发性：</strong> 由于协程可以在单个线程上并发执行，所以可以充分利用多核处理器的能力，实现更大规模的并发性。</p>
+<p><strong>3. 更少的内存消耗：</strong> 协程的栈空间可以根据需要动态增长和收缩，相比之下，线程需要预分配固定大小的堆栈空间。这意味着在同样的内存限制下，可以创建更多的协程。</p>
+<p><strong>4. 简化的并发编程：</strong> 使用协程和通道（Channel）进行数据共享和通信，可以避免显式的锁机制和共享内存带来的复杂性和潜在的错误。</p>
+<p><strong>5. 高效的阻塞操作管理：</strong> 协程在阻塞的时候可以主动释放线程，而线程则会一直占用，浪费系统资源。通过使用协程，可以更高效地管理多个阻塞操作，提高程序的响应性和资源利用率。</p>
+</details>
+
+<hr>
+<details>
+    <summary>gmp模型</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/617420622">Go｜Golang 调度器设计思想、GMP 协程调度模型详解</a></p>
+</details>
+
+<hr>
+<details>
+    <summary>内存逃逸</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>map扩容机制</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/616979764">Go｜map底层实现、扩容规则、特性</a></p>
+</details>
+
+<hr>
+<details>
+    <summary>闭包</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>map并发安全吗，并发写会报什么错，能否用recover捕获</summary>
+
+<p><code>go map</code> 在并发访问时不是安全的。如果多个 goroutine 同时读写同一个 map，可能会导致数据竞争和不确定的行为。</p>
+<p>当多个 goroutine 并发地写入 map 时，可能会引发错误：<code>fatal error: concurrent map writes</code></p>
+<p>使用 <code>recover</code> 函数无法捕获并解决这些错误。<code>recover</code> 只能用于捕获由 <code>panic</code> 引发的运行时异常，并在延迟函数中进行处理。但是，对于并发访问 map 导致的数据竞争，<code>recover</code> 是无法解决的。</p>
+</details>
+
+<hr>
+<details>
+    <summary>GC</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>sync.Once</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>go语言中的context</summary>
+
+<p>&#x2F;&#x2F;todo -2</p>
+</details>
+
+<hr>
+<details>
+    <summary>go map相对于其他语言map的特殊点</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>java和go的区别</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E5%85%AB%E8%82%A1-go/" rel="tag"><i class="fa fa-tag"></i> 八股,go</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/%E5%85%AB%E8%82%A1.html" rel="prev" title="八股">
+                  <i class="fa fa-chevron-left"></i> 八股
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/%E5%85%AB%E8%82%A1/mysql.html" rel="next" title="mysql">
+                  mysql <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">catgok</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">30k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:49</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.loli.net/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.loli.net/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.loli.net/ajax/libs/pangu/4.0.7/pangu.min.js" integrity="sha256-j+yj56cdEY2CwkVtGyz18fNybFGpMGJ8JxG3GSyO2+I=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/comments.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/utils.min.js"></script><script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/next-boot.min.js"></script>
+
+  <script src="https://cdnjs.loli.net/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/third-party/search/local-search.min.js"></script>
+
+
+
+
+
+
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">false</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"none","js":{"url":"https://cdnjs.loli.net/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="https://cdnjs.loli.net/ajax/libs/hexo-theme-next/8.17.0/third-party/math/mathjax.min.js"></script>
+
+
+
+</body>
+</html>
