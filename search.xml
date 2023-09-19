@@ -10,6 +10,59 @@
       </categories>
   </entry>
   <entry>
+    <title>leetcode2560.打家劫舍IV</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIV.html</url>
+    <content><![CDATA[<h2 id="原题链接-2560-打家劫舍-IV"><a href="#原题链接-2560-打家劫舍-IV" class="headerlink" title="原题链接 2560. 打家劫舍 IV"></a><a href="https://leetcode.cn/problems/house-robber-iv">原题链接 2560. 打家劫舍 IV</a></h2><details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minCapability</span><span class="params">(nums []<span class="type">int</span>, k <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	l, r := <span class="number">0</span>, <span class="number">0x3f3f3f3f</span></span><br><span class="line">	check := <span class="function"><span class="keyword">func</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		pr := <span class="literal">false</span></span><br><span class="line">		cnt := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">			<span class="keyword">if</span> !pr &amp;&amp; v &lt;= x &#123;</span><br><span class="line">				pr = <span class="literal">true</span></span><br><span class="line">				cnt++</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				pr = <span class="literal">false</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> cnt &gt;= k</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> !check(m + <span class="number">1</span>) &#123;</span><br><span class="line">			l = m + <span class="number">1</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			r = m</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> l + <span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode337.打家劫舍III</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode337-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/house-robber-iii/">原题链接 337. 打家劫舍 III</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">rob</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>([]<span class="keyword">map</span>[*TreeNode]<span class="type">int</span>, <span class="number">2</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">2</span>; i++ &#123;</span><br><span class="line">		mp[i] = <span class="built_in">make</span>(<span class="keyword">map</span>[*TreeNode]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, use <span class="type">int</span>)</span></span> <span class="type">int</span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, use <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> x, ok := mp[use][root]; ok &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> use == <span class="number">1</span> &#123;</span><br><span class="line">			mp[use][root] = dfs(root.Left, <span class="number">0</span>) + dfs(root.Right, <span class="number">0</span>) + root.Val</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			mp[use][root] = max(dfs(root.Left, <span class="number">0</span>), dfs(root.Left, <span class="number">1</span>)) + max(dfs(root.Right, <span class="number">0</span>), dfs(root.Right, <span class="number">1</span>))</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> mp[use][root]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> max(dfs(root, <span class="number">0</span>), dfs(root, <span class="number">1</span>))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>leetcode198.打家劫舍</title>
+    <url>/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode198-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.html</url>
+    <content><![CDATA[<p><a href="https://leetcode.cn/problems/house-robber/">原题链接 198. 打家劫舍</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">rob</span><span class="params">(nums []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	a0, a1 := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		a0, a1 = max(a0, a1), a0+v</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> max(a0, a1)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>]]></content>
+      <categories>
+        <category>刷题</category>
+        <category>每日一题</category>
+      </categories>
+      <tags>
+        <tag>刷题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>其他</title>
     <url>/%E5%85%AB%E8%82%A1/%E5%85%B6%E4%BB%96.html</url>
     <content><![CDATA[<details>
@@ -68,9 +121,33 @@
 
 <hr>
 <details>
-    <summary>ACID</summary>
+    <summary>事务，ACID</summary>
 
-<p>&#x2F;&#x2F;todo</p>
+<p>一个事务是指一组数据库操作，被视为一个不可分割的工作单位。它要么全部成功执行，要么全部失败回滚。事务可以包含多个数据库操作，这些操作必须作为一个整体被执行，以确保数据的一致性和完整性。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>原子性（atomicity）</td>
+<td>原子性确保事务中的所有操作要么全部成功执行，要么全部失败回滚。如果事务中的任何操作失败，那么整个事务将被回滚到初始状态，数据库不会处于部分更新的状态。原子性确保了事务的完整性。</td>
+</tr>
+<tr>
+<td>一致性（consistency）</td>
+<td>一致性确保事务在执行前后数据库始终保持一致的状态。事务应该遵循预定义的规则和约束，以确保数据的有效性和完整性。如果事务违反了任何约束，它将被回滚，数据库不会处于不一致的状态。一致性确保了数据的正确性。</td>
+</tr>
+<tr>
+<td>隔离性（isolation）</td>
+<td>隔离性确保并发执行的事务相互隔离，使得每个事务感觉就像是在独立运行的数据库中执行一样。隔离性防止了并发事务之间的相互干扰，避免了数据不一致的情况发生。各个事务之间应该是相互独立的，不会相互影响。隔离性确保了事务的独立性和正确性。</td>
+</tr>
+<tr>
+<td>持久性（durability）</td>
+<td>持久性确保一旦事务提交，其结果将永久保存在数据库中，并且对于任何系统故障或重启都是可靠的。持久性保证了事务的结果不会因为系统故障而丢失，即使在系统崩溃后重新启动，数据也能够恢复到提交事务后的状态。持久性确保了数据的持久性。</td>
+</tr>
+</tbody></table>
 </details>
 
 <hr>
@@ -820,6 +897,28 @@
 <p>&#x2F;&#x2F;todo</p>
 </details>
 
+<hr>
+<details>
+    <summary>FIFO 内存缺页次数计算</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>死锁是什么，如何避免与解决</summary>
+
+<p>死锁是指在并发系统中，两个或多个进程因为争夺资源而陷入无限等待的状态，导致系统无法继续执行下去。这种情况下，每个进程都在等待其他进程释放它所需要的资源，但同时又不释放自己占有的资源，从而形成了循环依赖，无法解开。<br>避免与解决：<br>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>原码、反码、补码</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
 <hr>
 <details>
     <summary>问题</summary>
@@ -3385,7 +3484,7 @@
 <details>
     <summary>(2023.9)</summary>
 
-<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2240-%E4%B9%B0%E9%92%A2%E7%AC%94%E5%92%8C%E9%93%85%E7%AC%94%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode2240. 买钢笔和铅笔的方案数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html">leetcode2511. 最多可以摧毁的敌人城堡数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html">leetcode1921. 消灭怪物的最大数量</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html">leetcode449. 序列化和反序列化二叉搜索树</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97%E6%95%B0.html">leetcode2605. 从两个数字数组里生成最小数字</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html">leetcode1123. 最深叶节点的最近公共祖先</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html">leetcode2594. 修车的最少时间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html">leetcode2651. 计算列车到站时间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode207-%E8%AF%BE%E7%A8%8B%E8%A1%A8.html">leetcode207. 课程表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc319D-Minimum-Width.html">abc319 D - Minimum Width</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc319E-Bus-Stops.html">abc319 E - Bus Stops</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode210-%E8%AF%BE%E7%A8%8B%E8%A1%A8II.html">leetcode210. 课程表 II</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1462-%E8%AF%BE%E7%A8%8B%E8%A1%A8IV.html">leetcode1462. 课程表 IV</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2596-%E6%A3%80%E6%9F%A5%E9%AA%91%E5%A3%AB%E5%B7%A1%E8%A7%86%E6%96%B9%E6%A1%88.html">leetcode2596. 检查骑士巡视方案</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1222-%E5%8F%AF%E4%BB%A5%E6%94%BB%E5%87%BB%E5%9B%BD%E7%8E%8B%E7%9A%84%E7%9A%87%E5%90%8E.html">leetcode1222. 可以攻击国王的皇后</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode50-%E5%AE%9D%E7%9F%B3%E8%A1%A5%E7%BB%99.html">leetcode50. 宝石补给</a></p>
+<p><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2240-%E4%B9%B0%E9%92%A2%E7%AC%94%E5%92%8C%E9%93%85%E7%AC%94%E7%9A%84%E6%96%B9%E6%A1%88%E6%95%B0.html">leetcode2240. 买钢笔和铅笔的方案数</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html">leetcode2511. 最多可以摧毁的敌人城堡数目</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html">leetcode1921. 消灭怪物的最大数量</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html">leetcode449. 序列化和反序列化二叉搜索树</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97%E6%95%B0.html">leetcode2605. 从两个数字数组里生成最小数字</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html">leetcode1123. 最深叶节点的最近公共祖先</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html">leetcode2594. 修车的最少时间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html">leetcode2651. 计算列车到站时间</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode207-%E8%AF%BE%E7%A8%8B%E8%A1%A8.html">leetcode207. 课程表</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc319D-Minimum-Width.html">abc319 D - Minimum Width</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/abc319E-Bus-Stops.html">abc319 E - Bus Stops</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode210-%E8%AF%BE%E7%A8%8B%E8%A1%A8II.html">leetcode210. 课程表 II</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1462-%E8%AF%BE%E7%A8%8B%E8%A1%A8IV.html">leetcode1462. 课程表 IV</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2596-%E6%A3%80%E6%9F%A5%E9%AA%91%E5%A3%AB%E5%B7%A1%E8%A7%86%E6%96%B9%E6%A1%88.html">leetcode2596. 检查骑士巡视方案</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1222-%E5%8F%AF%E4%BB%A5%E6%94%BB%E5%87%BB%E5%9B%BD%E7%8E%8B%E7%9A%84%E7%9A%87%E5%90%8E.html">leetcode1222. 可以攻击国王的皇后</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode50-%E5%AE%9D%E7%9F%B3%E8%A1%A5%E7%BB%99.html">leetcode50. 宝石补给</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode198-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.html">leetcode198. 打家劫舍</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode337-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html">leetcode337. 打家劫舍 III</a><br><a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIV.html">leetcode2560. 打家劫舍 IV</a></p>
 </details>]]></content>
       <categories>
         <category>刷题</category>
