@@ -148,18 +148,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">143</span>
+          <span class="site-state-item-count">160</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-count">40</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-count">28</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/java.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html" class="post-title-link" itemprop="url">leetcode1267.统计参与通信的服务器</a>
+          <a href="/%E5%85%AB%E8%82%A1/java.html" class="post-title-link" itemprop="url">java</a>
         </h2>
 
         <div class="post-meta-container">
@@ -222,14 +222,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-24 12:14:08" itemprop="dateCreated datePublished" datetime="2023-08-24T12:14:08+08:00">2023-08-24</time>
+      <time title="创建时间：2023-08-31 19:10:05" itemprop="dateCreated datePublished" datetime="2023-08-31T19:10:05+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:46:57" itemprop="dateModified" datetime="2023-09-15T11:46:57+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -237,11 +237,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
         </span>
     </span>
 
@@ -252,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>84</span>
+      <span>41</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,17 +270,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-servers-that-communicate/">原题链接 1267. 统计参与通信的服务器</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
+          <details>
+    <summary>问题</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countServers</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	cntr, cntc := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">				cntr[i]++</span><br><span class="line">				cntc[j]++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, r := <span class="keyword">range</span> grid &#123;</span><br><span class="line">		<span class="keyword">for</span> j, v := <span class="keyword">range</span> r &#123;</span><br><span class="line">			<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; (cntr[i] &gt;= <span class="number">2</span> || cntc[j] &gt;= <span class="number">2</span>) &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>答案</p>
 </details>
 
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1267-%E7%BB%9F%E8%AE%A1%E5%8F%82%E4%B8%8E%E9%80%9A%E4%BF%A1%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/java.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -311,7 +322,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/docker.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -329,7 +340,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode1782.统计点对的数目</a>
+          <a href="/%E5%85%AB%E8%82%A1/docker.html" class="post-title-link" itemprop="url">docker</a>
         </h2>
 
         <div class="post-meta-container">
@@ -340,14 +351,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-23 22:24:10" itemprop="dateCreated datePublished" datetime="2023-08-23T22:24:10+08:00">2023-08-23</time>
+      <time title="创建时间：2023-08-31 19:09:58" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:58+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:48:17" itemprop="dateModified" datetime="2023-09-15T11:48:17+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -355,11 +366,140 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>33</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/docker.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/linux.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/%E5%85%AB%E8%82%A1/linux.html" class="post-title-link" itemprop="url">linux</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-08-31 19:09:52" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:52+08:00">2023-08-31</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-09-15 11:46:46" itemprop="dateModified" datetime="2023-09-15T11:46:46+08:00">2023-09-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%85%AB%E8%82%A1/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a>
         </span>
     </span>
 
@@ -388,17 +528,38 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-pairs-of-nodes/">原题链接 1782. 统计点对的数目</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
+          <details>
+    <summary>linux查看文件并支持实时更新的命令</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPairs</span><span class="params">(n <span class="type">int</span>, edges [][]<span class="type">int</span>, queries []<span class="type">int</span>)</span></span> (ans []<span class="type">int</span>) &#123;</span><br><span class="line">	siz := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	cnt := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(edges))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> edges &#123;</span><br><span class="line">		x, y := v[<span class="number">0</span>], v[<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			x, y = y, x</span><br><span class="line">		&#125;</span><br><span class="line">		siz[x]++</span><br><span class="line">		siz[y]++</span><br><span class="line">		cnt[[<span class="number">2</span>]<span class="type">int</span>&#123;x, y&#125;]++</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	sizc := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="built_in">copy</span>(sizc, siz)</span><br><span class="line">	sort.Ints(sizc)</span><br><span class="line">	sizc = <span class="built_in">append</span>(sizc, <span class="number">0x3f3f3f3f</span>)</span><br><span class="line">	<span class="comment">// fmt.Println(siz)</span></span><br><span class="line">	<span class="keyword">for</span> _, q := <span class="keyword">range</span> queries &#123;</span><br><span class="line">		tmp := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> i, j := <span class="number">1</span>, n+<span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">			<span class="keyword">for</span> j &gt;= <span class="number">1</span> &amp;&amp; sizc[i]+sizc[j] &gt; q &#123;</span><br><span class="line">				j--</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">if</span> j+<span class="number">1</span> &gt; i &#123;</span><br><span class="line">				tmp += n - j</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				tmp += n - i</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> k, v := <span class="keyword">range</span> cnt &#123;</span><br><span class="line">			x, y := k[<span class="number">0</span>], k[<span class="number">1</span>]</span><br><span class="line">			<span class="keyword">if</span> siz[x]+siz[y] &gt; q &amp;&amp; siz[x]+siz[y]-v &lt;= q &#123;</span><br><span class="line">				tmp--</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		ans = <span class="built_in">append</span>(ans, tmp)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>在Linux中，可以使用<code>tail</code>命令来查看文件的内容，并支持实时更新。</p>
+<p>以下是使用<code>tail</code>命令的基本语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail [选项] 文件名</span><br></pre></td></tr></table></figure>
+
+<p>其中，常用的选项包括：</p>
+<ul>
+<li><code>-f</code>：实时跟踪文件的更新。</li>
+<li><code>-n &lt;行数&gt;</code>：显示最后指定行数的内容，默认为10行。</li>
+</ul>
+<p>要实时查看一个文件的内容，可以使用以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail -f 文件名</span><br></pre></td></tr></table></figure>
 </details>
 
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1782-%E7%BB%9F%E8%AE%A1%E7%82%B9%E5%AF%B9%E7%9A%84%E6%95%B0%E7%9B%AE.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/linux.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -429,7 +590,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/redis.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -447,7 +608,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html" class="post-title-link" itemprop="url">leetcode849.到最近的人的最大距离</a>
+          <a href="/%E5%85%AB%E8%82%A1/redis.html" class="post-title-link" itemprop="url">redis</a>
         </h2>
 
         <div class="post-meta-container">
@@ -458,14 +619,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-23 22:22:40" itemprop="dateCreated datePublished" datetime="2023-08-23T22:22:40+08:00">2023-08-23</time>
+      <time title="创建时间：2023-08-31 19:09:44" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:44+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:52:08" itemprop="dateModified" datetime="2023-09-15T11:52:08+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -473,11 +634,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/redis/" itemprop="url" rel="index"><span itemprop="name">redis</span></a>
         </span>
     </span>
 
@@ -488,14 +649,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>100</span>
+      <span>491</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -506,17 +667,61 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximize-distance-to-closest-person/">原题链接 849. 到最近的人的最大距离</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
+          <details>
+    <summary>redis中常用的数据类型以及使用场景</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxDistToClosest</span><span class="params">(seats []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(seats)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">1</span>)</span><br><span class="line">	a[<span class="number">0</span>] = <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> seats &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">			a = <span class="built_in">append</span>(a, i)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = max(a[<span class="number">1</span>], n<span class="number">-1</span>-a[<span class="built_in">len</span>(a)<span class="number">-1</span>])</span><br><span class="line">	a = <span class="built_in">append</span>(a, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(a); i++ &#123;</span><br><span class="line">		res := (a[i] - a[i<span class="number">-1</span>]) / <span class="number">2</span></span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>数据类型</th>
+<th>使用场景</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>字符串(string)</td>
+<td>缓存、计数器、配置项</td>
+</tr>
+<tr>
+<td>列表(list)</td>
+<td>消息队列、任务队列、最新动态</td>
+</tr>
+<tr>
+<td>哈希(hash)</td>
+<td>存储对象，如用户信息、商品信息</td>
+</tr>
+<tr>
+<td>集合(set)</td>
+<td>标签集合、好友关系集合</td>
+</tr>
+<tr>
+<td>有序集合(zset)</td>
+<td>排行榜、热门文章列表</td>
+</tr>
+</tbody></table>
 </details>
 
+<hr>
+<details>
+    <summary>redis中的跳表介绍</summary>
+    
+<p>Redis 中的有序集合（Sorted Set）就是使用跳表来实现的。</p>
+<p>跳表（Skip List）的设计灵感来自于平衡树，但相比平衡树的复杂性，跳表具有更简单的实现和维护方式。跳表通过在原始链表的基础上增加多级索引来提高查找效率。每个节点都可能具有不同层级的指针，使得跳表可以在不需要遍历所有节点的情况下快速定位目标节点。</p>
+<p>在 Redis 中，有序集合的底层数据结构是一个双向链表，每个节点包含一个分值(score)和一个成员（member）。而为了使得有序集合能够快速进行区间查询、按照分值排序等操作，Redis 使用了跳表作为有序集合的索引。</p>
+<p>跳表在 Redis 中的使用主要体现在以下几个方面：</p>
+<ol>
+<li>跳表作为有序集合的索引结构，可以实现快速的插入、删除、查找操作，时间复杂度为 O(logN)。</li>
+<li>跳表通过增加多级索引，可以在不需要遍历所有节点的情况下快速定位目标节点，从而提高了有序集合的查询效率。</li>
+<li>跳表的高度可以通过随机函数进行调整，从而在保持性能的同时节省了内存空间。</details></li>
+</ol>
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode849-%E5%88%B0%E6%9C%80%E8%BF%91%E7%9A%84%E4%BA%BA%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%9D%E7%A6%BB.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/redis.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -547,7 +752,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/mysql.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -565,7 +770,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html" class="post-title-link" itemprop="url">leetcode2337.移动片段得到字符串</a>
+          <a href="/%E5%85%AB%E8%82%A1/mysql.html" class="post-title-link" itemprop="url">mysql</a>
         </h2>
 
         <div class="post-meta-container">
@@ -576,14 +781,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-21 00:57:36" itemprop="dateCreated datePublished" datetime="2023-08-21T00:57:36+08:00">2023-08-21</time>
+      <time title="创建时间：2023-08-31 19:09:39" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:39+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:46:35" itemprop="dateModified" datetime="2023-09-15T11:46:35+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -591,11 +796,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a>
         </span>
     </span>
 
@@ -606,7 +811,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>109</span>
+      <span>66</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -624,134 +829,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/move-pieces-to-obtain-a-string/">原题链接 2337. 移动片段得到字符串</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
+          <details>
+    <summary>为什么使用B+树</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">canChange</span><span class="params">(start <span class="type">string</span>, target <span class="type">string</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	cntl, cntr := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> start &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="string">&#x27;L&#x27;</span> &#123;</span><br><span class="line">			cntl++</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="string">&#x27;R&#x27;</span> &#123;</span><br><span class="line">			cntr++</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> target &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="string">&#x27;L&#x27;</span> &#123;</span><br><span class="line">			cntl--</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="string">&#x27;R&#x27;</span> &#123;</span><br><span class="line">			cntr--</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> cntl != <span class="number">0</span> || cntr != <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(start)</span><br><span class="line">	i, j := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i &lt; n &#123;</span><br><span class="line">		<span class="keyword">if</span> start[i] == <span class="string">&#x27;_&#x27;</span> &#123;</span><br><span class="line">			i++</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> j &lt; n &amp;&amp; target[j] != start[i] &#123;</span><br><span class="line">			j++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> j == n || (target[j] == <span class="string">&#x27;R&#x27;</span> &amp;&amp; j &lt; i) || (target[j] == <span class="string">&#x27;L&#x27;</span> &amp;&amp; j &gt; i) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">		i++</span><br><span class="line">		j++</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>&#x2F;&#x2F;todo -2</p>
 </details>
 
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2337-%E7%A7%BB%E5%8A%A8%E7%89%87%E6%AE%B5%E5%BE%97%E5%88%B0%E5%AD%97%E7%AC%A6%E4%B8%B2.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="catgok">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html" class="post-title-link" itemprop="url">leetcode6467.找出最长等值子数组</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-08-20 23:48:11" itemprop="dateCreated datePublished" datetime="2023-08-20T23:48:11+08:00">2023-08-20</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>111</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-the-longest-equal-subarray/">原题链接 6467. 找出最长等值子数组</a></p>
 <hr>
 <details>
-    <summary>展开答案</summary>
+    <summary>InnDB B+树的好处</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">longestEqualSubarray</span><span class="params">(nums []<span class="type">int</span>, k <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	pos := <span class="built_in">make</span>([][]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		pos[v] = <span class="built_in">append</span>(pos[v], i)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		q := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(pos[i])+<span class="number">10</span>)</span><br><span class="line">		hh, tt := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> pos[i] &#123;</span><br><span class="line">			q[tt], tt = v, tt+<span class="number">1</span></span><br><span class="line">			le := tt - hh</span><br><span class="line">			<span class="keyword">if</span> v-q[hh]+<span class="number">1</span> &gt; le+k &#123;</span><br><span class="line">				hh++</span><br><span class="line">				le = tt - hh</span><br><span class="line">			&#125;</span><br><span class="line">			ans = max(ans, le)</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>mysql的锁</summary>
+
+<p>&#x2F;&#x2F;todo -2</p>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6467-%E6%89%BE%E5%87%BA%E6%9C%80%E9%95%BF%E7%AD%89%E5%80%BC%E5%AD%90%E6%95%B0%E7%BB%84.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/mysql.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -775,7 +874,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/10/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/29/">29</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/12/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/10/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/12/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -798,13 +897,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">30k</span>
+    <span title="站点总字数">31k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:49</span>
+    <span title="站点阅读时长">1:54</span>
   </span>
 </div>
 <div class="busuanzi-count">

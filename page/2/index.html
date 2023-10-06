@@ -148,18 +148,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">143</span>
+          <span class="site-state-item-count">160</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-count">40</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-count">28</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode309-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,188 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html" class="post-title-link" itemprop="url">数据库</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-09-15 11:20:45" itemprop="dateCreated datePublished" datetime="2023-09-15T11:20:45+08:00">2023-09-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-19 09:40:43" itemprop="dateModified" datetime="2023-09-19T09:40:43+08:00">2023-09-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>749</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>3 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>基本sql</summary>
-
-<p>&#x2F;&#x2F;todo</p>
-</details>
-
-<hr>
-<details>
-    <summary>事务，ACID</summary>
-
-<p>一个事务是指一组数据库操作，被视为一个不可分割的工作单位。它要么全部成功执行，要么全部失败回滚。事务可以包含多个数据库操作，这些操作必须作为一个整体被执行，以确保数据的一致性和完整性。</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>定义</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>原子性（atomicity）</td>
-<td>原子性确保事务中的所有操作要么全部成功执行，要么全部失败回滚。如果事务中的任何操作失败，那么整个事务将被回滚到初始状态，数据库不会处于部分更新的状态。原子性确保了事务的完整性。</td>
-</tr>
-<tr>
-<td>一致性（consistency）</td>
-<td>一致性确保事务在执行前后数据库始终保持一致的状态。事务应该遵循预定义的规则和约束，以确保数据的有效性和完整性。如果事务违反了任何约束，它将被回滚，数据库不会处于不一致的状态。一致性确保了数据的正确性。</td>
-</tr>
-<tr>
-<td>隔离性（isolation）</td>
-<td>隔离性确保并发执行的事务相互隔离，使得每个事务感觉就像是在独立运行的数据库中执行一样。隔离性防止了并发事务之间的相互干扰，避免了数据不一致的情况发生。各个事务之间应该是相互独立的，不会相互影响。隔离性确保了事务的独立性和正确性。</td>
-</tr>
-<tr>
-<td>持久性（durability）</td>
-<td>持久性确保一旦事务提交，其结果将永久保存在数据库中，并且对于任何系统故障或重启都是可靠的。持久性保证了事务的结果不会因为系统故障而丢失，即使在系统崩溃后重新启动，数据也能够恢复到提交事务后的状态。持久性确保了数据的持久性。</td>
-</tr>
-</tbody></table>
-</details>
-
-<hr>
-<details>
-    <summary>隔离级别</summary>
-
-<table>
-<thead>
-<tr>
-<th>隔离级别</th>
-<th>导致的问题</th>
-<th>解决的问题</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>读未提交</td>
-<td>脏读（Dirty Read）：事务可以读取到其他未提交事务的未提交数据。</td>
-<td>无</td>
-</tr>
-<tr>
-<td>读已提交</td>
-<td>不可重复读（Non-repeatable Read）：同一事务内两次读取同一行数据时，得到的结果可能不一致。</td>
-<td>解决了脏读问题，但无法解决幻影读问题。</td>
-</tr>
-<tr>
-<td>可重复读</td>
-<td>幻影读（Phantom Read）：同一事务内多次查询时，得到的结果集可能不一致。</td>
-<td>解决了脏读和不可重复读问题，但无法避免幻影读问题。</td>
-</tr>
-<tr>
-<td>串行化</td>
-<td>无</td>
-<td>解决了脏读、不可重复读和幻影读问题，完全隔离了事务，但并发性能较差。</td>
-</tr>
-</tbody></table>
-</details>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/%E5%9C%BA%E6%99%AF%E9%A2%98.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="catgok">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/%E5%9C%BA%E6%99%AF%E9%A2%98.html" class="post-title-link" itemprop="url">场景题</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode309-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F.html" class="post-title-link" itemprop="url">leetcode309.买卖股票的最佳时机含冷冻期</a>
         </h2>
 
         <div class="post-meta-container">
@@ -404,130 +223,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-15 11:20:23 / 修改时间：11:51:47" itemprop="dateCreated datePublished" datetime="2023-09-15T11:20:23+08:00">2023-09-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/%E5%9C%BA%E6%99%AF%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">场景题</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>39</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>求两个大文件的交集</summary>
-
-<p>&#x2F;&#x2F;todo</p>
-</details>
-
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>
-
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/%E5%9C%BA%E6%99%AF%E9%A2%98.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode50-%E5%AE%9D%E7%9F%B3%E8%A1%A5%E7%BB%99.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="catgok">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode50-%E5%AE%9D%E7%9F%B3%E8%A1%A5%E7%BB%99.html" class="post-title-link" itemprop="url">leetcode50.宝石补给</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2023-09-15 11:08:52 / 修改时间：11:10:07" itemprop="dateCreated datePublished" datetime="2023-09-15T11:08:52+08:00">2023-09-15</time>
+      <time title="创建时间：2023-10-06 22:21:30 / 修改时间：22:34:53" itemprop="dateCreated datePublished" datetime="2023-10-06T22:21:30+08:00">2023-10-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -550,7 +246,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>63</span>
+      <span>93</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -568,16 +264,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/WHnhjV/">原题链接 50. 宝石补给</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/">原题链接 309. 买卖股票的最佳时机含冷冻期</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">giveGem</span><span class="params">(gem []<span class="type">int</span>, operations [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> operations &#123;</span><br><span class="line">		det := gem[v[<span class="number">0</span>]] / <span class="number">2</span></span><br><span class="line">		gem[v[<span class="number">0</span>]] -= det</span><br><span class="line">		gem[v[<span class="number">1</span>]] += det</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	ma, mi := <span class="number">-1</span>, <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> gem &#123;</span><br><span class="line">		<span class="keyword">if</span> ma &lt; v &#123;</span><br><span class="line">			ma = v</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> mi &gt; v &#123;</span><br><span class="line">			mi = v</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ma - mi</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxProfit</span><span class="params">(prices []<span class="type">int</span>)</span></span> (res <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(prices)</span><br><span class="line">	dp := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	ma := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		dp[i] = max(dp[i], dp[i<span class="number">-1</span>]-prices[i<span class="number">-1</span>]+prices[i])</span><br><span class="line">		dp[i] = max(dp[i], ma)</span><br><span class="line">		ma = max(ma, dp[i<span class="number">-1</span>])</span><br><span class="line">		res = max(res, dp[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode50-%E5%AE%9D%E7%9F%B3%E8%A1%A5%E7%BB%99.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode309-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%E5%90%AB%E5%86%B7%E5%86%BB%E6%9C%9F.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -608,7 +304,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1222-%E5%8F%AF%E4%BB%A5%E6%94%BB%E5%87%BB%E5%9B%BD%E7%8E%8B%E7%9A%84%E7%9A%87%E5%90%8E.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode188-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIV.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -626,7 +322,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1222-%E5%8F%AF%E4%BB%A5%E6%94%BB%E5%87%BB%E5%9B%BD%E7%8E%8B%E7%9A%84%E7%9A%87%E5%90%8E.html" class="post-title-link" itemprop="url">leetcode1222.可以攻击国王的皇后</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode188-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIV.html" class="post-title-link" itemprop="url">leetcode188.买卖股票的最佳时机IV</a>
         </h2>
 
         <div class="post-meta-container">
@@ -638,7 +334,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-14 15:45:37 / 修改时间：15:46:10" itemprop="dateCreated datePublished" datetime="2023-09-14T15:45:37+08:00">2023-09-14</time>
+      <time title="创建时间：2023-10-06 22:21:04 / 修改时间：22:29:50" itemprop="dateCreated datePublished" datetime="2023-10-06T22:21:04+08:00">2023-10-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -661,7 +357,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>142</span>
+      <span>166</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -679,16 +375,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/queens-that-can-attack-the-king">原题链接 1222. 可以攻击国王的皇后</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/">原题链接 188. 买卖股票的最佳时机 IV</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">queensAttacktheKing</span><span class="params">(queens [][]<span class="type">int</span>, king []<span class="type">int</span>)</span></span> (ans [][]<span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="number">8</span></span><br><span class="line">	dx := []<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>&#125;</span><br><span class="line">	dy := []<span class="type">int</span>&#123;<span class="number">1</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">-1</span>, <span class="number">0</span>, <span class="number">1</span>&#125;</span><br><span class="line">	check := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span> &lt;= x &amp;&amp; x &lt; n &amp;&amp; <span class="number">0</span> &lt;= y &amp;&amp; y &lt; n</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	qm := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">bool</span>, <span class="built_in">len</span>(queens))</span><br><span class="line">	<span class="keyword">for</span> _, p := <span class="keyword">range</span> queens &#123;</span><br><span class="line">		x, y := p[<span class="number">0</span>], p[<span class="number">1</span>]</span><br><span class="line">		qm[[<span class="number">2</span>]<span class="type">int</span>&#123;x, y&#125;] = <span class="literal">true</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">8</span>; i++ &#123;</span><br><span class="line">		x, y := king[<span class="number">0</span>], king[<span class="number">1</span>]</span><br><span class="line">		<span class="comment">// fmt.Println(x,y,dx[i],dy[i])</span></span><br><span class="line">		<span class="keyword">for</span> check(x, y) &#123;</span><br><span class="line">			<span class="comment">// fmt.Println(1,x,y)</span></span><br><span class="line">			<span class="keyword">if</span> qm[[<span class="number">2</span>]<span class="type">int</span>&#123;x, y&#125;] &#123;</span><br><span class="line">				ans = <span class="built_in">append</span>(ans, []<span class="type">int</span>&#123;x, y&#125;)</span><br><span class="line">				<span class="keyword">break</span></span><br><span class="line">			&#125;</span><br><span class="line">			x, y = x+dx[i], y+dy[i]</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxProfit</span><span class="params">(k <span class="type">int</span>, prices []<span class="type">int</span>)</span></span> (res <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(prices)</span><br><span class="line">	dp := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="keyword">range</span> dp &#123;</span><br><span class="line">		dp[i] = <span class="built_in">make</span>([]<span class="type">int</span>, k+<span class="number">1</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	me := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> j := <span class="number">1</span>; j &lt;= k; j++ &#123;</span><br><span class="line">		me = <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">		me[<span class="number">0</span>] = dp[<span class="number">0</span>][j<span class="number">-1</span>]</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">			me[i] = max(me[i<span class="number">-1</span>], dp[i][j<span class="number">-1</span>])</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">			<span class="comment">// dp[i][j]=max(dp[i][j],dp[i-1][j])</span></span><br><span class="line">			dp[i][j] = max(dp[i][j], dp[i<span class="number">-1</span>][j]+prices[i]-prices[i<span class="number">-1</span>])</span><br><span class="line">			dp[i][j] = max(dp[i][j], me[i<span class="number">-1</span>])</span><br><span class="line">			dp[i][j] = max(dp[i][j], dp[i<span class="number">-1</span>][j<span class="number">-1</span>]+prices[i]-prices[i<span class="number">-1</span>])</span><br><span class="line">			res = max(res, dp[i][j])</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1222-%E5%8F%AF%E4%BB%A5%E6%94%BB%E5%87%BB%E5%9B%BD%E7%8E%8B%E7%9A%84%E7%9A%87%E5%90%8E.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode188-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIV.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -719,7 +415,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2596-%E6%A3%80%E6%9F%A5%E9%AA%91%E5%A3%AB%E5%B7%A1%E8%A7%86%E6%96%B9%E6%A1%88.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode123-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIII.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -737,7 +433,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2596-%E6%A3%80%E6%9F%A5%E9%AA%91%E5%A3%AB%E5%B7%A1%E8%A7%86%E6%96%B9%E6%A1%88.html" class="post-title-link" itemprop="url">leetcode2596.检查骑士巡视方案</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode123-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIII.html" class="post-title-link" itemprop="url">leetcode123.买卖股票的最佳时机III</a>
         </h2>
 
         <div class="post-meta-container">
@@ -749,7 +445,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-13 11:46:12 / 修改时间：11:47:22" itemprop="dateCreated datePublished" datetime="2023-09-13T11:46:12+08:00">2023-09-13</time>
+      <time title="创建时间：2023-10-06 22:20:38 / 修改时间：22:31:37" itemprop="dateCreated datePublished" datetime="2023-10-06T22:20:38+08:00">2023-10-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -772,7 +468,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>129</span>
+      <span>60</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -790,16 +486,242 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/check-knight-tour-configuration/">原题链接 2596. 检查骑士巡视方案</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/">原题链接 122. 买卖股票的最佳时机 II</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">checkValidGrid</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">type</span> node <span class="keyword">struct</span> &#123;</span><br><span class="line">		x, y <span class="type">int</span></span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(grid)</span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]node, n*n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; n; j++ &#123;</span><br><span class="line">			mp[grid[i][j]] = node&#123;</span><br><span class="line">				x: i,</span><br><span class="line">				y: j,</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	abs := <span class="function"><span class="keyword">func</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> -x</span><br><span class="line">	&#125;</span><br><span class="line">	check := <span class="function"><span class="keyword">func</span><span class="params">(a, b node)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> abs(a.x-b.x) == <span class="number">1</span> &amp;&amp; abs(a.y-b.y) == <span class="number">2</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> abs(a.x-b.x) == <span class="number">2</span> &amp;&amp; abs(a.y-b.y) == <span class="number">1</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n*n; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> !check(mp[i], mp[i<span class="number">-1</span>]) &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> grid[<span class="number">0</span>][<span class="number">0</span>] == <span class="number">0</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxProfit</span><span class="params">(prices []<span class="type">int</span>)</span></span> (res <span class="type">int</span>) &#123;</span><br><span class="line">	prices = <span class="built_in">append</span>(prices, <span class="number">-1</span>)</span><br><span class="line">	pr := prices[<span class="number">0</span>]</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(prices); i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> prices[i] &lt; prices[i<span class="number">-1</span>] &#123;</span><br><span class="line">			res += prices[i<span class="number">-1</span>] - pr</span><br><span class="line">			pr = prices[i]</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+
+
+
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode123-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAIII.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode122-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAII.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode122-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAII.html" class="post-title-link" itemprop="url">leetcode122.买卖股票的最佳时机II</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-10-06 22:20:11 / 修改时间：22:32:37" itemprop="dateCreated datePublished" datetime="2023-10-06T22:20:11+08:00">2023-10-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>124</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/">原题链接 123. 买卖股票的最佳时机 III</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxProfit</span><span class="params">(prices []<span class="type">int</span>)</span></span> (res <span class="type">int</span>) &#123;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(prices)</span><br><span class="line">	f := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	g := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	pr := prices[<span class="number">0</span>]</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; n; i++ &#123;</span><br><span class="line">		pr = min(pr, prices[i])</span><br><span class="line">		f[i] = max(f[i<span class="number">-1</span>], prices[i]-pr)</span><br><span class="line">	&#125;</span><br><span class="line">	pr = prices[n<span class="number">-1</span>]</span><br><span class="line">	<span class="keyword">for</span> i := n - <span class="number">2</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		pr = max(pr, prices[i])</span><br><span class="line">		g[i] = max(g[i+<span class="number">1</span>], pr-prices[i])</span><br><span class="line">		res = max(res, f[i]+g[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> res</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2596-%E6%A3%80%E6%9F%A5%E9%AA%91%E5%A3%AB%E5%B7%A1%E8%A7%86%E6%96%B9%E6%A1%88.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode122-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BAII.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode121-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode121-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.html" class="post-title-link" itemprop="url">leetcode121.买卖股票的最佳时机</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-10-06 22:20:01 / 修改时间：22:28:01" itemprop="dateCreated datePublished" datetime="2023-10-06T22:20:01+08:00">2023-10-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>50</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/">原题链接 121. 买卖股票的最佳时机</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxProfit</span><span class="params">(prices []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	mi := prices[<span class="number">0</span>]</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> prices &#123;</span><br><span class="line">		<span class="keyword">if</span> ans &lt; v-mi &#123;</span><br><span class="line">			ans = v - mi</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> v &lt; mi &#123;</span><br><span class="line">			mi = v</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-10/leetcode121-%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -823,7 +745,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/29/">29</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/3/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -846,13 +768,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">30k</span>
+    <span title="站点总字数">31k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:49</span>
+    <span title="站点阅读时长">1:54</span>
   </span>
 </div>
 <div class="busuanzi-count">
