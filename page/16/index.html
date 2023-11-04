@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">160</span>
+          <span class="site-state-item-count">181</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/mysql.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode2236.判断根结点是否等于子结点之和</a>
+          <a href="/%E5%85%AB%E8%82%A1/mysql.html" class="post-title-link" itemprop="url">mysql</a>
         </h2>
 
         <div class="post-meta-container">
@@ -222,14 +222,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:45" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:45+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-31 19:09:39" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:39+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-10-07 23:44:24" itemprop="dateModified" datetime="2023-10-07T23:44:24+08:00">2023-10-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -237,11 +237,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a>
         </span>
     </span>
 
@@ -252,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>52</span>
+      <span>90</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,16 +270,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/root-equals-sum-of-children/">原题链接 2236. 判断根结点是否等于子结点之和</a></p>
+          <details>
+    <summary>为什么使用B+树</summary>
+
+<p>&#x2F;&#x2F;todo -2</p>
+</details>
+
 <hr>
 <details>
-    <summary>展开答案</summary>
+    <summary>InnDB B+树的好处</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">checkTree</span><span class="params">(root *TreeNode)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> root.Val == root.Left.Val+root.Right.Val</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
+<hr>
+<details>
+    <summary>mysql的锁</summary>
+
+<p>&#x2F;&#x2F;todo -2</p>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2236-%E5%88%A4%E6%96%AD%E6%A0%B9%E7%BB%93%E7%82%B9%E6%98%AF%E5%90%A6%E7%AD%89%E4%BA%8E%E5%AD%90%E7%BB%93%E7%82%B9%E4%B9%8B%E5%92%8C.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/mysql.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -310,7 +322,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/go.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -328,7 +340,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html" class="post-title-link" itemprop="url">leetcode6941.将三个组排序</a>
+          <a href="/%E5%85%AB%E8%82%A1/go.html" class="post-title-link" itemprop="url">go</a>
         </h2>
 
         <div class="post-meta-container">
@@ -339,14 +351,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:39" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:39+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-31 18:57:24" itemprop="dateCreated datePublished" datetime="2023-08-31T18:57:24+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:48:07" itemprop="dateModified" datetime="2023-09-15T11:48:07+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -354,11 +366,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/go/" itemprop="url" rel="index"><span itemprop="name">go</span></a>
         </span>
     </span>
 
@@ -369,14 +381,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>117</span>
+      <span>1.6k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>6 分钟</span>
     </span>
 </div>
 
@@ -387,16 +399,32 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sorting-three-groups/">原题链接 6941. 将三个组排序</a></p>
+          <details>
+    <summary>a := []int{1, 2, 3}和a := [...]int{1, 2, 3}的区别</summary>
+    
+<ul>
+<li><p><code>a := []int&#123;1, 2, 3&#125;</code>：是<strong>切片(slice)<strong>的声明方式。切片是由数组构建而成的</strong>动态长度</strong>序列。使用切片可以方便地进行<strong>添加、删除和修改</strong>元素等操作。在声明时，切片并未指定具体的长度，而是根据初始化的元素个数动态确定长度。</p>
+</li>
+<li><p><code>a := [...]int&#123;1, 2, 3&#125;</code>：是<strong>数组(array)<strong>的声明方式。数组是由</strong>固定长度</strong>的连续内存空间构成的序列。数组长度在声明时就被确定，之后<strong>无法再改变</strong>。使用数组可以在需要固定长度且占用连续内存的场景中很有用。</p>
+</details></li>
+</ul>
 <hr>
 <details>
-    <summary>展开答案</summary>
+    <summary>什么是协程（Goroutine）</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minimumOperations</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	a := <span class="built_in">make</span>([][]<span class="type">int</span>, <span class="number">3</span>)</span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		a[v<span class="number">-1</span>] = <span class="built_in">append</span>(a[v<span class="number">-1</span>], i)</span><br><span class="line">	&#125;</span><br><span class="line">	ans = <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="comment">// fmt.Println(a[0])</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i; j &lt;= n; j++ &#123;</span><br><span class="line">			res := <span class="number">0</span></span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">0</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &gt;= i &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">1</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &lt; i || v &gt;= j &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span> _, v := <span class="keyword">range</span> a[<span class="number">2</span>] &#123;</span><br><span class="line">				<span class="keyword">if</span> v &lt; j &#123;</span><br><span class="line">					res++</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			ans = min(ans, res)</span><br><span class="line">			<span class="comment">// fmt.Println(res,i,j)</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>Goroutine 是与其他函数或方法同时运行的函数或方法。Goroutine 可以被认为是轻量级的线程。与线程相比，创建 Goroutine 的开销很小。Go应用程序同时运行数千个Goroutine 是非常常见的做法。</p>
+</details>
+
+<hr>
+<details>
+    <summary>如何高效地拼接字符串</summary>
+
+<p>Go 语言中，字符串是只读的，也就意味着每次修改操作都会创建一个新的字符串。如果需要拼接多次，应使用 strings.Builder，最小化内存拷贝次数。</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> str strings.Builder</span><br><span class="line"><span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">1000</span>; i++ &#123;</span><br><span class="line">    str.WriteString(<span class="string">&quot;a&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line">fmt.Println(str.String())</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6941-%E5%B0%86%E4%B8%89%E4%B8%AA%E7%BB%84%E6%8E%92%E5%BA%8F.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/go.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -427,7 +455,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -445,7 +473,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html" class="post-title-link" itemprop="url">leetcode8014.循环增长使字符串子序列等于另一个字符串</a>
+          <a href="/%E5%85%AB%E8%82%A1.html" class="post-title-link" itemprop="url">八股</a>
         </h2>
 
         <div class="post-meta-container">
@@ -456,14 +484,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:33" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:33+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-31 18:51:10" itemprop="dateCreated datePublished" datetime="2023-08-31T18:51:10+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-09-15 11:26:35" itemprop="dateModified" datetime="2023-09-15T11:26:35+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -471,11 +499,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
     </span>
 
@@ -486,7 +510,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>108</span>
+      <span>42</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -504,17 +528,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/make-string-a-subsequence-using-cyclic-increments/">原题链接 8014. 循环增长使字符串子序列等于另一个字符串</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
-
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">canMakeSubsequence</span><span class="params">(str1 <span class="type">string</span>, str2 <span class="type">string</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	n, m := <span class="built_in">len</span>(str1), <span class="built_in">len</span>(str2)</span><br><span class="line">	a, b := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="built_in">make</span>([]<span class="type">int</span>, m)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		a[i] = <span class="type">int</span>(str1[i] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; m; i++ &#123;</span><br><span class="line">		b[i] = <span class="type">int</span>(str2[i] - <span class="string">&#x27;a&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	i, j := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i &lt; n &amp;&amp; j &lt; m &#123;</span><br><span class="line">		<span class="keyword">if</span> a[i] == b[j] || ((a[i]+<span class="number">1</span>)%<span class="number">26</span>) == b[j] &#123;</span><br><span class="line">			j++</span><br><span class="line">			i++</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			i++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="comment">// fmt.Println(i,j)</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> j == m</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</details>
-
+          <h2 id="1-go"><a href="#1-go" class="headerlink" title="1. go"></a>1. <strong><a href="/%E5%85%AB%E8%82%A1/go.html">go</a></strong></h2><h2 id="2-mysql"><a href="#2-mysql" class="headerlink" title="2. mysql"></a>2. <strong><a href="/%E5%85%AB%E8%82%A1/mysql.html">mysql</a></strong></h2><h2 id="3-redis"><a href="#3-redis" class="headerlink" title="3. redis"></a>3. <strong><a href="/%E5%85%AB%E8%82%A1/redis.html">redis</a></strong></h2>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode8014-%E5%BE%AA%E7%8E%AF%E5%A2%9E%E9%95%BF%E4%BD%BF%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%AD%90%E5%BA%8F%E5%88%97%E7%AD%89%E4%BA%8E%E5%8F%A6%E4%B8%80%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -545,7 +562,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1761-%E4%B8%80%E4%B8%AA%E5%9B%BE%E4%B8%AD%E8%BF%9E%E9%80%9A%E4%B8%89%E5%85%83%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%BA%A6%E6%95%B0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -563,7 +580,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode6954.统计和小于目标的下标对数目</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1761-%E4%B8%80%E4%B8%AA%E5%9B%BE%E4%B8%AD%E8%BF%9E%E9%80%9A%E4%B8%89%E5%85%83%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%BA%A6%E6%95%B0.html" class="post-title-link" itemprop="url">leetcode1761.一个图中连通三元组的最小度数</a>
         </h2>
 
         <div class="post-meta-container">
@@ -574,7 +591,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-08-20 23:47:25" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:25+08:00">2023-08-20</time>
+      <time title="创建时间：2023-08-31 18:49:10" itemprop="dateCreated datePublished" datetime="2023-08-31T18:49:10+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -604,7 +621,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>60</span>
+      <span>146</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -622,16 +639,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/count-pairs-whose-sum-is-less-than-target/">原题链接 6954. 统计和小于目标的下标对数目</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-degree-of-a-connected-trio-in-a-graph/">原题链接 1761. 一个图中连通三元组的最小度数</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">countPairs</span><span class="params">(nums []<span class="type">int</span>, target <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(nums)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> nums[j]+nums[i] &lt; target &#123;</span><br><span class="line">				ans++</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minTrioDegree</span><span class="params">(n <span class="type">int</span>, edges [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	de := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> edges &#123;</span><br><span class="line">		a, b := v[<span class="number">0</span>], v[<span class="number">1</span>]</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;a, b&#125;]++</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;b, a&#125;]++</span><br><span class="line">		de[a]++</span><br><span class="line">		de[b]++</span><br><span class="line">	&#125;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &lt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	ans := <span class="number">0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt;= n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;i, j&#125;] == <span class="number">0</span> &#123;</span><br><span class="line">				<span class="keyword">continue</span></span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">for</span> k := j + <span class="number">1</span>; k &lt;= n; k++ &#123;</span><br><span class="line">				<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;i, k&#125;] &gt;= <span class="number">1</span> &amp;&amp; mp[[<span class="number">2</span>]<span class="type">int</span>&#123;k, j&#125;] &gt;= <span class="number">1</span> &#123;</span><br><span class="line">					res := de[i] + de[j] + de[k] - <span class="number">6</span></span><br><span class="line">					ans = min(ans, res)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> ans == <span class="number">0x3f3f3f3f</span> &#123;</span><br><span class="line">		ans = <span class="number">-1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6954-%E7%BB%9F%E8%AE%A1%E5%92%8C%E5%B0%8F%E4%BA%8E%E7%9B%AE%E6%A0%87%E7%9A%84%E4%B8%8B%E6%A0%87%E5%AF%B9%E6%95%B0%E7%9B%AE.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1761-%E4%B8%80%E4%B8%AA%E5%9B%BE%E4%B8%AD%E8%BF%9E%E9%80%9A%E4%B8%89%E5%85%83%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%BA%A6%E6%95%B0.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -662,7 +679,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1654-%E5%88%B0%E5%AE%B6%E7%9A%84%E6%9C%80%E5%B0%91%E8%B7%B3%E8%B7%83%E6%AC%A1%E6%95%B0.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -680,7 +697,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html" class="post-title-link" itemprop="url">leetcode2235.两整数相加</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1654-%E5%88%B0%E5%AE%B6%E7%9A%84%E6%9C%80%E5%B0%91%E8%B7%B3%E8%B7%83%E6%AC%A1%E6%95%B0.html" class="post-title-link" itemprop="url">leetcode1654.到家的最少跳跃次数</a>
         </h2>
 
         <div class="post-meta-container">
@@ -690,15 +707,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-08-20 23:47:13" itemprop="dateCreated datePublished" datetime="2023-08-20T23:47:13+08:00">2023-08-20</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="创建时间：2023-08-31 18:47:49 / 修改时间：18:50:04" itemprop="dateCreated datePublished" datetime="2023-08-31T18:47:49+08:00">2023-08-31</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -721,7 +732,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>29</span>
+      <span>200</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -739,16 +750,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/add-two-integers/">原题链接 2235. 两整数相加</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-jumps-to-reach-home/">原题链接 1654. 到家的最少跳跃次数</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sum</span><span class="params">(num1 <span class="type">int</span>, num2 <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> num1 + num2</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minimumJumps</span><span class="params">(forbidden []<span class="type">int</span>, a <span class="type">int</span>, b <span class="type">int</span>, x <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	min := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> y</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	ban := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="keyword">struct</span>&#123;&#125;, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> forbidden &#123;</span><br><span class="line">		ban[v] = <span class="keyword">struct</span>&#123;&#125;&#123;&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">const</span> INF, N <span class="type">int</span> = <span class="number">0x3f3f3f3f</span>, <span class="number">2e3</span> + <span class="number">9</span></span><br><span class="line">	f := <span class="built_in">make</span>([][<span class="number">2</span>]<span class="type">int</span>, <span class="number">3</span>*N)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(f); i++ &#123;</span><br><span class="line">		f[i][<span class="number">0</span>], f[i][<span class="number">1</span>] = INF, INF</span><br><span class="line">	&#125;</span><br><span class="line">	q, hh, tt := <span class="built_in">make</span>([][<span class="number">3</span>]<span class="type">int</span>, <span class="number">12</span>*N), <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">	q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">	<span class="keyword">for</span> hh &lt; tt &#123;</span><br><span class="line">		cur, op, v := q[hh][<span class="number">0</span>], q[hh][<span class="number">1</span>], q[hh][<span class="number">2</span>]</span><br><span class="line">		hh++</span><br><span class="line">		<span class="keyword">if</span> _, e := ban[cur]; e &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> cur &lt; <span class="number">0</span> || cur &gt;= <span class="number">3</span>*N &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> f[cur][op] != INF &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		f[cur][op] = v</span><br><span class="line">		q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;cur + a, <span class="number">0</span>, v + <span class="number">1</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> op != <span class="number">1</span> &#123;</span><br><span class="line">			q[tt], tt = [<span class="number">3</span>]<span class="type">int</span>&#123;cur - b, <span class="number">1</span>, v + <span class="number">1</span>&#125;, tt+<span class="number">1</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	ans = min(f[x][<span class="number">0</span>], f[x][<span class="number">1</span>])</span><br><span class="line">	<span class="keyword">if</span> ans &gt;= INF &#123;</span><br><span class="line">		ans = <span class="number">-1</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode2235-%E4%B8%A4%E6%95%B4%E6%95%B0%E7%9B%B8%E5%8A%A0.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode1654-%E5%88%B0%E5%AE%B6%E7%9A%84%E6%9C%80%E5%B0%91%E8%B7%B3%E8%B7%83%E6%AC%A1%E6%95%B0.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -772,7 +784,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/15/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/">17</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/17/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/15/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/">17</a><span class="space">&hellip;</span><a class="page-number" href="/page/37/">37</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/17/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -795,13 +807,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">31k</span>
+    <span title="站点总字数">35k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:54</span>
+    <span title="站点阅读时长">2:06</span>
   </span>
 </div>
 <div class="busuanzi-count">

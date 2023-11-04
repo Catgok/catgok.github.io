@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">160</span>
+          <span class="site-state-item-count">181</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/java.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319E-Bus-Stops.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/java.html" class="post-title-link" itemprop="url">java</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319E-Bus-Stops.html" class="post-title-link" itemprop="url">abc319E-Bus-Stops</a>
         </h2>
 
         <div class="post-meta-container">
@@ -221,15 +221,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-08-31 19:10:05" itemprop="dateCreated datePublished" datetime="2023-08-31T19:10:05+08:00">2023-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-15 11:46:57" itemprop="dateModified" datetime="2023-09-15T11:46:57+08:00">2023-09-15</time>
+      <time title="创建时间：2023-09-09 22:48:10 / 修改时间：22:50:51" itemprop="dateCreated datePublished" datetime="2023-09-09T22:48:10+08:00">2023-09-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -237,11 +231,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
         </span>
     </span>
 
@@ -252,7 +246,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>41</span>
+      <span>168</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,28 +264,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>
-
+          <p><a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc319/tasks/abc319_e">原题链接 abc319 E - Bus Stops</a></p>
 <hr>
 <details>
-    <summary>问题</summary>
+    <summary>展开答案</summary>
 
-<p>答案</p>
-</details>
-
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e5</span> + <span class="number">9</span>, INF = <span class="number">1e18</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, m, p[N], t[N], q, x, y;</span><br><span class="line"><span class="type">int</span> ans[<span class="number">1681</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">	cin &gt;&gt; n &gt;&gt; x &gt;&gt; y;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) cin &gt;&gt; p[i] &gt;&gt; t[i];</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> s = <span class="number">0</span>; s &lt; <span class="number">1681</span>; s++) &#123;</span><br><span class="line">		<span class="type">int</span> res = (s + p[<span class="number">1</span>] - <span class="number">1</span>) / p[<span class="number">1</span>] * p[<span class="number">1</span>];</span><br><span class="line">		<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">2</span>; i &lt; n; i++) &#123;</span><br><span class="line">			res += t[i - <span class="number">1</span>];</span><br><span class="line">			res = ((res + p[i] - <span class="number">1</span>) / p[i]) * p[i];</span><br><span class="line">			<span class="comment">//			if (s == 0) &#123;</span></span><br><span class="line">			<span class="comment">//				cout &lt;&lt; &quot;res &quot; &lt;&lt; res &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">			<span class="comment">//			&#125;</span></span><br><span class="line">		&#125;</span><br><span class="line">		ans[s] = res - s + t[n - <span class="number">1</span>];</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//	for (int i = 0; i &lt; 9; i++) &#123;</span></span><br><span class="line">	<span class="comment">//		cout &lt;&lt; i &lt;&lt; &quot; &quot; &lt;&lt; ans[i] &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">	<span class="comment">//	&#125;</span></span><br><span class="line">	cin &gt;&gt; T;</span><br><span class="line">	<span class="keyword">while</span> (T--) &#123;</span><br><span class="line">		cin &gt;&gt; q;</span><br><span class="line">		<span class="type">int</span> res = ans[(x + q) % <span class="number">1680</span>];</span><br><span class="line">		res += q + x + y;</span><br><span class="line">		cout &lt;&lt; res &lt;&lt; <span class="string">&quot;\n&quot;</span>;</span><br><span class="line">		<span class="comment">//		cout &lt;&lt; &quot;\t&quot; &lt;&lt; res &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/java.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319E-Bus-Stops.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -322,7 +304,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/docker.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319D-Minimum-Width.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -340,7 +322,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/docker.html" class="post-title-link" itemprop="url">docker</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319D-Minimum-Width.html" class="post-title-link" itemprop="url">abc319D-Minimum-Width</a>
         </h2>
 
         <div class="post-meta-container">
@@ -350,15 +332,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-08-31 19:09:58" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:58+08:00">2023-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-15 11:48:17" itemprop="dateModified" datetime="2023-09-15T11:48:17+08:00">2023-09-15</time>
+      <time title="创建时间：2023-09-09 22:47:32 / 修改时间：22:50:51" itemprop="dateCreated datePublished" datetime="2023-09-09T22:47:32+08:00">2023-09-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -366,11 +342,233 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/docker/" itemprop="url" rel="index"><span itemprop="name">docker</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>155</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc319/tasks/abc319_d">原题链接 abc319 D - Minimum Width</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> int long long</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">2e5</span> + <span class="number">9</span>, INF = <span class="number">1e18</span> + <span class="number">7</span>;</span><br><span class="line"><span class="type">int</span> T, n, m, a[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">check</span><span class="params">(<span class="type">int</span> x)</span> </span>&#123;</span><br><span class="line">	<span class="comment">//	cout &lt;&lt; x &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">	<span class="type">int</span> cur = <span class="number">1</span>, le = <span class="number">0</span>;</span><br><span class="line">	<span class="type">int</span> r = m;</span><br><span class="line">	<span class="keyword">while</span> (cur &lt;= n) &#123;</span><br><span class="line">		<span class="comment">//		cout &lt;&lt; cur &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">		le = <span class="number">0</span>;</span><br><span class="line">		<span class="type">int</span> b = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">while</span> (cur &lt;= n &amp;&amp; le + a[cur] + b &lt;= x) &#123;</span><br><span class="line">			le += a[cur] + b;</span><br><span class="line">			<span class="keyword">if</span> (!b) b = <span class="number">1</span>;</span><br><span class="line">			cur++;</span><br><span class="line">		&#125;</span><br><span class="line">		r--;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> r &gt;= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">signed</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">	<span class="comment">//	cout &lt;&lt; fixed &lt;&lt; setprecision(20);</span></span><br><span class="line"></span><br><span class="line">	cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">	<span class="type">int</span> l = <span class="number">1</span>, r = INF;</span><br><span class="line">	<span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">		cin &gt;&gt; a[i];</span><br><span class="line">		l = <span class="built_in">max</span>(l, a[i]);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span> (l &lt; r) &#123;</span><br><span class="line">		<span class="type">int</span> m = (l + r) &gt;&gt; <span class="number">1</span>;</span><br><span class="line">		<span class="comment">//		cout &lt;&lt; l &lt;&lt; &quot; &quot; &lt;&lt; r &lt;&lt; &quot;\n&quot;;</span></span><br><span class="line">		<span class="keyword">if</span> (!<span class="built_in">check</span>(m)) &#123;</span><br><span class="line">			l = m + <span class="number">1</span>;</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			r = m;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	cout &lt;&lt; l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/abc319D-Minimum-Width.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode207-%E8%AF%BE%E7%A8%8B%E8%A1%A8.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode207-%E8%AF%BE%E7%A8%8B%E8%A1%A8.html" class="post-title-link" itemprop="url">leetcode207.课程表</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-09-09 22:44:20 / 修改时间：22:45:27" itemprop="dateCreated datePublished" datetime="2023-09-09T22:44:20+08:00">2023-09-09</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>123</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/course-schedule/">原题链接 207. 课程表</a></p>
+<hr>
+<details>
+    <summary>展开答案</summary>
+
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">canFinish</span><span class="params">(numCourses <span class="type">int</span>, prerequisites [][]<span class="type">int</span>)</span></span> (ans <span class="type">bool</span>) &#123;</span><br><span class="line">	n := numCourses</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">bool</span>, n)</span><br><span class="line">	vis := <span class="built_in">make</span>([]<span class="type">bool</span>, n)</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		g[i] = <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> _, e := <span class="keyword">range</span> prerequisites &#123;</span><br><span class="line">		u, v := e[<span class="number">0</span>], e[<span class="number">1</span>]</span><br><span class="line">		g[u] = <span class="built_in">append</span>(g[u], v)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>)</span></span> <span class="type">bool</span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(u <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> vis[u] &#123;</span><br><span class="line">			<span class="keyword">return</span> a[u]</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> <span class="built_in">len</span>(g[u]) == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">		&#125;</span><br><span class="line">		vis[u] = <span class="literal">true</span></span><br><span class="line">		res := <span class="literal">true</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			res = res &amp;&amp; dfs(v)</span><br><span class="line">		&#125;</span><br><span class="line">		a[u] = res</span><br><span class="line">		<span class="keyword">return</span> res</span><br><span class="line">	&#125;</span><br><span class="line">	ans = <span class="literal">true</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		ans = ans &amp;&amp; dfs(i)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</details>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode207-%E8%AF%BE%E7%A8%8B%E8%A1%A8.html#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="catgok">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Catgok's Blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html" class="post-title-link" itemprop="url">leetcode2651.计算列车到站时间</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2023-09-08 09:18:37 / 修改时间：09:19:28" itemprop="dateCreated datePublished" datetime="2023-09-08T09:18:37+08:00">2023-09-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
         </span>
     </span>
 
@@ -399,28 +597,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>
-
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/calculate-delayed-arrival-time/">原题链接 2651. 计算列车到站时间</a></p>
 <hr>
 <details>
-    <summary>问题</summary>
+    <summary>展开答案</summary>
 
-<p>答案</p>
-</details>
-
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findDelayedArrivalTime</span><span class="params">(arrivalTime <span class="type">int</span>, delayedTime <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> (arrivalTime + delayedTime) % <span class="number">24</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/docker.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2651-%E8%AE%A1%E7%AE%97%E5%88%97%E8%BD%A6%E5%88%B0%E7%AB%99%E6%97%B6%E9%97%B4.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -451,7 +637,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/linux.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -469,7 +655,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/linux.html" class="post-title-link" itemprop="url">linux</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html" class="post-title-link" itemprop="url">leetcode2594.修车的最少时间</a>
         </h2>
 
         <div class="post-meta-container">
@@ -479,15 +665,9 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2023-08-31 19:09:52" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:52+08:00">2023-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-15 11:46:46" itemprop="dateModified" datetime="2023-09-15T11:46:46+08:00">2023-09-15</time>
+      <time title="创建时间：2023-09-07 09:23:19 / 修改时间：09:24:41" itemprop="dateCreated datePublished" datetime="2023-09-07T09:23:19+08:00">2023-09-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -495,11 +675,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/linux/" itemprop="url" rel="index"><span itemprop="name">linux</span></a>
+          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
         </span>
     </span>
 
@@ -510,7 +690,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>151</span>
+      <span>76</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -528,329 +708,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>linux查看文件并支持实时更新的命令</summary>
-
-<p>在Linux中，可以使用<code>tail</code>命令来查看文件的内容，并支持实时更新。</p>
-<p>以下是使用<code>tail</code>命令的基本语法：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail [选项] 文件名</span><br></pre></td></tr></table></figure>
-
-<p>其中，常用的选项包括：</p>
-<ul>
-<li><code>-f</code>：实时跟踪文件的更新。</li>
-<li><code>-n &lt;行数&gt;</code>：显示最后指定行数的内容，默认为10行。</li>
-</ul>
-<p>要实时查看一个文件的内容，可以使用以下命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tail -f 文件名</span><br></pre></td></tr></table></figure>
-</details>
-
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/minimum-time-to-repair-cars">原题链接 2594. 修车的最少时间</a></p>
 <hr>
 <details>
-    <summary>问题</summary>
+    <summary>展开答案</summary>
 
-<p>答案</p>
-</details>
-
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">repairCars</span><span class="params">(ranks []<span class="type">int</span>, cars <span class="type">int</span>)</span></span> <span class="type">int64</span> &#123;</span><br><span class="line">	check := <span class="function"><span class="keyword">func</span><span class="params">(x <span class="type">int64</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		cnt := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> ranks &#123;</span><br><span class="line">			tmp := math.Sqrt(<span class="type">float64</span>(x) / <span class="type">float64</span>(v))</span><br><span class="line">			cnt += <span class="type">int</span>(math.Floor(tmp))</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> cnt &lt; cars</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> l, r <span class="type">int64</span> = <span class="number">1</span>, <span class="number">1e15</span></span><br><span class="line">	<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> check(m) &#123;</span><br><span class="line">			l = m + <span class="number">1</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			r = m</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> l</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/linux.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/redis.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="catgok">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/redis.html" class="post-title-link" itemprop="url">redis</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-08-31 19:09:44" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:44+08:00">2023-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-15 11:52:08" itemprop="dateModified" datetime="2023-09-15T11:52:08+08:00">2023-09-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/redis/" itemprop="url" rel="index"><span itemprop="name">redis</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>491</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>redis中常用的数据类型以及使用场景</summary>
-
-<table>
-<thead>
-<tr>
-<th>数据类型</th>
-<th>使用场景</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>字符串(string)</td>
-<td>缓存、计数器、配置项</td>
-</tr>
-<tr>
-<td>列表(list)</td>
-<td>消息队列、任务队列、最新动态</td>
-</tr>
-<tr>
-<td>哈希(hash)</td>
-<td>存储对象，如用户信息、商品信息</td>
-</tr>
-<tr>
-<td>集合(set)</td>
-<td>标签集合、好友关系集合</td>
-</tr>
-<tr>
-<td>有序集合(zset)</td>
-<td>排行榜、热门文章列表</td>
-</tr>
-</tbody></table>
-</details>
-
-<hr>
-<details>
-    <summary>redis中的跳表介绍</summary>
-    
-<p>Redis 中的有序集合（Sorted Set）就是使用跳表来实现的。</p>
-<p>跳表（Skip List）的设计灵感来自于平衡树，但相比平衡树的复杂性，跳表具有更简单的实现和维护方式。跳表通过在原始链表的基础上增加多级索引来提高查找效率。每个节点都可能具有不同层级的指针，使得跳表可以在不需要遍历所有节点的情况下快速定位目标节点。</p>
-<p>在 Redis 中，有序集合的底层数据结构是一个双向链表，每个节点包含一个分值(score)和一个成员（member）。而为了使得有序集合能够快速进行区间查询、按照分值排序等操作，Redis 使用了跳表作为有序集合的索引。</p>
-<p>跳表在 Redis 中的使用主要体现在以下几个方面：</p>
-<ol>
-<li>跳表作为有序集合的索引结构，可以实现快速的插入、删除、查找操作，时间复杂度为 O(logN)。</li>
-<li>跳表通过增加多级索引，可以在不需要遍历所有节点的情况下快速定位目标节点，从而提高了有序集合的查询效率。</li>
-<li>跳表的高度可以通过随机函数进行调整，从而在保持性能的同时节省了内存空间。</details></li>
-</ol>
-<hr>
-<details>
-    <summary>问题</summary>
-
-<p>答案</p>
-</details>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/redis.html#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/mysql.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="catgok">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Catgok's Blog">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/%E5%85%AB%E8%82%A1/mysql.html" class="post-title-link" itemprop="url">mysql</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2023-08-31 19:09:39" itemprop="dateCreated datePublished" datetime="2023-08-31T19:09:39+08:00">2023-08-31</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-15 11:46:35" itemprop="dateModified" datetime="2023-09-15T11:46:35+08:00">2023-09-15</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
-        </span>
-          ，
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%85%AB%E8%82%A1/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>66</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <details>
-    <summary>为什么使用B+树</summary>
-
-<p>&#x2F;&#x2F;todo -2</p>
-</details>
-
-<hr>
-<details>
-    <summary>InnDB B+树的好处</summary>
-
-<p>&#x2F;&#x2F;todo</p>
-</details>
-
-<hr>
-<details>
-    <summary>mysql的锁</summary>
-
-<p>&#x2F;&#x2F;todo -2</p>
-</details>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/%E5%85%AB%E8%82%A1/mysql.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2594-%E4%BF%AE%E8%BD%A6%E7%9A%84%E6%9C%80%E5%B0%91%E6%97%B6%E9%97%B4.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -874,7 +741,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/10/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/12/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/10/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span><a class="page-number" href="/page/12/">12</a><span class="space">&hellip;</span><a class="page-number" href="/page/37/">37</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/12/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -897,13 +764,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">31k</span>
+    <span title="站点总字数">35k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:54</span>
+    <span title="站点阅读时长">2:06</span>
   </span>
 </div>
 <div class="busuanzi-count">

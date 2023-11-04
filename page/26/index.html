@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">160</span>
+          <span class="site-state-item-count">181</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html" class="post-title-link" itemprop="url">leetcode1499.满足不等式的最大值</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html" class="post-title-link" itemprop="url">leetcode24.两两交换链表中的节点</a>
         </h2>
 
         <div class="post-meta-container">
@@ -222,7 +222,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-21 21:54:41" itemprop="dateCreated datePublished" datetime="2023-07-21T21:54:41+08:00">2023-07-21</time>
+      <time title="创建时间：2023-08-06 19:30:52" itemprop="dateCreated datePublished" datetime="2023-08-06T19:30:52+08:00">2023-08-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -252,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>215</span>
+      <span>57</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -270,23 +270,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/swap-nodes-in-pairs/">原题链接 24.两两交换链表中的节点</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findMaxValueOfEquation</span><span class="params">(points [][]<span class="type">int</span>, k <span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	ans = <span class="number">-0x3f3f3f3f</span></span><br><span class="line">	hh, tt := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	queue := <span class="built_in">make</span>([][<span class="number">2</span>]<span class="type">int</span>, <span class="built_in">len</span>(points))</span><br><span class="line">	queue[<span class="number">0</span>] = [<span class="number">2</span>]<span class="type">int</span>&#123;points[<span class="number">0</span>][<span class="number">0</span>], points[<span class="number">0</span>][<span class="number">1</span>] - points[<span class="number">0</span>][<span class="number">0</span>]&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt; <span class="built_in">len</span>(points); i++ &#123;</span><br><span class="line">		x, y := points[i][<span class="number">0</span>], points[i][<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">for</span> hh &lt;= tt &amp;&amp; queue[hh][<span class="number">0</span>]+k &lt; x &#123;</span><br><span class="line">			hh++</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> hh &lt;= tt &#123;</span><br><span class="line">			res := x + y + queue[hh][<span class="number">1</span>]</span><br><span class="line">			ans = max(ans, res)</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">for</span> hh &lt;= tt &amp;&amp; queue[tt][<span class="number">1</span>] &lt; y-x &#123;</span><br><span class="line">			tt--</span><br><span class="line">		&#125;</span><br><span class="line">		tt++</span><br><span class="line">		queue[tt] = [<span class="number">2</span>]<span class="type">int</span>&#123;x, y - x&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">swapPairs</span><span class="params">(head *ListNode)</span></span> *ListNode &#123;</span><br><span class="line">	<span class="keyword">if</span> head == <span class="literal">nil</span> || head.Next == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> head</span><br><span class="line">	&#125;</span><br><span class="line">	head, head.Next, head.Next.Next = head.Next, swapPairs(head.Next.Next), head</span><br><span class="line">	<span class="keyword">return</span> head</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
-
-<details>
-    <summary>展开答案(c++)</summary>
-
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PII pair<span class="string">&lt;int,int&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> x first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> y second</span></span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">findMaxValueOfEquation</span><span class="params">(vector &lt;vector&lt;<span class="type">int</span>&gt;&gt; &amp;points, <span class="type">int</span> k)</span> </span>&#123;</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">-1e9</span>;</span><br><span class="line">        priority_queue &lt;PII&gt; q;</span><br><span class="line">        q.<span class="built_in">push</span>(&#123;points[<span class="number">0</span>][<span class="number">1</span>] - points[<span class="number">0</span>][<span class="number">0</span>], points[<span class="number">0</span>][<span class="number">0</span>]&#125;);</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; points.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="type">int</span> x = points[i][<span class="number">0</span>], y = points[i][<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">while</span> (q.<span class="built_in">size</span>() &amp;&amp; q.<span class="built_in">top</span>().y + k &lt; x) &#123;</span><br><span class="line">                q.<span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (q.<span class="built_in">size</span>() != <span class="number">0</span>) &#123;</span><br><span class="line">                <span class="type">int</span> res = x + y + q.<span class="built_in">top</span>().x;</span><br><span class="line">                ans = <span class="built_in">max</span>(ans, res);</span><br><span class="line">            &#125;</span><br><span class="line">            q.<span class="built_in">push</span>(&#123;y - x, x&#125;);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-</details>
-
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode1499-%E6%BB%A1%E8%B6%B3%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode24-%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -317,7 +310,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -335,7 +328,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode918.环形子数组的最大和</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html" class="post-title-link" itemprop="url">leetcode6932.子序列最大优雅度</a>
         </h2>
 
         <div class="post-meta-container">
@@ -346,7 +339,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-20 17:39:31" itemprop="dateCreated datePublished" datetime="2023-07-20T17:39:31+08:00">2023-07-20</time>
+      <time title="创建时间：2023-08-06 19:29:42" itemprop="dateCreated datePublished" datetime="2023-08-06T19:29:42+08:00">2023-08-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -376,7 +369,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>131</span>
+      <span>161</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -394,17 +387,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-sum-circular-subarray/">原题链接 918. 环形子数组的最大和</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-elegance-of-a-k-length-subsequence/">原题链接 6932.子序列最大优雅度</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maxSubarraySumCircular</span><span class="params">(nums []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	n, sum := <span class="built_in">len</span>(nums), <span class="number">0</span></span><br><span class="line">	dp1 := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	dp2 := <span class="built_in">make</span>([]<span class="type">int</span>, n+<span class="number">1</span>)</span><br><span class="line">	ans = <span class="number">-0x3f3f3f3f</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		sum += nums[i]</span><br><span class="line">		ans = max(ans, nums[i])</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> ans &lt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> ans</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		dp1[i] = max(dp1[i<span class="number">-1</span>]+nums[i<span class="number">-1</span>], nums[i<span class="number">-1</span>])</span><br><span class="line">		dp2[i] = min(dp2[i<span class="number">-1</span>]+nums[i<span class="number">-1</span>], nums[i<span class="number">-1</span>])</span><br><span class="line">		res := max(dp1[i], sum-dp2[i])</span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">min</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> -max(-x, -y)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">findMaximumElegance</span><span class="params">(items [][]<span class="type">int</span>, k <span class="type">int</span>)</span></span> <span class="type">int64</span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(items)</span><br><span class="line">	ans := <span class="number">0</span></span><br><span class="line">	sort.Slice(items, <span class="function"><span class="keyword">func</span><span class="params">(i, j <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> items[i][<span class="number">0</span>] &gt; items[j][<span class="number">0</span>]</span><br><span class="line">	&#125;)</span><br><span class="line">	tp := <span class="number">0</span></span><br><span class="line">	use := <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="type">int</span>]<span class="keyword">struct</span>&#123;&#125;, <span class="number">0</span>)</span><br><span class="line">	st, hh := <span class="built_in">make</span>([]<span class="type">int</span>, n), <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; k; i++ &#123;</span><br><span class="line">		p, c := items[i][<span class="number">0</span>], items[i][<span class="number">1</span>]</span><br><span class="line">		tp += p</span><br><span class="line">		<span class="keyword">if</span> _, e := use[c]; e &#123;</span><br><span class="line">			st[hh], hh = p, hh+<span class="number">1</span></span><br><span class="line">		&#125;</span><br><span class="line">		use[c] = <span class="keyword">struct</span>&#123;&#125;&#123;&#125;</span><br><span class="line">		res := tp + <span class="built_in">len</span>(use)*<span class="built_in">len</span>(use)</span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := k; i &lt; n &amp;&amp; hh != <span class="number">0</span>; i++ &#123;</span><br><span class="line">		p, c := items[i][<span class="number">0</span>], items[i][<span class="number">1</span>]</span><br><span class="line">		<span class="keyword">if</span> _, e := use[c]; !e &#123;</span><br><span class="line">			use[c] = <span class="keyword">struct</span>&#123;&#125;&#123;&#125;</span><br><span class="line">			tp, hh = tp+p-st[hh<span class="number">-1</span>], hh<span class="number">-1</span></span><br><span class="line">		&#125;</span><br><span class="line">		res := tp + <span class="built_in">len</span>(use)*<span class="built_in">len</span>(use)</span><br><span class="line">		ans = max(ans, res)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">int64</span>(ans)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode918-%E7%8E%AF%E5%BD%A2%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6932-%E5%AD%90%E5%BA%8F%E5%88%97%E6%9C%80%E5%A4%A7%E4%BC%98%E9%9B%85%E5%BA%A6.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -435,7 +428,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -453,7 +446,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html" class="post-title-link" itemprop="url">leetcode874.模拟行走机器人</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html" class="post-title-link" itemprop="url">leetcode6951.找出最安全路径</a>
         </h2>
 
         <div class="post-meta-container">
@@ -464,7 +457,7 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-19 11:10:36" itemprop="dateCreated datePublished" datetime="2023-07-19T11:10:36+08:00">2023-07-19</time>
+      <time title="创建时间：2023-08-06 19:28:11" itemprop="dateCreated datePublished" datetime="2023-08-06T19:28:11+08:00">2023-08-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -494,7 +487,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>136</span>
+      <span>275</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -512,16 +505,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/walking-robot-simulation/">原题链接 874. 模拟行走机器人</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/find-the-safest-path-in-a-grid">原题链接 6951.找出最安全路径</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">robotSim</span><span class="params">(commands []<span class="type">int</span>, obstacles [][]<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	dx := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line">	dy := [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>(<span class="keyword">map</span>[[<span class="number">2</span>]<span class="type">int</span>]<span class="type">int</span>, <span class="built_in">len</span>(obstacles))</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> obstacles &#123;</span><br><span class="line">		mp[[<span class="number">2</span>]<span class="type">int</span>&#123;v[<span class="number">0</span>], v[<span class="number">1</span>]&#125;] = <span class="number">1</span></span><br><span class="line">	&#125;</span><br><span class="line">	cx, cy, d := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> commands &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-2</span> &#123;</span><br><span class="line">			d = (d + <span class="number">3</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> v == <span class="number">-1</span> &#123;</span><br><span class="line">			d = (d + <span class="number">1</span>) % <span class="number">4</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; v; i++ &#123;</span><br><span class="line">				nx, ny := cx+dx[d], cy+dy[d]</span><br><span class="line">				<span class="keyword">if</span> mp[[<span class="number">2</span>]<span class="type">int</span>&#123;nx, ny&#125;] == <span class="number">0</span> &#123;</span><br><span class="line">					cx, cy = nx, ny</span><br><span class="line">					ans = max(ans, nx*nx+ny*ny)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">max</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">		<span class="keyword">return</span> x</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> y</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">maximumSafenessFactor</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	dx := []<span class="type">int</span>&#123;<span class="number">-1</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>&#125;</span><br><span class="line">	dy := []<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line"></span><br><span class="line">	n := <span class="built_in">len</span>(grid)</span><br><span class="line">	rcx := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> x*n + y</span><br><span class="line">	&#125;</span><br><span class="line">	xrc := <span class="function"><span class="keyword">func</span><span class="params">(x <span class="type">int</span>)</span></span> (<span class="type">int</span>, <span class="type">int</span>) &#123;</span><br><span class="line">		<span class="keyword">return</span> x / n, x % n</span><br><span class="line">	&#125;</span><br><span class="line">	in := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span> &lt;= x &amp;&amp; x &lt; n &amp;&amp; <span class="number">0</span> &lt;= y &amp;&amp; y &lt; n</span><br><span class="line">	&#125;</span><br><span class="line">	q, hh, tt := <span class="built_in">make</span>([]<span class="type">int</span>, n*n), <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, <span class="number">1</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; n; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> grid[i][j] == <span class="number">1</span> &#123;</span><br><span class="line">				g[<span class="number">0</span>] = <span class="built_in">append</span>(g[<span class="number">0</span>], rcx(i, j))</span><br><span class="line">				q[tt], tt = rcx(i, j), tt+<span class="number">1</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> hh &lt; tt &#123;</span><br><span class="line">		x, y := xrc(q[hh])</span><br><span class="line">		hh++</span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">4</span>; i++ &#123;</span><br><span class="line">			nx, ny := x+dx[i], y+dy[i]</span><br><span class="line">			<span class="keyword">if</span> in(nx, ny) &amp;&amp; grid[nx][ny] == <span class="number">0</span> &#123;</span><br><span class="line">				grid[nx][ny] = grid[x][y] + <span class="number">1</span></span><br><span class="line">				q[tt], tt = rcx(nx, ny), tt+<span class="number">1</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">// fmt.Println(grid)</span></span><br><span class="line"></span><br><span class="line">	l, r := <span class="number">0</span>, n*n</span><br><span class="line">	<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">		check := <span class="function"><span class="keyword">func</span><span class="params">(m <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">			<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span></span><br><span class="line">			vis := <span class="built_in">make</span>([][]<span class="type">bool</span>, n)</span><br><span class="line">			<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">				vis[i] = <span class="built_in">make</span>([]<span class="type">bool</span>, n)</span><br><span class="line">			&#125;</span><br><span class="line">			dfs = <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">				<span class="keyword">if</span> grid[x][y] &lt; m || vis[x][y] &#123;</span><br><span class="line">					<span class="keyword">return</span></span><br><span class="line">				&#125;</span><br><span class="line">				vis[x][y] = <span class="literal">true</span></span><br><span class="line">				<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">4</span>; i++ &#123;</span><br><span class="line">					nx, ny := x+dx[i], y+dy[i]</span><br><span class="line">					<span class="keyword">if</span> in(nx, ny) &#123;</span><br><span class="line">						dfs(nx, ny)</span><br><span class="line">					&#125;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			dfs(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">			<span class="keyword">return</span> vis[n<span class="number">-1</span>][n<span class="number">-1</span>]</span><br><span class="line">		&#125;</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> check(m) &#123;</span><br><span class="line">			l = m + <span class="number">1</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			r = m</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> l<span class="number">-2</span> &lt; <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> l - <span class="number">2</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode874-%E6%A8%A1%E6%8B%9F%E8%A1%8C%E8%B5%B0%E6%9C%BA%E5%99%A8%E4%BA%BA.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode6951-%E6%89%BE%E5%87%BA%E6%9C%80%E5%AE%89%E5%85%A8%E8%B7%AF%E5%BE%84.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -552,7 +545,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -570,7 +563,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html" class="post-title-link" itemprop="url">leetcode415.字符串相加</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html" class="post-title-link" itemprop="url">leetcode21.合并两个有序链表</a>
         </h2>
 
         <div class="post-meta-container">
@@ -581,14 +574,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-17 15:11:29" itemprop="dateCreated datePublished" datetime="2023-07-17T15:11:29+08:00">2023-07-17</time>
+      <time title="创建时间：2023-08-05 01:04:51" itemprop="dateCreated datePublished" datetime="2023-08-05T01:04:51+08:00">2023-08-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-08-24 12:16:17" itemprop="dateModified" datetime="2023-08-24T12:16:17+08:00">2023-08-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -611,7 +604,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>146</span>
+      <span>73</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -629,16 +622,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/add-strings/">原题链接 415. 字符串相加</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/merge-two-sorted-lists/">原题链接 21.合并两个有序链表</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">addStrings</span><span class="params">(num1 <span class="type">string</span>, num2 <span class="type">string</span>)</span></span> <span class="type">string</span> &#123;</span><br><span class="line">	x := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num1))</span><br><span class="line">	y := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(num2))</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num1) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		x[<span class="built_in">len</span>(num1)<span class="number">-1</span>-i] = <span class="type">int</span>(num1[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="built_in">len</span>(num2) - <span class="number">1</span>; i &gt;= <span class="number">0</span>; i-- &#123;</span><br><span class="line">		y[<span class="built_in">len</span>(num2)<span class="number">-1</span>-i] = <span class="type">int</span>(num2[i] - <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> <span class="built_in">len</span>(x) &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">		x, y = y, x</span><br><span class="line">	&#125;</span><br><span class="line">	res := <span class="built_in">make</span>([]<span class="type">byte</span>, <span class="built_in">len</span>(x))</span><br><span class="line">	t := <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(x); i++ &#123;</span><br><span class="line">		t += x[i]</span><br><span class="line">		<span class="keyword">if</span> i &lt; <span class="built_in">len</span>(y) &#123;</span><br><span class="line">			t += y[i]</span><br><span class="line">		&#125;</span><br><span class="line">		res[i] = <span class="type">byte</span>(t%<span class="number">10</span> + <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">		t /= <span class="number">10</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">if</span> t != <span class="number">0</span> &#123;</span><br><span class="line">		res = <span class="built_in">append</span>(res, <span class="type">byte</span>(t+<span class="string">&#x27;0&#x27;</span>))</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i, j := <span class="number">0</span>, <span class="built_in">len</span>(res)<span class="number">-1</span>; i &lt; j; i, j = i+<span class="number">1</span>, j<span class="number">-1</span> &#123;</span><br><span class="line">		res[i], res[j] = res[j], res[i]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="type">string</span>(res)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for singly-linked list.</span></span><br><span class="line"><span class="comment"> * type ListNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Next *ListNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">mergeTwoLists</span><span class="params">(list1 *ListNode, list2 *ListNode)</span></span> *ListNode &#123;</span><br><span class="line">	<span class="keyword">if</span> list1 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list2 == <span class="literal">nil</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span> list1.Val &lt; list2.Val &#123;</span><br><span class="line">		list1.Next = mergeTwoLists(list1.Next, list2)</span><br><span class="line">		<span class="keyword">return</span> list1</span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		list2.Next = mergeTwoLists(list2.Next, list1)</span><br><span class="line">		<span class="keyword">return</span> list2</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode415-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode21-%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -669,7 +662,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -687,7 +680,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html" class="post-title-link" itemprop="url">leetcode834.树中距离之和</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html" class="post-title-link" itemprop="url">leetcode980.不同路径III</a>
         </h2>
 
         <div class="post-meta-container">
@@ -698,14 +691,14 @@
       </span>
       <span class="post-meta-item-text">发表于</span>
 
-      <time title="创建时间：2023-07-16 16:30:39" itemprop="dateCreated datePublished" datetime="2023-07-16T16:30:39+08:00">2023-07-16</time>
+      <time title="创建时间：2023-08-04 23:06:43" itemprop="dateCreated datePublished" datetime="2023-08-04T23:06:43+08:00">2023-08-04</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-09-05 16:43:02" itemprop="dateModified" datetime="2023-09-05T16:43:02+08:00">2023-09-05</time>
+      <time title="修改时间：2023-08-24 12:16:17" itemprop="dateModified" datetime="2023-08-24T12:16:17+08:00">2023-08-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -728,7 +721,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>147</span>
+      <span>177</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -746,17 +739,18 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/sum-of-distances-in-tree/">原题链接 834. 树中距离之和</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/unique-paths-iii">原题链接 980.不同路径III</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">sumOfDistancesInTree</span><span class="params">(n <span class="type">int</span>, edges [][]<span class="type">int</span>)</span></span> (ans []<span class="type">int</span>) &#123;</span><br><span class="line">	ans = <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	siz := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	g := <span class="built_in">make</span>([][]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		g[i] = <span class="built_in">make</span>([]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n<span class="number">-1</span>; i++ &#123;</span><br><span class="line">		u, v := edges[i][<span class="number">0</span>], edges[i][<span class="number">1</span>]</span><br><span class="line">		g[u] = <span class="built_in">append</span>(g[u], v)</span><br><span class="line">		g[v] = <span class="built_in">append</span>(g[v], u)</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">var</span> getsiz, dfs <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span></span><br><span class="line">	dep := <span class="number">0</span></span><br><span class="line">	getsiz = <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			<span class="keyword">if</span> v != fa &#123;</span><br><span class="line">				dep++</span><br><span class="line">				getsiz(v, u)</span><br><span class="line">				siz[u] += siz[v]</span><br><span class="line">				dep--</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		siz[u]++</span><br><span class="line">		ans[<span class="number">0</span>] += dep</span><br><span class="line">	&#125;</span><br><span class="line">	getsiz(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(u, fa <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> g[u] &#123;</span><br><span class="line">			<span class="keyword">if</span> v != fa &#123;</span><br><span class="line">				ans[v] = ans[u] + (n - siz[v]) - (siz[v])</span><br><span class="line">				dfs(v, u)</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> dx [<span class="number">4</span>]<span class="type">int</span> = [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">-1</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>&#125;</span><br><span class="line"><span class="keyword">var</span> dy [<span class="number">4</span>]<span class="type">int</span> = [<span class="number">4</span>]<span class="type">int</span>&#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125;</span><br><span class="line"><span class="keyword">var</span> n, m, ans <span class="type">int</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">uniquePathsIII</span><span class="params">(grid [][]<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	ans = <span class="number">0</span></span><br><span class="line">	n, m = <span class="built_in">len</span>(grid), <span class="built_in">len</span>(grid[<span class="number">0</span>])</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; m; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> grid[i][j] == <span class="number">1</span> &#123;</span><br><span class="line">				dfs(grid, i, j)</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">end</span><span class="params">(a [][]<span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		<span class="keyword">for</span> j := <span class="number">0</span>; j &lt; m; j++ &#123;</span><br><span class="line">			<span class="keyword">if</span> a[i][j] == <span class="number">0</span> &#123;</span><br><span class="line">				<span class="keyword">return</span> <span class="literal">false</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">in</span><span class="params">(a [][]<span class="type">int</span>, x, y <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span> &lt;= x &amp;&amp; x &lt; n &amp;&amp; <span class="number">0</span> &lt;= y &amp;&amp; y &lt; m</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">dfs</span><span class="params">(a [][]<span class="type">int</span>, x, y <span class="type">int</span>)</span></span> &#123;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">4</span>; i++ &#123;</span><br><span class="line">		nx, ny := x+dx[i], y+dy[i]</span><br><span class="line">		<span class="keyword">if</span> !in(a, nx, ny) &#123;</span><br><span class="line">			<span class="keyword">continue</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> a[nx][ny] == <span class="number">0</span> &#123;</span><br><span class="line">			a[nx][ny] = <span class="number">9</span></span><br><span class="line">			dfs(a, nx, ny)</span><br><span class="line">			a[nx][ny] = <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> a[nx][ny] == <span class="number">2</span> &amp;&amp; end(a) &#123;</span><br><span class="line">			ans++</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-7/leetcode834-%E6%A0%91%E4%B8%AD%E8%B7%9D%E7%A6%BB%E4%B9%8B%E5%92%8C.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-8/leetcode980-%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84III.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -780,7 +774,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/25/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/25/">25</a><span class="page-number current">26</span><a class="page-number" href="/page/27/">27</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/27/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/25/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/25/">25</a><span class="page-number current">26</span><a class="page-number" href="/page/27/">27</a><span class="space">&hellip;</span><a class="page-number" href="/page/37/">37</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/27/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -803,13 +797,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">31k</span>
+    <span title="站点总字数">35k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">1:54</span>
+    <span title="站点阅读时长">2:06</span>
   </span>
 </div>
 <div class="busuanzi-count">
