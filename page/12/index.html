@@ -148,7 +148,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">181</span>
+          <span class="site-state-item-count">197</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIV.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -211,7 +211,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html" class="post-title-link" itemprop="url">leetcode1123.最深叶节点的最近公共祖先</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIV.html" class="post-title-link" itemprop="url">leetcode2560.打家劫舍IV</a>
         </h2>
 
         <div class="post-meta-container">
@@ -221,9 +221,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-09-06 09:51:18 / 修改时间：09:53:19" itemprop="dateCreated datePublished" datetime="2023-09-06T09:51:18+08:00">2023-09-06</time>
+      <time title="创建时间：2023-09-19 10:54:15" itemprop="dateCreated datePublished" datetime="2023-09-19T10:54:15+08:00">2023-09-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-10-06 22:28:02" itemprop="dateModified" datetime="2023-10-06T22:28:02+08:00">2023-10-06</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -246,7 +252,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>155</span>
+      <span>76</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -264,16 +270,17 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/lowest-common-ancestor-of-deepest-leaves/">原题链接 1123.最深叶节点的最近公共祖先</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/house-robber-iv">原题链接 2560. 打家劫舍 IV</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">lcaDeepestLeaves</span><span class="params">(root *TreeNode)</span></span> (ans *TreeNode) &#123;</span><br><span class="line">	rmadep, rcnt, rdep := <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, dep <span class="type">int</span>)</span></span> (madep, cnt <span class="type">int</span>)</span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, dep <span class="type">int</span>)</span></span> (madep, cnt <span class="type">int</span>) &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> dep, <span class="number">1</span></span><br><span class="line">		&#125;</span><br><span class="line">		ld, lc := dfs(root.Left, dep+<span class="number">1</span>)</span><br><span class="line">		rd, rc := dfs(root.Right, dep+<span class="number">1</span>)</span><br><span class="line">		<span class="keyword">if</span> ld &lt; rd &#123;</span><br><span class="line">			madep = rd</span><br><span class="line">			cnt = rc</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> ld &gt; rd &#123;</span><br><span class="line">			madep = ld</span><br><span class="line">			cnt = lc</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			madep = ld</span><br><span class="line">			cnt = lc + rc</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">if</span> madep &gt; rmadep &#123;</span><br><span class="line">			rmadep = madep</span><br><span class="line">			rcnt = cnt</span><br><span class="line">			rdep = dep</span><br><span class="line">			ans = root</span><br><span class="line">		&#125; <span class="keyword">else</span> <span class="keyword">if</span> madep == rmadep &#123;</span><br><span class="line">			<span class="keyword">if</span> cnt &gt; rcnt &#123;</span><br><span class="line">				rmadep = madep</span><br><span class="line">				rcnt = cnt</span><br><span class="line">				rdep = dep</span><br><span class="line">				ans = root</span><br><span class="line">			&#125; <span class="keyword">else</span> <span class="keyword">if</span> dep &gt; rdep &#123;</span><br><span class="line">				rmadep = madep</span><br><span class="line">				rcnt = cnt</span><br><span class="line">				rdep = dep</span><br><span class="line">				ans = root</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line"></span><br><span class="line">		<span class="keyword">return</span></span><br><span class="line">	&#125;</span><br><span class="line">	dfs(root, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minCapability</span><span class="params">(nums []<span class="type">int</span>, k <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	l, r := <span class="number">0</span>, <span class="number">0x3f3f3f3f</span></span><br><span class="line">	check := <span class="function"><span class="keyword">func</span><span class="params">(x <span class="type">int</span>)</span></span> <span class="type">bool</span> &#123;</span><br><span class="line">		pr := <span class="literal">false</span></span><br><span class="line">		cnt := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">			<span class="keyword">if</span> !pr &amp;&amp; v &lt;= x &#123;</span><br><span class="line">				pr = <span class="literal">true</span></span><br><span class="line">				cnt++</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				pr = <span class="literal">false</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> cnt &gt;= k</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> l &lt; r &#123;</span><br><span class="line">		m := (l + r) &gt;&gt; <span class="number">1</span></span><br><span class="line">		<span class="keyword">if</span> !check(m + <span class="number">1</span>) &#123;</span><br><span class="line">			l = m + <span class="number">1</span></span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			r = m</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> l + <span class="number">1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
+
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1123-%E6%9C%80%E6%B7%B1%E5%8F%B6%E8%8A%82%E7%82%B9%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2560-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIV.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -304,7 +311,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode337-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -322,7 +329,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.html" class="post-title-link" itemprop="url">leetcode2605.从两个数字数组里生成最小数字</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode337-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html" class="post-title-link" itemprop="url">leetcode337.打家劫舍III</a>
         </h2>
 
         <div class="post-meta-container">
@@ -334,7 +341,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-05 16:00:34 / 修改时间：16:18:13" itemprop="dateCreated datePublished" datetime="2023-09-05T16:00:34+08:00">2023-09-05</time>
+      <time title="创建时间：2023-09-19 10:52:38 / 修改时间：10:55:10" itemprop="dateCreated datePublished" datetime="2023-09-19T10:52:38+08:00">2023-09-19</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -357,7 +364,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>112</span>
+      <span>143</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -375,16 +382,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/form-smallest-number-from-two-digit-arrays/">原题链接 2605. 从两个数字数组里生成最小数字</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/house-robber-iii/">原题链接 337. 打家劫舍 III</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">minNumber</span><span class="params">(nums1 []<span class="type">int</span>, nums2 []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	mp1 := <span class="built_in">make</span>([]<span class="type">bool</span>, <span class="number">10</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums1 &#123;</span><br><span class="line">		mp1[v] = <span class="literal">true</span></span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	mp2 := <span class="built_in">make</span>([]<span class="type">bool</span>, <span class="number">10</span>)</span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums2 &#123;</span><br><span class="line">		mp2[v] = <span class="literal">true</span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">10</span>; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> mp1[i] &amp;&amp; mp2[i] &#123;</span><br><span class="line">			<span class="keyword">return</span> i</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">10</span>; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> mp1[i] &#123;</span><br><span class="line">			<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; <span class="number">10</span>; j++ &#123;</span><br><span class="line">				<span class="keyword">if</span> mp2[j] &#123;</span><br><span class="line">					<span class="keyword">return</span> i*<span class="number">10</span> + j</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> mp2[i] &#123;</span><br><span class="line">			<span class="keyword">for</span> j := i + <span class="number">1</span>; j &lt; <span class="number">10</span>; j++ &#123;</span><br><span class="line">				<span class="keyword">if</span> mp1[j] &#123;</span><br><span class="line">					<span class="keyword">return</span> i*<span class="number">10</span> + j</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">-1</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">rob</span><span class="params">(root *TreeNode)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	mp := <span class="built_in">make</span>([]<span class="keyword">map</span>[*TreeNode]<span class="type">int</span>, <span class="number">2</span>)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="number">2</span>; i++ &#123;</span><br><span class="line">		mp[i] = <span class="built_in">make</span>(<span class="keyword">map</span>[*TreeNode]<span class="type">int</span>, <span class="number">0</span>)</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, use <span class="type">int</span>)</span></span> <span class="type">int</span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode, use <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> x, ok := mp[use][root]; ok &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> use == <span class="number">1</span> &#123;</span><br><span class="line">			mp[use][root] = dfs(root.Left, <span class="number">0</span>) + dfs(root.Right, <span class="number">0</span>) + root.Val</span><br><span class="line">		&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">			mp[use][root] = max(dfs(root.Left, <span class="number">0</span>), dfs(root.Left, <span class="number">1</span>)) + max(dfs(root.Right, <span class="number">0</span>), dfs(root.Right, <span class="number">1</span>))</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> mp[use][root]</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> max(dfs(root, <span class="number">0</span>), dfs(root, <span class="number">1</span>))</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2605-%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97%E6%95%B0%E7%BB%84%E9%87%8C%E7%94%9F%E6%88%90%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode337-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8DIII.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -415,7 +422,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode198-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -433,7 +440,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html" class="post-title-link" itemprop="url">leetcode449.序列化和反序列化二叉搜索树</a>
+          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode198-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.html" class="post-title-link" itemprop="url">leetcode198.打家劫舍</a>
         </h2>
 
         <div class="post-meta-container">
@@ -445,7 +452,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-05 16:00:23 / 修改时间：16:07:26" itemprop="dateCreated datePublished" datetime="2023-09-05T16:00:23+08:00">2023-09-05</time>
+      <time title="创建时间：2023-09-16 22:48:06 / 修改时间：22:49:06" itemprop="dateCreated datePublished" datetime="2023-09-16T22:48:06+08:00">2023-09-16</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -468,7 +475,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>215</span>
+      <span>55</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -486,16 +493,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/serialize-and-deserialize-bst/description">原题链接 449. 序列化和反序列化二叉搜索树</a></p>
+          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/house-robber/">原题链接 198. 打家劫舍</a></p>
 <hr>
 <details>
     <summary>展开答案</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Definition for a binary tree node.</span></span><br><span class="line"><span class="comment"> * type TreeNode struct &#123;</span></span><br><span class="line"><span class="comment"> *     Val int</span></span><br><span class="line"><span class="comment"> *     Left *TreeNode</span></span><br><span class="line"><span class="comment"> *     Right *TreeNode</span></span><br><span class="line"><span class="comment"> * &#125;</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">type</span> Codec <span class="keyword">struct</span> &#123;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">Constructor</span><span class="params">()</span></span> Codec &#123;</span><br><span class="line">	<span class="keyword">return</span> Codec&#123;&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Serializes a tree to a single string.</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="params">(this *Codec)</span></span> serialize(root *TreeNode) <span class="type">string</span> &#123;</span><br><span class="line">	ans := <span class="built_in">make</span>([]<span class="type">string</span>, <span class="number">0</span>)</span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode)</span></span></span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(root *TreeNode)</span></span> &#123;</span><br><span class="line">		<span class="keyword">if</span> root == <span class="literal">nil</span> &#123;</span><br><span class="line">			<span class="keyword">return</span></span><br><span class="line">		&#125;</span><br><span class="line">		ans = <span class="built_in">append</span>(ans, strconv.Itoa(root.Val))</span><br><span class="line">		dfs(root.Left)</span><br><span class="line">		dfs(root.Right)</span><br><span class="line">	&#125;</span><br><span class="line">	dfs(root)</span><br><span class="line">	<span class="keyword">return</span> strings.Join(ans, <span class="string">&quot; &quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// Deserializes your encoded data to tree.</span></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="params">(this *Codec)</span></span> deserialize(data <span class="type">string</span>) *TreeNode &#123;</span><br><span class="line">	<span class="keyword">if</span> <span class="built_in">len</span>(data) == <span class="number">0</span> &#123;</span><br><span class="line">		<span class="keyword">return</span> <span class="literal">nil</span></span><br><span class="line">	&#125;</span><br><span class="line">	tmp := strings.Split(data, <span class="string">&quot; &quot;</span>)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, <span class="built_in">len</span>(tmp))</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(tmp); i++ &#123;</span><br><span class="line">		a[i], _ = strconv.Atoi(tmp[i])</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">var</span> dfs <span class="function"><span class="keyword">func</span><span class="params">(data []<span class="type">int</span>)</span></span> *TreeNode</span><br><span class="line">	dfs = <span class="function"><span class="keyword">func</span><span class="params">(data []<span class="type">int</span>)</span></span> *TreeNode &#123;</span><br><span class="line">		<span class="keyword">if</span> <span class="built_in">len</span>(data) == <span class="number">0</span> &#123;</span><br><span class="line">			<span class="keyword">return</span> <span class="literal">nil</span></span><br><span class="line">		&#125;</span><br><span class="line">		root := &amp;TreeNode&#123;Val: data[<span class="number">0</span>]&#125;</span><br><span class="line">		m := <span class="number">0</span></span><br><span class="line">		<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; <span class="built_in">len</span>(data); i++ &#123;</span><br><span class="line">			<span class="keyword">if</span> data[i] &gt; data[<span class="number">0</span>] &#123;</span><br><span class="line">				m = i</span><br><span class="line">				<span class="keyword">break</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> m == <span class="number">0</span> &#123;</span><br><span class="line">			m = <span class="built_in">len</span>(data)</span><br><span class="line">		&#125;</span><br><span class="line">		root.Left = dfs(data[<span class="number">1</span>:m])</span><br><span class="line">		root.Right = dfs(data[m:])</span><br><span class="line">		<span class="keyword">return</span> root</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> dfs(a)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Your Codec object will be instantiated and called as such:</span></span><br><span class="line"><span class="comment"> * ser := Constructor()</span></span><br><span class="line"><span class="comment"> * deser := Constructor()</span></span><br><span class="line"><span class="comment"> * tree := ser.serialize(root)</span></span><br><span class="line"><span class="comment"> * ans := deser.deserialize(tree)</span></span><br><span class="line"><span class="comment"> * return ans</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">rob</span><span class="params">(nums []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	a0, a1 := <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> _, v := <span class="keyword">range</span> nums &#123;</span><br><span class="line">		a0, a1 = max(a0, a1), a0+v</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> max(a0, a1)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode449-%E5%BA%8F%E5%88%97%E5%8C%96%E5%92%8C%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.html#more" rel="contents">
+              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode198-%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -526,7 +533,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/%E5%85%B6%E4%BB%96.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -544,7 +551,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html" class="post-title-link" itemprop="url">leetcode1921.消灭怪物的最大数量</a>
+          <a href="/%E5%85%AB%E8%82%A1/%E5%85%B6%E4%BB%96.html" class="post-title-link" itemprop="url">其他</a>
         </h2>
 
         <div class="post-meta-container">
@@ -556,7 +563,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2023-09-05 16:00:13 / 修改时间：16:08:15" itemprop="dateCreated datePublished" datetime="2023-09-05T16:00:13+08:00">2023-09-05</time>
+      <time title="创建时间：2023-09-15 11:23:06 / 修改时间：11:49:46" itemprop="dateCreated datePublished" datetime="2023-09-15T11:23:06+08:00">2023-09-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -564,11 +571,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/%E5%85%B6%E4%BB%96/" itemprop="url" rel="index"><span itemprop="name">其他</span></a>
         </span>
     </span>
 
@@ -579,7 +586,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>70</span>
+      <span>49</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -597,17 +604,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/">原题链接 1921. 消灭怪物的最大数量</a></p>
-<hr>
-<details>
-    <summary>展开答案</summary>
+          <details>
+    <summary>微服务和单体服务的区别</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">eliminateMaximum</span><span class="params">(dist []<span class="type">int</span>, speed []<span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">	n := <span class="built_in">len</span>(dist)</span><br><span class="line">	a := <span class="built_in">make</span>([]<span class="type">int</span>, n)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">0</span>; i &lt; n; i++ &#123;</span><br><span class="line">		a[i] = (dist[i] + speed[i] - <span class="number">1</span>) / speed[i]</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	sort.Ints(a)</span><br><span class="line">	<span class="keyword">for</span> i := <span class="number">1</span>; i &lt;= n; i++ &#123;</span><br><span class="line">		<span class="keyword">if</span> a[i<span class="number">-1</span>] &lt; i &#123;</span><br><span class="line">			<span class="keyword">return</span> i - <span class="number">1</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> n</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>&#x2F;&#x2F;todo</p>
 </details>
 
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
+
+<hr>
+<details>
+    <summary>问题</summary>
+
+<p>答案</p>
+</details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode1921-%E6%B6%88%E7%81%AD%E6%80%AA%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E9%87%8F.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/%E5%85%B6%E4%BB%96.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -638,7 +656,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html">
+    <link itemprop="mainEntityOfPage" href="http://example.com/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -656,7 +674,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html" class="post-title-link" itemprop="url">leetcode2511.最多可以摧毁的敌人城堡数目</a>
+          <a href="/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html" class="post-title-link" itemprop="url">数据库</a>
         </h2>
 
         <div class="post-meta-container">
@@ -666,9 +684,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2023-09-05 15:57:02 / 修改时间：16:08:44" itemprop="dateCreated datePublished" datetime="2023-09-05T15:57:02+08:00">2023-09-05</time>
+      <time title="创建时间：2023-09-15 11:20:45" itemprop="dateCreated datePublished" datetime="2023-09-15T11:20:45+08:00">2023-09-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2023-10-07 23:43:14" itemprop="dateModified" datetime="2023-10-07T23:43:14+08:00">2023-10-07</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -676,11 +700,11 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">刷题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/" itemprop="url" rel="index"><span itemprop="name">八股</span></a>
         </span>
           ，
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E5%88%B7%E9%A2%98/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/" itemprop="url" rel="index"><span itemprop="name">每日一题</span></a>
+          <a href="/categories/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index"><span itemprop="name">数据库</span></a>
         </span>
     </span>
 
@@ -691,14 +715,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>98</span>
+      <span>764</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>3 分钟</span>
     </span>
 </div>
 
@@ -709,16 +733,80 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><a target="_blank" rel="noopener" href="https://leetcode.cn/problems/maximum-enemy-forts-that-can-be-captured/">原题链接 2511.最多可以摧毁的敌人城堡数目</a></p>
+          <details>
+    <summary>基本sql</summary>
+
+<p>&#x2F;&#x2F;todo</p>
+</details>
+
 <hr>
 <details>
-    <summary>展开答案</summary>
+    <summary>事务，ACID</summary>
 
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">captureForts</span><span class="params">(forts []<span class="type">int</span>)</span></span> (ans <span class="type">int</span>) &#123;</span><br><span class="line">	max := <span class="function"><span class="keyword">func</span><span class="params">(x, y <span class="type">int</span>)</span></span> <span class="type">int</span> &#123;</span><br><span class="line">		<span class="keyword">if</span> x &gt; y &#123;</span><br><span class="line">			<span class="keyword">return</span> x</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> y</span><br><span class="line">	&#125;</span><br><span class="line">	pr := <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> forts &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-1</span> &amp;&amp; pr &gt;= <span class="number">0</span> &#123;</span><br><span class="line">			ans = max(ans, i-pr<span class="number">-1</span>)</span><br><span class="line">			pr = <span class="number">-1</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &#123;</span><br><span class="line">			pr = i</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	pr = <span class="number">-1</span></span><br><span class="line">	<span class="keyword">for</span> i, v := <span class="keyword">range</span> forts &#123;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">1</span> &amp;&amp; pr &gt;= <span class="number">0</span> &#123;</span><br><span class="line">			ans = max(ans, i-pr<span class="number">-1</span>)</span><br><span class="line">			pr = <span class="number">-1</span></span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">if</span> v == <span class="number">-1</span> &#123;</span><br><span class="line">			pr = i</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> ans</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>一个事务是指一组数据库操作，被视为一个不可分割的工作单位。它要么全部成功执行，要么全部失败回滚。事务可以包含多个数据库操作，这些操作必须作为一个整体被执行，以确保数据的一致性和完整性。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>定义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>原子性（atomicity）</td>
+<td>原子性确保事务中的所有操作要么全部成功执行，要么全部失败回滚。如果事务中的任何操作失败，那么整个事务将被回滚到初始状态，数据库不会处于部分更新的状态。原子性确保了事务的完整性。</td>
+</tr>
+<tr>
+<td>一致性（consistency）</td>
+<td>一致性确保事务在执行前后数据库始终保持一致的状态。事务应该遵循预定义的规则和约束，以确保数据的有效性和完整性。如果事务违反了任何约束，它将被回滚，数据库不会处于不一致的状态。一致性确保了数据的正确性。</td>
+</tr>
+<tr>
+<td>隔离性（isolation）</td>
+<td>隔离性确保并发执行的事务相互隔离，使得每个事务感觉就像是在独立运行的数据库中执行一样。隔离性防止了并发事务之间的相互干扰，避免了数据不一致的情况发生。各个事务之间应该是相互独立的，不会相互影响。隔离性确保了事务的独立性和正确性。</td>
+</tr>
+<tr>
+<td>持久性（durability）</td>
+<td>持久性确保一旦事务提交，其结果将永久保存在数据库中，并且对于任何系统故障或重启都是可靠的。持久性保证了事务的结果不会因为系统故障而丢失，即使在系统崩溃后重新启动，数据也能够恢复到提交事务后的状态。持久性确保了数据的持久性。</td>
+</tr>
+</tbody></table>
+</details>
+
+<hr>
+<details>
+    <summary>隔离级别</summary>
+
+<table>
+<thead>
+<tr>
+<th>隔离级别</th>
+<th>导致的问题</th>
+<th>解决的问题</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>读未提交</td>
+<td>脏读（Dirty Read）：事务可以读取到其他未提交事务的未提交数据。</td>
+<td>无</td>
+</tr>
+<tr>
+<td>读已提交</td>
+<td>不可重复读（Non-repeatable Read）：同一事务内两次读取同一行数据时，得到的结果可能不一致。</td>
+<td>解决了脏读问题，但无法解决幻影读问题。</td>
+</tr>
+<tr>
+<td>可重复读</td>
+<td>幻影读（Phantom Read）：同一事务内多次查询时，得到的结果集可能不一致。</td>
+<td>解决了脏读和不可重复读问题，但无法避免幻影读问题。</td>
+</tr>
+<tr>
+<td>串行化</td>
+<td>无</td>
+<td>解决了脏读、不可重复读和幻影读问题，完全隔离了事务，但并发性能较差。</td>
+</tr>
+</tbody></table>
 </details>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/%E6%AF%8F%E6%97%A5%E4%B8%80%E9%A2%98/2023-9/leetcode2511-%E6%9C%80%E5%A4%9A%E5%8F%AF%E4%BB%A5%E6%91%A7%E6%AF%81%E7%9A%84%E6%95%8C%E4%BA%BA%E5%9F%8E%E5%A0%A1%E6%95%B0%E7%9B%AE.html#more" rel="contents">
+              <a class="btn" href="/%E5%85%AB%E8%82%A1/%E6%95%B0%E6%8D%AE%E5%BA%93.html#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -742,7 +830,7 @@
 
 
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/11/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/page/13/">13</a><span class="space">&hellip;</span><a class="page-number" href="/page/37/">37</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/13/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/11/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><span class="page-number current">12</span><a class="page-number" href="/page/13/">13</a><span class="space">&hellip;</span><a class="page-number" href="/page/40/">40</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/13/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -765,13 +853,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">35k</span>
+    <span title="站点总字数">38k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">2:06</span>
+    <span title="站点阅读时长">2:19</span>
   </span>
 </div>
 <div class="busuanzi-count">
